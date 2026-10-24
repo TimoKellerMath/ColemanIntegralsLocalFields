@@ -1,0 +1,28 @@
+PASS sweep_setup: the model and two Moebius patches x = t + 1/x' (t = 0, 1), every disc covered
+PASS sweep_setup: 146 discs over F_121, 138 good and 6 Weierstrass discs in the model, the 2 at infinity in the first patch
+PASS frobenius_images: an involution of the discs with 14 fixed points (the discs of the points of the reduction over F_11)
+PASS frobenius_stable_classes: 14 diagonal, 91 split and 66 conjugate classes
+PASS frobenius_stable_classes on (1 2)(3)(4): <3,3>, <4,4>, <3,4> and the conjugate <1,2>
+PASS K_to_K: an element of K with absolute precision 5 into the K of a patch, with the same precision, through L
+PASS K_to_K: an inexact zero stays an inexact zero of the same precision
+PASS y_of_record, record_from_xy: the record of (x, y) is the record itself
+PASS hyperelliptic_involution: (x, y) -> (x, -y), an involution
+PASS transfer_point: a good point of the model to the patch x = 1/x' (x' = 1/x) and back
+PASS transfer_point between the two Moebius patches: x'' = x'/(1 - x') = 1/(x - 1)
+PASS transfer_point: a Weierstrass point (bad in every model) is refused, and accepted with very_bad
+PASS transfer_point with very_bad: the image of the Weierstrass point is very bad in the patch, with y' = 0
+PASS known_places: a pair of points of C(F) gives the two places with multiplicity 1
+PASS known_places: pairs of coordinates, places and divisors give the same places
+PASS known_places: a point over a quadratic extension of F gives its place of degree 2
+PASS known_places: [x0, y0] off the curve, a non-effective divisor and an unknown object are errors
+PASS x_polynomial: (X - x1)(X - x2) for two points, the minimal polynomial for a point of degree 2
+PASS x_polynomial: 0 for a divisor with a point at infinity
+PASS residue_field_embeddings: none for the point of degree 2 over F(sqrt -11), which is ramified at P
+PASS place_key: the ramified point reduces to the centre of a single disc of the model, with multiplicity 2
+PASS verify_divisor: the ramified point lies in the diagonal class of that disc
+PASS verify_divisor: the sum of the two F-rational points does not lie in that class
+PASS verify_divisor: the sum of the two F-rational points lies in the class of their discs
+
+0 failure(s)
+
+resources: CPU time 1.570 s, maximum memory 32 MB

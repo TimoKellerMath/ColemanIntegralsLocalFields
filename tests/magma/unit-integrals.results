@@ -1,0 +1,23 @@
+# numerical results of a test script (tests/magma/results.m), compared by tests/compare_results.py
+int_P^iotaP[1]	padic	7	10	-81074035
+int_P^iotaP[2]	padic	7	10	44896397
+int_P^iotaP[3]	padic	7	10	-91687041
+int_P^iotaP[4]	padic	7	10	31502017
+int_iotaP^P[1]	padic	7	10	81074035
+int_iotaP^P[2]	padic	7	10	-44896397
+int_iotaP^P[3]	padic	7	10	91687041
+int_iotaP^P[4]	padic	7	10	-31502017
+int_P^W0 (holomorphic)[1]	padic	7	5	-6937
+int_P^W0 (holomorphic)[2]	padic	7	5	2450
+int_W0^iotaP (holomorphic)[1]	padic	7	5	-6937
+int_W0^iotaP (holomorphic)[2]	padic	7	5	2450
+int_W0^W1 (holomorphic)[1]	padic	7	5	0
+int_W0^W1 (holomorphic)[2]	padic	7	5	0
+int_W1^W2 (holomorphic)[1]	padic	7	5	0
+int_W1^W2 (holomorphic)[2]	padic	7	5	0
+249.a: int_(0,-1)^(-1,0) (holomorphic)[1]	padic	5	4	0
+249.a: int_(0,-1)^(-1,0) (holomorphic)[2]	padic	5	4	0
+249.a: int_(0,-1)^(-1,0) with the cached side (holomorphic)[1]	padic	5	4	0
+249.a: int_(0,-1)^(-1,0) with the cached side (holomorphic)[2]	padic	5	4	0
+249.a: int_(0,-1)^(-1,0) with target 8 (holomorphic)[1]	padic	5	8	0
+249.a: int_(0,-1)^(-1,0) with target 8 (holomorphic)[2]	padic	5	8	0

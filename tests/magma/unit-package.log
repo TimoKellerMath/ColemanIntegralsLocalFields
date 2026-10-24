@@ -1,0 +1,24 @@
+NOTE: with e = 29 expect about 4 correct digits (evaluation loss about 6 digits); for about 9 digits use e = 152 (slower tiny integrals) or increase N
+integrals from (3,12) to the point at infinity, through the package: (14385801*7 + O(7^10) -2424274*7^2 + O(7^10) 14686890 + O(7^9) -4425795 + O(7^9)) (precision 9)
+PASS coleman_integrals_on_basis through the package: precision 9
+NOTE: with e = 29 expect about 4 correct digits (evaluation loss about 6 digits); for about 9 digits use e = 152 (slower tiny integrals) or increase N
+PASS with return_side: the same integrals and the side record as third value
+PASS coleman_integral of the first basis form from (3,12) to (3,-12): the first entry of the integrals
+PASS a record that is not from coleman_data: the require check of the intrinsic
+PASS an argument of the wrong type: rejected by the signature
+the verbosity flag ColemanIntegration at level 2: the Newton steps of the local expansions
+hensel_lift: #prec_seq = 7 (over OK/pi^N)
+Loading "isrational.m"
+Loading "auxpolys.m"
+Loading "cohobasis.m"
+Loading "frobenius.m"
+Loading "reduction.m"
+Loading "coercion.m"
+Loading "expansion.m"
+Loading "integrals.m"
+NOTE: with e = 29 expect about 4 correct digits (evaluation loss about 6 digits); for about 9 digits use e = 152 (slower tiny integrals) or increase N
+PASS the loaded library: the same integrals (as printed) and precision
+
+0 failure(s)
+
+resources: CPU time 1.300 s, maximum memory 32 MB

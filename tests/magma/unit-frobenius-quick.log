@@ -1,0 +1,7 @@
+PASS genus 2 over Q_7: charpoly(F) = T^4 L(1/T)
+PASS genus 2 over Q_49 (f_K = 2): charpoly(F_q) = T^4 L(1/T) over F_49
+PASS genus 2 over Q_7(sqrt 7) (e_K = 2): charpoly(F) = T^4 L(1/T) of y^2 = x^5+1
+
+0 failure(s)
+
+resources: CPU time 1.220 s, maximum memory 32 MB

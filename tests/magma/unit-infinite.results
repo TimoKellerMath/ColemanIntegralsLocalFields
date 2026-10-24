@@ -1,0 +1,78 @@
+# numerical results of a test script (tests/magma/results.m), compared by tests/compare_results.py
+(1) int_(0,1)^W+[1]	padic	3	9	-4851
+(1) int_(0,1)^W+[2]	padic	3	9	3117
+(1) int_(0,1)^W+[3]	padic	3	9	3794
+(1) int_(0,1)^W+[4]	padic	3	9	-1266
+(1) int_(0,1)^W+ with e = 13[1]	padic	3	10	14832
+(1) int_(0,1)^W+ with e = 13[2]	padic	3	10	22800
+(1) int_(0,1)^W+ with e = 13[3]	padic	3	10	-15889
+(1) int_(0,1)^W+ with e = 13[4]	padic	3	10	-20949
+(1) int_(0,-1)^W-[1]	padic	3	9	4851
+(1) int_(0,-1)^W-[2]	padic	3	9	-3117
+(1) int_(0,-1)^W-[3]	padic	3	9	-3794
+(1) int_(0,-1)^W-[4]	padic	3	9	1266
+(2) t(F_q(R)) for t(R) = 3	padic	3	25	-135986717376
+(3) y^2 = x^5 - x + 1, p = 3, int_P^R (t(R) = 3)[1]	padic	3	22	-14125557672
+(3) y^2 = x^5 - x + 1, p = 3, int_P^R (t(R) = 3)[2]	padic	3	22	3495649938
+(3) y^2 = x^5 - x + 1, p = 3, int_P^R (t(R) = 3)[3]	padic	3	22	-19656006028/3
+(3) y^2 = x^5 - x + 1, p = 3, int_P^R (t(R) = 3)[4]	padic	3	22	-19244978647/81
+(3) y^2 = x^5 - x + 1, p = 3, int_P^R (t(R) = 3), direct route[1]	padic	3	10	26010
+(3) y^2 = x^5 - x + 1, p = 3, int_P^R (t(R) = 3), direct route[2]	padic	3	10	8187
+(3) y^2 = x^5 - x + 1, p = 3, int_P^R (t(R) = 3), direct route[3]	padic	3	10	47945/3
+(3) y^2 = x^5 - x + 1, p = 3, int_P^R (t(R) = 3), direct route[4]	padic	3	10	1688609/81
+(3) y^2 = x^5 - x + 1, p = 3, int_P^the very infinite point[1]	padic	3	22	-10339571970
+(3) y^2 = x^5 - x + 1, p = 3, int_P^the very infinite point[2]	padic	3	22	-11825240775
+(3) y^2 = x^5 - x + 1, p = 3, int_P^the very infinite point[3]	padic	3	22	11017190319
+(3) y^2 = x^5 - x + 1, p = 3, int_P^the very infinite point[4]	padic	3	22	3856535823
+(3) y^2 = x^5 - x + 1, p = 3, int_P^the very infinite point, direct route[1]	padic	3	10	26028
+(3) y^2 = x^5 - x + 1, p = 3, int_P^the very infinite point, direct route[2]	padic	3	10	-28986
+(3) y^2 = x^5 - x + 1, p = 3, int_P^the very infinite point, direct route[3]	padic	3	10	5046
+(3) y^2 = x^5 - x + 1, p = 3, int_P^the very infinite point, direct route[4]	padic	3	10	-13416
+(3) y^2 = x^6 + 2x^3 + x + 1, p = 7, int_P^R (t(R) = 7)[1]	padic	7	29	-907862328742047554226218
+(3) y^2 = x^6 + 2x^3 + x + 1, p = 7, int_P^R (t(R) = 7)[2]	padic	7	29	1189041908935811897498105
+(3) y^2 = x^6 + 2x^3 + x + 1, p = 7, int_P^R (t(R) = 7)[3]	padic	7	29	10460033350597235735946946/7
+(3) y^2 = x^6 + 2x^3 + x + 1, p = 7, int_P^R (t(R) = 7)[4]	padic	7	29	-72746619827706060209973667/49
+(3) y^2 = x^6 + 2x^3 + x + 1, p = 7, int_P^R (t(R) = 7), direct route[1]	padic	7	5	-511
+(3) y^2 = x^6 + 2x^3 + x + 1, p = 7, int_P^R (t(R) = 7), direct route[2]	padic	7	5	-2814
+(3) y^2 = x^6 + 2x^3 + x + 1, p = 7, int_P^R (t(R) = 7), direct route[3]	padic	7	5	20077/7
+(3) y^2 = x^6 + 2x^3 + x + 1, p = 7, int_P^R (t(R) = 7), direct route[4]	padic	7	5	150406/49
+(3) y^2 = x^6 + 2x^3 + x + 1, p = 7, int_P^the very infinite point[1]	padic	7	29	798765533365975405667213
+(3) y^2 = x^6 + 2x^3 + x + 1, p = 7, int_P^the very infinite point[2]	padic	7	29	1023058666580501494560750
+(3) y^2 = x^6 + 2x^3 + x + 1, p = 7, int_P^the very infinite point[3]	padic	7	29	-223379095237816001211142
+(3) y^2 = x^6 + 2x^3 + x + 1, p = 7, int_P^the very infinite point[4]	padic	7	29	358229671699140864539350
+(3) y^2 = x^6 + 2x^3 + x + 1, p = 7, int_P^the very infinite point, direct route[1]	padic	7	5	7917
+(3) y^2 = x^6 + 2x^3 + x + 1, p = 7, int_P^the very infinite point, direct route[2]	padic	7	5	-7609
+(3) y^2 = x^6 + 2x^3 + x + 1, p = 7, int_P^the very infinite point, direct route[3]	padic	7	5	-7961
+(3) y^2 = x^6 + 2x^3 + x + 1, p = 7, int_P^the very infinite point, direct route[4]	padic	7	5	2205
+(3) quartic of test2, p = 5, int_P^R (t(R) = 5)[1]	padic	5	19	8612825389575
+(3) quartic of test2, p = 5, int_P^R (t(R) = 5)[2]	padic	5	19	5276073585665
+(3) quartic of test2, p = 5, int_P^R (t(R) = 5)[3]	padic	5	19	-178089198125
+(3) quartic of test2, p = 5, int_P^R (t(R) = 5)[4]	padic	5	19	-62754759365677/25
+(3) quartic of test2, p = 5, int_P^R (t(R) = 5)[5]	padic	5	19	-237453945366434/25
+(3) quartic of test2, p = 5, int_P^R (t(R) = 5)[6]	padic	5	19	-1733637082053/5
+(3) quartic of test2, p = 5, int_P^R (t(R) = 5), direct route[1]	padic	5	3	-50
+(3) quartic of test2, p = 5, int_P^R (t(R) = 5), direct route[2]	padic	5	3	40
+(3) quartic of test2, p = 5, int_P^R (t(R) = 5), direct route[3]	padic	5	3	0
+(3) quartic of test2, p = 5, int_P^R (t(R) = 5), direct route[4]	padic	5	3	-52/25
+(3) quartic of test2, p = 5, int_P^R (t(R) = 5), direct route[5]	padic	5	3	-809/25
+(3) quartic of test2, p = 5, int_P^R (t(R) = 5), direct route[6]	padic	5	3	-178/5
+(3) quartic of test2, p = 5, int_P^the very infinite point[1]	padic	5	19	-7936548590990
+(3) quartic of test2, p = 5, int_P^the very infinite point[2]	padic	5	19	1549686036025
+(3) quartic of test2, p = 5, int_P^the very infinite point[3]	padic	5	19	3959325534035
+(3) quartic of test2, p = 5, int_P^the very infinite point[4]	padic	5	19	-8531743497630
+(3) quartic of test2, p = 5, int_P^the very infinite point[5]	padic	5	19	-4356513615711
+(3) quartic of test2, p = 5, int_P^the very infinite point[6]	padic	5	19	-6541699537003
+(3) quartic of test2, p = 5, int_P^the very infinite point, direct route[1]	padic	5	3	10
+(3) quartic of test2, p = 5, int_P^the very infinite point, direct route[2]	padic	5	3	25
+(3) quartic of test2, p = 5, int_P^the very infinite point, direct route[3]	padic	5	3	35
+(3) quartic of test2, p = 5, int_P^the very infinite point, direct route[4]	padic	5	3	-5
+(3) quartic of test2, p = 5, int_P^the very infinite point, direct route[5]	padic	5	3	39
+(3) quartic of test2, p = 5, int_P^the very infinite point, direct route[6]	padic	5	3	-3
+(3) int_R^P2 with the cached direct side[1]	padic	3	10	22608
+(3) int_R^P2 with the cached direct side[2]	padic	3	10	26748
+(3) int_R^P2 with the cached direct side[3]	padic	3	10	12475/3
+(3) int_R^P2 with the cached direct side[4]	padic	3	10	1048165/81
+(3) int_P^P2[1]	padic	3	23	9166697280
+(3) int_P^P2[2]	padic	3	23	22925336793
+(3) int_P^P2[3]	padic	3	23	-30300147524
+(3) int_P^P2[4]	padic	3	23	66489216313/3

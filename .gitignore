@@ -1,0 +1,8 @@
+# Python
+__pycache__/
+
+# output of tests/regression.py --artifacts
+/regression-output/
+
+# signature cache that Magma writes next to an attached package file
+*.sig

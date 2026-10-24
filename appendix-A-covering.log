@@ -1,0 +1,104 @@
+genus(C) = 3
+sigma^2 = id : true
+row eigenvectors of M (l |-> l*M):
+  eigenvalue 5 : [
+[ 1, 0, -2 ],
+[ 0, 1, 1/2 ]
+]
+  eigenvalue -5 : [
+[ 1, -2, 2 ]
+]
+p_0 = (-4:1:-2) is the common zero of <l_1,l_2> and is not on C
+eta^2 = 4u^4-12u^3v+12u^2v^2-3v^4 holds on C : true
+genus(H) = 1
+psi(P_1) = (1 : 1 : 1)   (the origin we use on H)
+C/<sigma> = Elliptic Curve defined by y^2 + y = x^3 + 1 over F
+a-invariants [
+0,
+0,
+1,
+0,
+1
+] ; equals y^2+y=x^3+1 : true
+over Q : conductor 225, Cremona 225a1
+
+deg(phi) = 2 ; phi o sigma = phi : true ; phi(P_1) = (0 : 1 : 0)
+defining polynomials of phi:
+   -X^3 - 5*X^2*Y - 7*X*Y^2 - 2*Y^3 + 5*X^2*Z + 13*X*Y*Z + 5*Y^2*Z - 6*X*Z^2 - 6*Y*Z^2 + 2*Z^3
+   -X^3 - 9*X^2*Y - 21*X*Y^2 - 12*Y^3 + 3*X^2*Z + 18*X*Y*Z + 12*Y^2*Z - 6*Y*Z^2 - Z^3
+   X^3 + 6*X^2*Y + 12*X*Y^2 + 8*Y^3 - 3*X^2*Z - 12*X*Y*Z - 12*Y^2*Z + 3*X*Z^2 + 6*Y*Z^2 - Z^3
+closed form agrees with DefiningPolynomials(phi) : true
+phi on C(F) (closed form vs. Magma):
+   [
+1,
+0,
+1
+] -> O_E (on the line X+2Y-Z = 0) ; Magma: (0 : 1 : 0)
+   [
+7,
+-3,
+1
+] -> O_E (on the line X+2Y-Z = 0) ; Magma: (0 : 1 : 0)
+   [
+-1,
+-1,
+2
+] -> (-1 : -1 : 1) ; agrees: true
+   [
+1,
+0,
+0
+] -> (-1 : -1 : 1) ; agrees: true
+   [
+1/2*(s - 1),
+-s + 2,
+1
+] -> (0 : 1/2*(s - 1) : 1) ; agrees: true
+   [
+1/2*(3*s + 9),
+1/2*(-s - 1),
+1
+] -> (0 : 1/2*(s - 1) : 1) ; agrees: true
+   [
+1/2*(-3*s + 9),
+1/2*(s - 1),
+1
+] -> (0 : 1/2*(-s - 1) : 1) ; agrees: true
+   [
+1/2*(-s - 1),
+s + 2,
+1
+] -> (0 : 1/2*(-s - 1) : 1) ; agrees: true
+
+E(F) = [ 3, 0 ] ; ord(P_E) = 0 ; ord(T_E) = 3
+
+D_0 = phi^*(O_E), degree 2 :
+      rational point (1, 0), multiplicity 1
+      rational point (7, -3), multiplicity 1
+   phi^*(O_E) = (1,0) + (7,-3) : true
+
+phi^*(P_E) = phi^*((1/2*(-3*s + 5) : 3*s - 8 : 1)), degree 2 :
+      degree-2 place: x-minpoly xx^2 + (-6*s - 34)*xx - 18*s - 26 ,  y = 1/8*(s - 1)*xx + 1/4*(-s - 1)
+   x-minpoly = x^2-(6s+34)x-18s-26 (= fam_mp) : true
+
+phi^*(-P_E) = phi^*((1/2*(-3*s + 5) : -3*s + 7 : 1)), degree 2 :
+      degree-2 place: x-minpoly xx^2 + 1/31*(-102*s - 364)*xx + 1/62*(33*s + 353) ,  y = 1/4*(s - 3)*xx + 1/2*(-s + 2)
+   x-minpoly = x^2-(6s+34)x-18s-26 (= fam_mp) : false
+
+[phi^*(P_E) - D_0] + [phi^*(-P_E) - D_0] is principal : true
+
+=== summary ===
+  phi : C -> E : y^2+y = x^3+1 is the composite
+        (X:Y:Z) |-> (z, xi) = ( (2Y+Z)/(X+4Y),  eta/(X+4Y)^2 )  in H,
+        eta = (3(X-2Y+2Z)^2 - 23(X+4Y)^2 + 48(X+4Y)(2Y+Z) - 42(2Y+Z)^2)/10,
+        followed by the Weierstrass map of H : Y^2 = -3z^4+12z^2-12z+4 based
+        at the image (1,1) of P_1, and by [-1].
+  D_0 := phi^*(O_E) = (1,0) + (7,-3) = P_1 + P_2, P_2 = sigma(P_1);
+  phi^*(P_E) = the degree-2 divisor  x^2 - (6s+34)x - 18s - 26 = 0,  y = ((s-1)x - 2s - 2)/8;
+  D_fam = [phi^*(P_E) - D_0] = phi^*([P_E - O_E]);
+  closed form:  x = -(X^2+3XY+Y^2-4XZ-2YZ+2Z^2)/(X+2Y-Z)^2,
+                y = -(X^3+9X^2Y+21XY^2+12Y^3-3X^2Z-18XYZ-12Y^2Z+6YZ^2+Z^3)/(X+2Y-Z)^3.
+
+DONE
+
+resources: CPU time 1.060 s, maximum memory 65 MB

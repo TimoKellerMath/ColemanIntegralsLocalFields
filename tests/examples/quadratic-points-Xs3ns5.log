@@ -1,0 +1,35 @@
+curve_quadratic_points: the model y^4 + (-2*x - 8)*y^3 + (-x^2 - 2*x + 3)*y^2 + (2*x^2 + 3*x - 2)*y + x^3 - 3*x^2 + 3*x - 1 ([])
+curve_quadratic_points: at the prime of norm 19 above 19 (over the unramified quadratic extension)
+curve_quadratic_points: #J(F_q) = 8400 is prime to p: the integrals to the classes lie in pi*O_K, so none excludes a class
+curve_quadratic_points: 434 residue discs over F_361 (431 finite good in the model, 0 finite bad, 3 at infinity) in 4 model(s) (1 of them for pairs of discs).
+curve_quadratic_points: WARNING: p divides #J of the reduction (det(F-I) has valuation 1); the integrals lose 2 digits in the linear solve
+  integrals in the model: 50/431 (13.300 s)
+  integrals in the model: 100/431 (25.890 s)
+  integrals in the model: 150/431 (36.850 s)
+  integrals in the model: 200/431 (47.000 s)
+  integrals in the model: 250/431 (57.570 s)
+  integrals in the model: 300/431 (67.810 s)
+  integrals in the model: 350/431 (77.810 s)
+  integrals in the model: 400/431 (87.830 s)
+  integrals in the model: 431/431 (93.800 s)
+curve_quadratic_points: integrals to the centres of the 434 discs computed (95.400 s); precision at least 10.
+curve_quadratic_points: genus 3, dim V = 2 (from 1 known divisor(s) and 1 generator(s)).
+  classes 100/459 (6.960 s)
+  classes 200/459 (12.780 s)
+  classes 300/459 (26.190 s)
+  classes 400/459 (47.650 s)
+  classes 459/459 (59.780 s)
+curve_quadratic_points: 459 residue classes at the prime of norm 19 (218.100 s): 0 excluded, 0 with a known divisor, 68 recovered (68 new divisor(s)), 21 of pullbacks, 370 unresolved.
+  unresolved: [ <"zero not recognized", 346>, <"rank drop", 24> ]
+curve_quadratic_points: 69 divisor(s) (1 known, 68 new); not complete
+PASS 1. 434 discs over F_361 in 4 models (the model, 3 linear patches), 459 classes, all treated in some model
+PASS 1. classes: 0 excluded, 68 recovered, 21 of pullbacks (D0 = phi^*(O_E) among them), 370 unresolved
+PASS 2. 36 points of degree 2: the 35 affine sporadic points of Example 8.4 and one point at infinity of the model
+PASS 2. every affine point of degree 2 is verified: its x-polynomial is irreducible over F, and Q(x, Y) has a root in F[x]/(mp)
+PASS 2. 33 sums of two F-rational points (D0 and 32 recovered ones), supported on the eight points of C(F)
+PASS 3. the unresolved classes: 24 rank-drop (cross) classes and 346 with a p-adic zero that is not recognized
+PASS 3. not complete at one prime (dim V = 2): a Mordell-Weil sieve is needed (Appendix A)
+
+0 failure(s)
+
+resources: CPU time 218.860 s, maximum memory 479 MB

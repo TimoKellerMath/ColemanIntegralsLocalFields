@@ -1,0 +1,91 @@
+Computing Delta,r,s,W^0,W^inf,G:
+Time (s) :     0.080
+Memory (Mb) :  32 
+
+Computing basis H^1(X) over the rational field:
+Time (s) :     0.110
+Memory (Mb) :  32 
+
+Computing Frobenius lift:
+Time (s) :     0.410
+Memory (Mb) :  32 
+
+Computing reduction matrices:
+Time (s) :     3.880
+Memory (Mb) :  32 
+
+Computing Frobenius matrix:
+........
+Time (s) :     1.180
+Memory (Mb) :  32 
+
+coleman_data: sanity checks on the Frobenius matrix passed (determinant, 
+rationality, functional equation).
+coleman_data: (the Frobenius matrix has minimal entry valuation -1 < 0; this is 
+normal for the H^1_dR basis and not an error).
+coleman_data: Nmax = 14
+coleman_data: total time (s): 5.470
+[1   0   0   0   0]
+[0   1   0   0   0]
+[0   0   1   0   0]
+[0   0   0   1/x   0]
+[-10*x^3/(x^4 + 6*x^2 + 1)   (-6*x^3 - 13*x)/(x^4 + 6*x^2 + 1)   (x^3 + 
+    12*x)/(x^4 + 6*x^2 + 1)   -x/(x^4 + 6*x^2 + 1)   1/(x^5 + 6*x^3 + x)]
+coleman_integrals_on_basis: autocomputed e = 71.
+NOTE: with e = 71 expect about 3 correct digits (evaluation loss about 7 
+digits); for about 9 digits use e = 450 (slower tiny integrals) or increase N
+coleman_integrals_on_basis: suitable point/local expansions: 0.080 s
+coleman_integrals_on_basis: tiny integral P -> S: 0.000 s
+coleman_integrals_on_basis: Frobenius of the point (1 step(s)): 0.000 s
+coleman_integrals_on_basis: tiny integral S -> F_q(S): 0.000 s
+coleman_integrals_on_basis: evaluation of f_i at the 1 level(s): 0.020 s
+coleman_integrals_on_basis: suitable point/local expansions: 5.200 s
+coleman_integrals_on_basis: tiny integral P -> S: 0.320 s
+coleman_integrals_on_basis: Frobenius of the point (1 step(s)): 0.130 s
+coleman_integrals_on_basis: tiny integral S -> F_q(S): 0.580 s
+coleman_integrals_on_basis: evaluation of f_i at the 1 level(s): 2.870 s
+coleman_integrals_on_basis: linear solve: 0.010 s
+coleman_integrals_on_basis: total time: 10.600 s
+(O(7^4) O(7^4) O(7^4) O(7^4) 79 + O(7^4) 614*7^-1 + O(7^3) -682 + O(7^4) 
+    -818*7^-1 + O(7^3))
+3
+holomorphic integrals P1->P2 weakly zero (torsion): true
+coleman_integrals_on_basis: autocomputed e = 71.
+NOTE: with e = 71 expect about 3 correct digits (evaluation loss about 7 
+digits); for about 9 digits use e = 450 (slower tiny integrals) or increase N
+coleman_integrals_on_basis: suitable point/local expansions: 0.060 s
+coleman_integrals_on_basis: tiny integral P -> S: 0.000 s
+coleman_integrals_on_basis: Frobenius of the point (1 step(s)): 0.000 s
+coleman_integrals_on_basis: tiny integral S -> F_q(S): 0.000 s
+coleman_integrals_on_basis: evaluation of f_i at the 1 level(s): 0.020 s
+coleman_integrals_on_basis: suitable point/local expansions: 0.560 s
+coleman_integrals_on_basis: tiny integral P -> S: 0.360 s
+coleman_integrals_on_basis: Frobenius of the point (1 step(s)): 0.150 s
+coleman_integrals_on_basis: tiny integral S -> F_q(S): 0.680 s
+coleman_integrals_on_basis: evaluation of f_i at the 1 level(s): 3.530 s
+coleman_integrals_on_basis: linear solve: 0.010 s
+coleman_integrals_on_basis: total time: 8.170 s
+(O(7^8) O(7^10) O(7^7) O(7^10) -17567266 + O(7^9) 1114678*7^-1 + O(7^7) 
+    -17112050 + O(7^9) 2383375*7^-1 + O(7^7))
+7
+holomorphic integrals P1->P3 weakly zero (torsion): true
+
+consistency checks:
+P1 (e_P = 1, local parameter index 0): local expansions consistent: true (to 
+t-adic precision 100 of 100)
+P2 (e_P = 5, local parameter index 4): local expansions consistent: true (to 
+t-adic precision 100 of 100)
+P3 (e_P = 5, local parameter index 5): local expansions consistent: true (to 
+t-adic precision 65 of 100)
+NOTE: with e = 101 expect about 5 correct digits (evaluation loss about 5 
+digits); for about 9 digits use e = 450 (slower tiny integrals) or increase N
+holomorphic integrals P2->P3 weakly zero (5*(P2-P3) = div(x)): true
+additivity I(P1,P2)+I(P2,P3) = I(P1,P3) to precision 3: true
+NOTE: with e = 71 expect about 6 correct digits (evaluation loss about 9 
+digits); for about 14 digits use e = 625 (slower tiny integrals) or increase N
+N=15 (precision 6): I(P1,P2) agrees with N=10 to precision 3: true
+NOTE: with e = 71 expect about 6 correct digits (evaluation loss about 9 
+digits); for about 14 digits use e = 625 (slower tiny integrals) or increase N
+N=15 (precision 12): I(P1,P3) agrees with N=10 to precision 7: true
+
+resources: CPU time 92.050 s, maximum memory 94 MB

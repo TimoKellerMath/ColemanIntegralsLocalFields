@@ -1,0 +1,32 @@
+PASS connection matrices: d(b^0)/dx = G0*b^0 and d(b^inf)/dx = Ginf*b^inf
+PASS jordan_inf: Jinf = Tinf*Ginf_(-1)*Tinf^(-1), diagonal with entries 0 and 1/2 (e_inf = 2)
+PASS jordan_0: one Jordan form per irreducible factor of r (5 linear factors), entries 0 and 1/2
+PASS max_ramification_indices: e_0 = e_inf = 2 (the Weierstrass points)
+PASS res_0 and res_inf vanish on the basis of H^1_dR(X)
+PASS res_0 does not vanish on the form of the third kind dx/z = (1,0)
+PASS basis_coho: 2g = 4 forms for H^1_dR(X), 2g + 5 = 9 for H^1_dR(U) (six points in X - U)
+PASS ord_factors, ord_r: (x-1)^2/(x*(x+3)) has orders 2, -1, -1 at x-1, x, x+3
+PASS val_Lttinv_d: the minimal valuation of a vector of Laurent series
+PASS ddx, ddx_vec, ddx_mat: the derivative in x of y^2*x^3, of (x^2, 1/x) and of [[x, x^2]]
+PASS red_lists: red_list_fin[l]*(M0 - l*z'*I) = I mod z for l = 1, 2, 3 (finite reduction)
+PASS infinite_reduction_matrices: (Ginf_(-1) - m*I)^(-1) for m = 1..30, extending red_list_inf
+PASS reduce_with_fs: x^5 y dx/z^1 = d(f0 + finf + fend) + sum c_i omega_i exactly
+PASS reduce_with_fs: x^8 y dx/z^1 = d(f0 + finf + fend) + sum c_i omega_i exactly
+PASS reduce_with_fs: x^1 y dx/z^3 = d(f0 + finf + fend) + sum c_i omega_i modulo 7^12
+PASS reduce_with_fs: x^0 y dx/z^4 = d(f0 + finf + fend) + sum c_i omega_i modulo 7^12
+PASS coho_red_fin: y dx/z^3 = d(f0) + w' b^0 dx/z with w' without poles along z, modulo 7^Nmax
+PASS change_basis_b0binf and change_basis_binfb0: the round trip returns the form
+PASS coho_red_inf: x^8 y dx/z = d(finf) + w' b^inf dx/z exactly, ord_inf(w') > ord_0(W) - deg(r) + 1 = -7
+PASS substitute_z: f(g) for f = 1 + x*z + z^2 + x^3*z^5 and g = x^2 - 1
+PASS val_Lxz_d: the minimal z-adic valuation of a vector
+PASS connection_matrices_0_inf: the matrices G0 and Ginf of coleman_data
+PASS evalf0: f_0(3,12) of x y dx/z^3 agrees with the direct evaluation to its precision
+PASS evalfinf: f_inf(3,12) of x^8 y dx/z agrees with the direct evaluation to its precision
+PASS reduce_mod_PN_Lx: a polynomial congruent coefficientwise modulo 7^5 (here also v = -2)
+PASS reduce_mod_PN_Lx_cached: the same reduction, with the data of the denominator 49 cached
+PASS reduce_mod_PN_L_mat: entrywise congruent modulo 7^4
+PASS reduce_mod_PN_Lttinv: coefficientwise congruent modulo 7^3
+
+0 failure(s)
+
+resources: CPU time 0.370 s, maximum memory 32 MB

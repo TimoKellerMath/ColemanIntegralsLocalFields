@@ -1,0 +1,51 @@
+PASS auxpolys(y^2 - f): r = Delta = 4f, s = 2y, s*dQ/dy = Delta mod Q
+PASS coefficients_over_Q: rational for Q over Q and for y^2 - x^5 - 3 over Q(sqrt 2), not for y^2 - x^5 - sqrt 2
+PASS is_separable_mod_P: r = 4f mod 7 is separable of degree 5, x^2 + 7 is not
+PASS genus_of_reduction: genus 2 mod 7
+PASS mat_W0 = identity and mat_Winf = diag(1, 1/x^3) for y^2 = f of degree 5
+PASS is_integral: W0, Winf and their inverses are 7-integral, 1/7 is not
+PASS connection_matrix: d(y)/dx = f'/(2f)*y, i.e. G = diag(0, f'/(2f))
+PASS polys_to_vec: [1 + 2x, 3x^2] with degx = 2 gives (1,2,0,0,0,3)
+PASS reduce_mod_Q_exact: y^3 mod Q = f*y
+PASS reduce_mod_PN_Lx: congruent to g modulo 7^4, with the coefficient 7^5/2 removed
+PASS reduce_mod_PN_L: 1/(1-7) modulo 7^3 is 1 + 7 + 49
+PASS finite_reduction_matrix: (0 - I)^(-1)/r' = -1/(2x) = x/2 mod x^2 + 1 for M0 = 0, l = 1
+PASS coer_poly and eval_frac: f(3) = 3*2*4*1*6 = 144 in Q_7
+PASS eval_mat: W0(3) is the identity
+PASS unit_linear_roots over F_49[[t]]: the roots of the linear factors with unit leading coefficient, also if it is not 1
+PASS unit_linear_roots over Z_7: the root 3/8 of 8*s - 3, none for 7*s - 1
+PASS roots_with_precision: the roots 0, 1, 2, 9 of t(t-1)(t-2)(t-9) over Z_7 (2 and 9 in one residue class, 2 exact)
+PASS roots_with_precision: the content 7 is removed; roots 3 and 10 (one residue class) with precision 8
+PASS roots_with_precision: a double root is reported with precision <= 0
+PASS roots_with_precision over Z_5[sqrt 5] (ramified): the roots pi, 1, 1 + pi^3 (the last two in one residue class)
+PASS basis_kernel: the left kernel of (1,2,3)^T has dimension 2
+PASS basis_kernel: the precision of the kernel, 10 for (1,2,3)^T, 10 - 2 when the elementary divisors are 1, 49
+PASS frobenius_aut: an automorphism of Q(zeta_7)^+ with tau(a) = a^3 mod P (3 is inert)
+PASS frobenius_aut_local agrees with frobenius_aut modulo P^6
+PASS model_function_field and basis_functions: b^0 = (1, y), and y^2 = f in FF
+PASS reduced_function_field: genus 2, with 8 places of degree 1 (#X(F_7) = 8)
+PASS pow_K: x^0 is the exact 1 also for an inexact zero x
+PASS tadicprec: at least 100, and increasing in e
+PASS max_prec: Nmax >= N + 1 for N = 8
+coleman_integrals_on_basis: suitable point/local expansions: 0.010 s
+coleman_integrals_on_basis: tiny integral P -> S: 0.000 s
+coleman_integrals_on_basis: Frobenius of the point (1 step(s)): 0.000 s
+coleman_integrals_on_basis: tiny integral S -> F_q(S): 0.000 s
+coleman_integrals_on_basis: evaluation of f_i at the 1 level(s): 0.000 s
+coleman_integrals_on_basis: suitable point/local expansions: 0.000 s
+coleman_integrals_on_basis: tiny integral P -> S: 0.000 s
+coleman_integrals_on_basis: Frobenius of the point (1 step(s)): 0.000 s
+coleman_integrals_on_basis: tiny integral S -> F_q(S): 0.000 s
+coleman_integrals_on_basis: evaluation of f_i at the 1 level(s): 0.000 s
+coleman_integrals_on_basis: linear solve: 0.000 s
+coleman_integrals_on_basis: total time: 0.010 s
+PASS zeros_on_disk over the ramified Q_5(sqrt 5): one common zero of the holomorphic integrals in the disc of (0,0), at (0,0)
+PASS Qq_points at a point at infinity where 1/x is a triple root: the points at infinity and (4,0)
+PASS Qq_points skips the roots of negative valuation: 12 points of y^2 = x^7 - ... at 11, one at infinity
+PASS roots_with_precision: the simple root 1 and the cluster at 0 of T^3*(T-1) + O(7^5)
+PASS qp_basis, qp_coordinates: Z_p-bases of O_K for e = 2, f = 2, e = f = 1, e = f = 2; unit coordinate vectors; reconstruction
+PASS ros_left_inverse: B*A = 1 (delta 0 for a unimodular minor, 1 for 3*I), false for a matrix of rank 1
+
+0 failure(s)
+
+resources: CPU time 1.070 s, maximum memory 32 MB

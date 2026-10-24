@@ -1,0 +1,24 @@
+# numerical results of a test script (tests/magma/results.m), compared by tests/compare_results.py
+curve over Q at 7: the integrals on the basis[1]	padic	7	10	-81074035
+curve over Q at 7: the integrals on the basis[2]	padic	7	10	44896397
+curve over Q at 7: the integrals on the basis[3]	padic	7	10	-91687041
+curve over Q at 7: the integrals on the basis[4]	padic	7	10	31502017
+curve over Q at 7: int omega_1	padic	7	10	-81074035
+curve over Q at 7: int (2*omega_1 - omega_(g+1))	padic	7	10	-70461029
+curve over Q at 7: int dy	padic	7	10	-24
+curve over Q(sqrt 7) at the prime above 7: the integrals on the basis[1][c1]	padic	7	6	-35294
+curve over Q(sqrt 7) at the prime above 7: the integrals on the basis[1][c2]	padic	7	6	-14749
+curve over Q(sqrt 7) at the prime above 7: the integrals on the basis[2][c1]	padic	7	6	-1470
+curve over Q(sqrt 7) at the prime above 7: the integrals on the basis[2][c2]	padic	7	6	-12005
+curve over Q(sqrt 7) at the prime above 7: the integrals on the basis[3][c1]	padic	7	6	-1715
+curve over Q(sqrt 7) at the prime above 7: the integrals on the basis[3][c2]	padic	7	6	43170
+curve over Q(sqrt 7) at the prime above 7: the integrals on the basis[4][c1]	padic	7	6	-9604
+curve over Q(sqrt 7) at the prime above 7: the integrals on the basis[4][c2]	padic	7	6	-33642
+curve over Q(sqrt 7) at the prime above 7: int omega_1[c1]	padic	7	6	-35294
+curve over Q(sqrt 7) at the prime above 7: int omega_1[c2]	padic	7	6	-14749
+curve over Q(sqrt 7) at the prime above 7: int (2*omega_1 - omega_(g+1))[c1]	padic	7	6	48776
+curve over Q(sqrt 7) at the prime above 7: int (2*omega_1 - omega_(g+1))[c2]	padic	7	6	44981
+curve over Q(sqrt 7) at the prime above 7: int dy[c1]	padic	7	6	-2
+curve over Q(sqrt 7) at the prime above 7: int dy[c2]	padic	7	6	0
+useU: int dx/x from (3,12) to x = 10	padic	7	10	-100529051
+useU: int dx/x from (3,12) to x = 294	padic	7	5	-6237

@@ -1,0 +1,65 @@
+# Regression tests of the Magma code: every script of the article is re-run and its output
+# compared with the committed log (tests/regression.py).
+#
+# Magma is licensed software, so these jobs need a SELF-HOSTED runner with `magma` on its
+# PATH and the labels `self-hosted` and `magma` (Settings > Actions > Runners > New
+# self-hosted runner). Once it is registered, set the repository variable MAGMA_RUNNER to
+# `true` (Settings > Secrets and variables > Actions > Variables) to run the fast tier on
+# every push; without it, the jobs only run when started by hand ("Run workflow").
+# The actions run on Node.js 24, which needs version 2.327.1 or newer of the runner
+# application (self-hosted runners update themselves unless this was switched off).
+#
+# Security: a self-hosted runner executes whatever code a workflow run checks out, so the
+# job never runs for pull requests from forks.
+name: Magma regression tests
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "**.m"
+      - "**.log"
+      - "**.dat"
+      - "tests/**"
+      - ".github/workflows/magma.yml"
+  pull_request:
+    paths:
+      - "**.m"
+      - "**.log"
+      - "**.dat"
+      - "tests/**"
+  workflow_dispatch:
+    inputs:
+      tier:
+        description: "fast (about 14 min of CPU time) or all (adds the two Example 8.4 runs, about 23 min)"
+        type: choice
+        options: [fast, all]
+        default: fast
+
+permissions:
+  contents: read
+
+concurrency:
+  group: magma-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  regression:
+    name: Re-run the scripts and compare the logs
+    if: >-
+      github.event_name == 'workflow_dispatch' ||
+      (vars.MAGMA_RUNNER == 'true' &&
+       (github.event_name != 'pull_request' ||
+        github.event.pull_request.head.repo.full_name == github.repository))
+    runs-on: [self-hosted, magma]
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v7
+      - name: Regression tests
+        run: python3 tests/regression.py --tier "${{ inputs.tier || 'fast' }}" --artifacts regression-output
+      - name: Upload the output of failing tests
+        if: failure()
+        uses: actions/upload-artifact@v7
+        with:
+          name: regression-output
+          path: regression-output/

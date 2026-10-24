@@ -1,0 +1,77 @@
+Loading "appendix-A-local-41.dat"
+Loading "appendix-A-local-79.dat"
+Loading "appendix-A-local-89.dat"
+Loading "appendix-A-local-19.dat"
+Loading "appendix-A-local-29.dat"
+Loading "appendix-A-local-31.dat"
+Loading "appendix-A-local-59.dat"
+Loading "appendix-A-local-61.dat"
+Loading "appendix-A-local-71.dat"
+q=41  |H_q|=1680   [ 2, 840 ]     #(A_q cap H_q^rob)=414  #Fam=42  #R_q^rob=372  #Y_q=295  ord(rho_q(c_spor))=840
+q=79  |H_q|=3360   [ 2, 2, 840 ]  #(A_q cap H_q^rob)=282  #Fam=84  #R_q^rob=198  #Y_q=161  ord(rho_q(c_spor))=840
+q=89  |H_q|=3600   [ 10, 360 ]    #(A_q cap H_q^rob)=466  #Fam=90  #R_q^rob=376  #Y_q=321  ord(rho_q(c_spor))=360
+q=19  |H_q|=1680   [ 2, 840 ]     #(A_q cap H_q^rob)=113  #Fam=21  #R_q^rob=92   #Y_q=74   ord(rho_q(c_spor))=280
+q=29  |H_q|=2400   [ 2, 10, 120 ] #(A_q cap H_q^rob)=374  #Fam=30  #R_q^rob=344  #Y_q=289  ord(rho_q(c_spor))=40
+q=31  |H_q|=3120   [ 2, 1560 ]    #(A_q cap H_q^rob)=225  #Fam=39  #R_q^rob=186  #Y_q=160  ord(rho_q(c_spor))=520
+q=59  |H_q|=4800   [ 2, 20, 120 ] #(A_q cap H_q^rob)=428  #Fam=60  #R_q^rob=368  #Y_q=325  ord(rho_q(c_spor))=120
+q=61  |H_q|=1200   [ 10, 120 ]    #(A_q cap H_q^rob)=123  #Fam=15  #R_q^rob=108  #Y_q=86   ord(rho_q(c_spor))=40
+q=71  |H_q|=1440   [ 2, 2, 360 ]  #(A_q cap H_q^rob)=168  #Fam=36  #R_q^rob=132  #Y_q=87   ord(rho_q(c_spor))=360
+|J(C)(F)_tors| = 240 ; sieve modulus M = lcm of the orders of rho_q(c_spor) = 32760
+
+=== the surviving classes ===
+  316 pairs (n mod 32760, t) survive, #W = 158 classes of B.
+
+=== the classes coming from K_2 ===
+  72 known divisors of K_2; 0 failed to reduce somewhere.
+  #W_known = 58, #(W cap W_known) = 54
+  their reductions give 72 distinct residue classes at each prime: [ 72, 72, 72, 72, 72, 72, 72, 72, 72 ]
+  known divisors NOT surviving the sieve: 4  [ P1+P2, P3+P4, P5+P6, P7+P8 ]
+  (these are the four sigma-pairs, i.e. the pullbacks phi^*(R) in K_2; they are
+   removed from R_q^rob at every prime by construction; none of the 35 sporadic
+   divisors and not D_infty is lost.)
+
+=== known divisors with a diagonal reduction 2*Rt ===
+  q=41  8 doubles 2P (no collision); colliding: [ Delta_16, Delta_18, Delta_22, Delta_23 ]
+  q=79  8 doubles 2P (no collision); colliding: []
+  q=89  8 doubles 2P (no collision); colliding: []
+  q=19  8 doubles 2P (no collision); colliding: []
+  q=29  8 doubles 2P (no collision); colliding: [ Delta_20, Delta_33 ]
+  q=31  8 doubles 2P (no collision); colliding: [ Delta_21, Delta_32 ]
+  q=59  8 doubles 2P (no collision); colliding: [ Delta_12, Delta_19, Delta_20, Delta_33 ]
+  q=61  8 doubles 2P (no collision); colliding: []
+  q=71  8 doubles 2P (no collision); colliding: [ Delta_28, Delta_30 ]
+
+=== step (vii): identification of the surviving classes ===
+  every divisor above a surviving class is of type (a)                     : 158 of 158
+  settled (whole fibre of type (a) and made up of reductions of known divisors): 158 of 158
+     first witnessing prime: [ <41, 138>, <79, 20> ]
+  settled with the cited criterion (no diagonal element reduced from a collision): 158 of 158
+     first witnessing prime: [ <41, 130>, <79, 28> ]
+  fibres that were empty at some prime (cannot happen for x in W): 0
+
+  per prime (over the 158 classes of W):
+    q     settles    cited    max #fibre   mean #fibre  fibres with an unknown element   diagonal   colliding
+    41    138        130      3            1.24         20                               30         12
+    79    158        158      2            1.11         0                                18         0
+    89    150        150      3            1.16         8                                18         0
+    19    158        158      2            1.11         0                                18         0
+    29    158        156      2            1.11         0                                20         2
+    31    142        138      2            1.11         16                               20         4
+    59    150        132      2            1.11         8                                36         18
+    61    158        158      2            1.11         0                                18         0
+    71    130        106      3            1.39         28                               42         24
+    a single prime already settles ALL of W at q = [ 79, 19, 29, 61 ]
+    ... and with the cited criterion read literally at q = [ 79, 19, 61 ]
+  left over: 0 (jet criterion), 0 (cited criterion)
+
+=== conclusion ===
+  Every class of W is settled, so C^(2)(F) = T_0: the only degree-2 points of
+  C over F are the 36 sums of the eight F-rational points, D_infty, the 35
+  sporadic divisors and the pullback family phi^*(E(F)).
+  This uses no point search: only the type-(a) branch of the symmetric-Chabauty
+  criterion at residue discs that already contain a known divisor, and it holds
+  with the criterion read literally (multiplicities collected before reduction).
+
+DONE
+
+resources: CPU time 1.150 s, maximum memory 32 MB

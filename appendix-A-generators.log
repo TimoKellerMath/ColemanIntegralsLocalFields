@@ -1,0 +1,73 @@
+Loading "appendix-A-common.m"
+E(F) = [ 3, 0 ]  (rank 1, torsion [ 3 ])
+=> rk J(C)(F) = 1, and the Chabauty condition g - rk = 3 - 1 = 2 holds.
+
+=== orders of the torsion generators, certified on C over F ===
+  10 * (t_10) is principal: true   (0.050 s)
+  120 * (z = c_spor + fam) is principal: true   (68.850 s)
+  3 * (D_6 (redundant)) is principal: true   (0.040 s)
+  => t_10, z are torsion of order dividing 10, 120 (and D_6 of order dividing 3).
+  (c_spor and fam themselves have infinite order: see the growing orders below.)
+
+=== J(C)(F)_tors: lower bound from T = <t_10, z>, upper bound from reduction ===
+  q=11   |J(C)(F_q)|=1920      ord(t_10)=10  ord(z)=120  5*t_10 in <z>: false D_6 in <z>: true  |T|=240  T=[ 2, 120 ] ord(c_spor)=120
+  q=19   |J(C)(F_q)|=8400      ord(t_10)=10  ord(z)=120  5*t_10 in <z>: false D_6 in <z>: true  |T|=240  T=[ 2, 120 ] ord(c_spor)=280
+  q=29   |J(C)(F_q)|=19200     ord(t_10)=10  ord(z)=120  5*t_10 in <z>: false D_6 in <z>: true  |T|=240  T=[ 2, 120 ] ord(c_spor)=40
+  q=31   |J(C)(F_q)|=43680     ord(t_10)=10  ord(z)=120  5*t_10 in <z>: false D_6 in <z>: true  |T|=240  T=[ 2, 120 ] ord(c_spor)=520
+  q=41   |J(C)(F_q)|=67200     ord(t_10)=10  ord(z)=120  5*t_10 in <z>: false D_6 in <z>: true  |T|=240  T=[ 2, 120 ] ord(c_spor)=840
+  q=59   |J(C)(F_q)|=268800    ord(t_10)=10  ord(z)=120  5*t_10 in <z>: false D_6 in <z>: true  |T|=240  T=[ 2, 120 ] ord(c_spor)=120
+  q=61   |J(C)(F_q)|=264000    ord(t_10)=10  ord(z)=120  5*t_10 in <z>: false D_6 in <z>: true  |T|=240  T=[ 2, 120 ] ord(c_spor)=40
+  q=71   |J(C)(F_q)|=460800    ord(t_10)=10  ord(z)=120  5*t_10 in <z>: false D_6 in <z>: true  |T|=240  T=[ 2, 120 ] ord(c_spor)=360
+  q=79   |J(C)(F_q)|=537600    ord(t_10)=10  ord(z)=120  5*t_10 in <z>: false D_6 in <z>: true  |T|=240  T=[ 2, 120 ] ord(c_spor)=840
+  q=89   |J(C)(F_q)|=777600    ord(t_10)=10  ord(z)=120  5*t_10 in <z>: false D_6 in <z>: true  |T|=240  T=[ 2, 120 ] ord(c_spor)=360
+  q=101  |J(C)(F_q)|=881280    ord(t_10)=10  ord(z)=120  5*t_10 in <z>: false D_6 in <z>: true  |T|=240  T=[ 2, 120 ] ord(c_spor)=2040
+  q=109  |J(C)(F_q)|=1300320   ord(t_10)=10  ord(z)=120  5*t_10 in <z>: false D_6 in <z>: true  |T|=240  T=[ 2, 120 ] ord(c_spor)=5160
+  q=131  |J(C)(F_q)|=2280960   ord(t_10)=10  ord(z)=120  5*t_10 in <z>: false D_6 in <z>: true  |T|=240  T=[ 2, 120 ] ord(c_spor)=1320
+  q=139  |J(C)(F_q)|=2695680   ord(t_10)=10  ord(z)=120  5*t_10 in <z>: false D_6 in <z>: true  |T|=240  T=[ 2, 120 ] ord(c_spor)=1560
+  q=149  |J(C)(F_q)|=2688000   ord(t_10)=10  ord(z)=120  5*t_10 in <z>: false D_6 in <z>: true  |T|=240  T=[ 2, 120 ] ord(c_spor)=200
+  q=151  |J(C)(F_q)|=2992800   ord(t_10)=10  ord(z)=120  5*t_10 in <z>: false D_6 in <z>: true  |T|=240  T=[ 2, 120 ] ord(c_spor)=5160
+  q=179  |J(C)(F_q)|=5472000   ord(t_10)=10  ord(z)=120  5*t_10 in <z>: false D_6 in <z>: true  |T|=240  T=[ 2, 120 ] ord(c_spor)=360
+  q=181  |J(C)(F_q)|=5987520   ord(t_10)=10  ord(z)=120  5*t_10 in <z>: false D_6 in <z>: true  |T|=240  T=[ 2, 120 ] ord(c_spor)=2520
+  q=191  |J(C)(F_q)|=5744640   ord(t_10)=10  ord(z)=120  5*t_10 in <z>: false D_6 in <z>: true  |T|=240  T=[ 2, 120 ] ord(c_spor)=960
+  q=199  |J(C)(F_q)|=8058960   ord(t_10)=10  ord(z)=120  5*t_10 in <z>: false D_6 in <z>: true  |T|=240  T=[ 2, 120 ] ord(c_spor)=840
+  q=211  |J(C)(F_q)|=9720000   ord(t_10)=10  ord(z)=120  5*t_10 in <z>: false D_6 in <z>: true  |T|=240  T=[ 2, 120 ] ord(c_spor)=120
+  q=229  |J(C)(F_q)|=11030880  ord(t_10)=10  ord(z)=120  5*t_10 in <z>: false D_6 in <z>: true  |T|=240  T=[ 2, 120 ] ord(c_spor)=8040
+  q=239  |J(C)(F_q)|=13516800  ord(t_10)=10  ord(z)=120  5*t_10 in <z>: false D_6 in <z>: true  |T|=240  T=[ 2, 120 ] ord(c_spor)=40
+  q=241  |J(C)(F_q)|=15264000  ord(t_10)=10  ord(z)=120  5*t_10 in <z>: false D_6 in <z>: true  |T|=240  T=[ 2, 120 ] ord(c_spor)=120
+  q=251  |J(C)(F_q)|=14515200  ord(t_10)=10  ord(z)=120  5*t_10 in <z>: false D_6 in <z>: true  |T|=240  T=[ 2, 120 ] ord(c_spor)=2520
+  q=269  |J(C)(F_q)|=19353600  ord(t_10)=10  ord(z)=120  5*t_10 in <z>: false D_6 in <z>: true  |T|=240  T=[ 2, 120 ] ord(c_spor)=1080
+  q=271  |J(C)(F_q)|=21504000  ord(t_10)=10  ord(z)=120  5*t_10 in <z>: false D_6 in <z>: true  |T|=240  T=[ 2, 120 ] ord(c_spor)=120
+  q=281  |J(C)(F_q)|=24364800  ord(t_10)=10  ord(z)=120  5*t_10 in <z>: false D_6 in <z>: true  |T|=240  T=[ 2, 120 ] ord(c_spor)=1880
+
+  gcd of |J(C)(F_q)| over the split good primes q < 300 : 240
+  |red_q(T)| = 240 at every one of them             : true
+  all invariants equal                              : true  ([ 2, 120 ])
+
+  Reduction is injective on the torsion of an abelian variety with good
+  reduction at an odd unramified prime, so |J(C)(F)_tors| divides 240; and T is
+  a subgroup of J(C)(F)_tors whose reduction already has order 240.  Hence
+  ==>  J(C)(F)_tors = T = < t_10, c_spor + fam >  =  [ 2, 120 ]   (order 240)
+  (5*t_10 is not in <z> at any of these primes, so |T| >= 2*120 = 240; and D_6,
+   of order 3, always lies in <z>, so it is redundant as a generator.)
+
+  In particular J(C)(F)[2] = (Z/2)^2, and the Steiner class eta, a 2-torsion
+  class, lies in T: it is NOT an extra generator.
+
+=== Gamma = Z c_spor + J(C)(F)_tors ===
+  z = c_spor + fam is torsion, so fam = -c_spor + z lies in Gamma:
+  Gamma = < t_10, z, c_spor > = < t_10, D_6, c_spor, fam > contains every known
+  Mordell-Weil class (D_6 in <z> and fam = -c_spor + z).
+  Write J(C)(F)/tors = Z*ghat, c_spor = beta*ghat, phi_*(ghat) = gamma*P_E.
+  phi_* phi^* = 2 gives phi_*(fam) = 2*P_E + tors, and fam = -c_spor + tors,
+  so beta*gamma = -2 and therefore  [J(C)(F) : Gamma] = |beta| divides 2.
+
+  local 2-divisibility test (would give index 1 if it ever failed):
+    28 split primes tested, 0 of them rule out index 2.
+    => the index is not decided locally; the sieve keeps the SAFE multiplier I = 2,
+       i.e. j = 2*iota_2 : C^(2)(F) -> Gamma, and takes
+          H_q^rob := { y in J(C)(F_q) : 2y in red_q(Gamma) }  as the ambient group,
+       which contains red_q(J(C)(F)) whichever of the two values the index has.
+
+DONE
+
+resources: CPU time 221.410 s, maximum memory 64 MB

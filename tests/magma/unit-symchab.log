@@ -1,0 +1,21 @@
+PASS power_sums: p_j(t1 + t2, t1*t2) = t1^j + t2^j for j = 0..6
+PASS power_sums: the derivatives by sigma1 and sigma2
+PASS series_coefficients: the known coefficients, zeros beyond them
+PASS symmetric_x: x(t1) + x(t2) and x(t1)*x(t2) from sigma1 = t1 + t2, sigma2 = t1*t2
+PASS diagonal_jacobian_invertible: [[a_11, -2a_12], [a_21, -2a_22]] = [[1, -6], [2, -2]] is invertible mod 7
+PASS diagonal_jacobian_invertible: [[1, -2], [2, -4]] is singular
+PASS newton_symmetric: the zero (sigma1, sigma2) = (t1 + t2, t1*t2) = (21, 98)
+PASS newton_symmetric with a Jacobian singular modulo 7: no failure
+PASS newton_jacobian_invertible: the leading matrix [[1, 3], [2, 1]] is invertible mod 7
+PASS newton_pair: the zero (t1, t2) = (7, 14)
+PASS diff_coeffs: the coefficients of v[1]*omega_1 + v[2]*omega_2 from those of the basis forms
+PASS differentials_are_saturated: {v, w} yes, {v, v + 7w} no
+PASS saturate_differentials: a single primitive vector stays (up to a unit), the saturated basis of a rank-1 lattice
+PASS reduce_L_scalar: 1/3 reduces to 5 in F_7
+PASS reduce_Lpoly_to_Fq: x^2/2 + 7x - 1 reduces to 4x^2 - 1
+PASS eval_Fq_poly: the value of x^2 + 1 at a generator of F_49
+PASS on_curve_degree2: x^2 + 3x (the points x = 0 and x = -3, y = 0) lies on the curve; x^2 - 7 does not
+
+0 failure(s)
+
+resources: CPU time 0.210 s, maximum memory 32 MB

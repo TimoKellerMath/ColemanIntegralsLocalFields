@@ -1,0 +1,135 @@
+
+//////////////////////////
+// Example 8.3: superelliptic genus-3 curve over Q(cbrt(2)), P|3 ramified //
+//////////////////////////
+
+Computing Delta,r,s,W^0,W^inf,G:
+Time (s) :     0.020
+Memory (Mb) :  32 
+
+Computing basis H^1(X):
+Time (s) :     0.030
+Memory (Mb) :  32 
+
+Computing Frobenius lift:
+Time (s) :     1.060
+Memory (Mb) :  32 
+
+Computing reduction matrices:
+Time (s) :     1.080
+Memory (Mb) :  32 
+
+Computing Frobenius matrix:
+......
+Time (s) :     0.260
+Memory (Mb) :  32 
+
+coleman_data: sanity checks on the Frobenius matrix passed (determinant, 
+rationality, functional equation).
+coleman_data: (the Frobenius matrix has minimal entry valuation -1 < 0; this is 
+normal for the H^1_dR basis and not an error).
+coleman_data: Nmax = 41
+coleman_data: total time (s): 1.500
+
+//////////////////////////
+// 8.1. W0, Winf, r //
+//////////////////////////
+
+[1 0 0 0]
+[0 1 0 0]
+[0 0 1 0]
+[0 0 0 1]
+[    1     0     0     0]
+[    0   1/x     0     0]
+[    0     0 1/x^2     0]
+[    0     0     0 1/x^3]
+-256*x^3 + (256*a + 256)*x^2 - 256*a*x
+
+//////////////////////////
+// 8.2. basis, first half is in H^1(X) //
+//////////////////////////
+
+[
+    (0 1 0 0),
+    (0 x 0 0),
+    (0 0 1 0),
+    (  0   0 x^2   0),
+    (0 0 0 1),
+    (0 0 0 x)
+]
+
+//////////////////////////
+// 8.3. r(P) //
+//////////////////////////
+
+rec<recformat<x, b, r, inf, xt, bt, index> | 
+    x := O($.1^41),
+    b := [ 1 + O($.1^41), O($.1^41), O($.1^41), O($.1^41) ],
+    r := O($.1^41),
+    inf := false>
+rec<recformat<x, b, r, inf, xt, bt, index> | 
+    x := 1 + O($.1^41),
+    b := [ 1 + O($.1^41), O($.1^41), O($.1^41), O($.1^41) ],
+    r := O($.1^41),
+    inf := false>
+
+//////////////////////////
+// 8.4. integration //
+//////////////////////////
+
+coleman_integrals_on_basis: autocomputed e = 25.
+NOTE: with e = 25 expect about 1 correct digits (evaluation loss about 19 
+digits); for about 19 digits use e = 452 (slower tiny integrals) or increase N
+coleman_integrals_on_basis: suitable point/local expansions: 0.090 s
+coleman_integrals_on_basis: tiny integral P -> S: 0.100 s
+coleman_integrals_on_basis: Frobenius of the point (1 step(s)): 0.010 s
+coleman_integrals_on_basis: tiny integral S -> F_q(S): 0.430 s
+coleman_integrals_on_basis: evaluation of f_i at the 1 level(s): 0.260 s
+coleman_integrals_on_basis: suitable point/local expansions: 0.060 s
+coleman_integrals_on_basis: tiny integral P -> S: 0.100 s
+coleman_integrals_on_basis: Frobenius of the point (1 step(s)): 0.020 s
+coleman_integrals_on_basis: tiny integral S -> F_q(S): 0.430 s
+coleman_integrals_on_basis: evaluation of f_i at the 1 level(s): 0.260 s
+coleman_integrals_on_basis: linear solve: 0.010 s
+coleman_integrals_on_basis: total time: 1.820 s
+(O($.1^2) O($.1^2) O($.1^2) O($.1) O($.1^2) O($.1^2))
+1
+holomorphic integrals P1->P2 weakly zero (torsion): true
+coleman_integrals_on_basis: autocomputed e = 25.
+NOTE: with e = 25 expect about 1 correct digits (evaluation loss about 19 
+digits); for about 19 digits use e = 452 (slower tiny integrals) or increase N
+coleman_integrals_on_basis: suitable point/local expansions: 0.070 s
+coleman_integrals_on_basis: tiny integral P -> S: 0.100 s
+coleman_integrals_on_basis: Frobenius of the point (1 step(s)): 0.020 s
+coleman_integrals_on_basis: tiny integral S -> F_q(S): 0.430 s
+coleman_integrals_on_basis: evaluation of f_i at the 1 level(s): 0.260 s
+coleman_integrals_on_basis: suitable point/local expansions: 0.070 s
+coleman_integrals_on_basis: tiny integral P -> S: 0.100 s
+coleman_integrals_on_basis: Frobenius of the point (1 step(s)): 0.020 s
+coleman_integrals_on_basis: tiny integral S -> F_q(S): 0.420 s
+coleman_integrals_on_basis: evaluation of f_i at the 1 level(s): 0.260 s
+coleman_integrals_on_basis: linear solve: 0.010 s
+coleman_integrals_on_basis: total time: 1.810 s
+(O($.1^2) O($.1^2) O($.1^2) O($.1) O($.1^2) O($.1^2))
+1
+holomorphic integrals P1->P3 weakly zero (torsion): true
+coleman_integrals_on_basis: autocomputed e = 25.
+NOTE: with e = 25 expect about 1 correct digits (evaluation loss about 19 
+digits); for about 19 digits use e = 452 (slower tiny integrals) or increase N
+coleman_integrals_on_basis: suitable point/local expansions: 0.060 s
+coleman_integrals_on_basis: tiny integral P -> S: 0.100 s
+coleman_integrals_on_basis: Frobenius of the point (1 step(s)): 0.020 s
+coleman_integrals_on_basis: tiny integral S -> F_q(S): 0.440 s
+coleman_integrals_on_basis: evaluation of f_i at the 1 level(s): 0.280 s
+coleman_integrals_on_basis: suitable point/local expansions: 0.070 s
+coleman_integrals_on_basis: tiny integral P -> S: 0.180 s
+coleman_integrals_on_basis: Frobenius of the point (1 step(s)): 0.020 s
+coleman_integrals_on_basis: tiny integral S -> F_q(S): 0.530 s
+coleman_integrals_on_basis: evaluation of f_i at the 1 level(s): 0.270 s
+coleman_integrals_on_basis: linear solve: 0.010 s
+coleman_integrals_on_basis: total time: 2.060 s
+(O($.1^2) O($.1^2) O($.1^2) O($.1) O($.1^2) O($.1^2))
+1
+holomorphic integrals P1->P4 weakly zero (torsion): true
+
+resources: CPU time 7.250 s, maximum memory 32 MB

@@ -1,0 +1,25 @@
+Loading "appendix-A-common.m"
+search over x = (a+b*sqrt5)/c with |a| <= 40, |b| <= 25, c <= 12
+affine points of C(F): 7
+   (1, 0)   [in C(Q)]
+   (1/2*(-3*s + 9), 1/2*(s - 1))
+   (1/2*(s - 1), -s + 2)
+   (7, -3)   [in C(Q)]
+   (-1/2, -1/2)   [in C(Q)]
+   (1/2*(3*s + 9), 1/2*(-s - 1))
+   (1/2*(-s - 1), s + 2)
+
+points at infinity (Z = 0) that are F-rational: [
+[
+1,
+0,
+0
+]
+]
+=> #C(F) = 8 (7 affine + the point at infinity (1:0:0))
+   of these, 4 lie in C(Q).
+
+CFpts of appendix-A-common.m reproduces exactly this set: true
+DONE
+
+resources: CPU time 12.960 s, maximum memory 32 MB

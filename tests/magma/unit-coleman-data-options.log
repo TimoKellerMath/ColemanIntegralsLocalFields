@@ -1,0 +1,9 @@
+PASS curve over Q: data`W0 is the supplied W0 (b^0 = (1, x+y))
+PASS curve over Q(sqrt 7): data`W0 is the supplied W0 (b^0 = (1, x+y))
+PASS full_check at the good prime 7 (with the supplied W0): the same Frobenius matrix
+PASS full_check over Q(sqrt 7) at the ramified prime: the same Frobenius matrix
+PASS full_check at the bad prime 3: rejected with the reason
+
+0 failure(s)
+
+resources: CPU time 3.290 s, maximum memory 32 MB

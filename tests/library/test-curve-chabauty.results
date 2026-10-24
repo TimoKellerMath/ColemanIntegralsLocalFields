@@ -1,0 +1,89 @@
+# numerical results of a test script (tests/magma/results.m), compared by tests/compare_results.py
+1. 971.a: model	str	y^2 + y - x^5 + 2*x^3 - x
+1. 971.a: norms of the primes[1]	int	7
+1. 971.a: candidates	int	9
+1. 971.a: matched[1]	int	2
+1. 971.a: matched[2]	int	3
+1. 971.a: matched[3]	int	1
+1. 971.a: matched[4]	int	0
+1. 971.a: matched[5]	int	4
+1. 971.a: matched[6]	int	0
+1. 971.a: matched[7]	int	7
+1. 971.a: matched[8]	int	5
+1. 971.a: matched[9]	int	6
+1. 971.a: complete	bool	false
+4. 971.a with rank_check: model	str	y^2 + y - x^5 + 2*x^3 - x
+4. 971.a with rank_check: norms of the primes[1]	int	7
+4. 971.a with rank_check: candidates	int	9
+4. 971.a with rank_check: matched[1]	int	2
+4. 971.a with rank_check: matched[2]	int	3
+4. 971.a with rank_check: matched[3]	int	1
+4. 971.a with rank_check: matched[4]	int	0
+4. 971.a with rank_check: matched[5]	int	4
+4. 971.a with rank_check: matched[6]	int	0
+4. 971.a with rank_check: matched[7]	int	7
+4. 971.a with rank_check: matched[8]	int	5
+4. 971.a with rank_check: matched[9]	int	6
+4. 971.a with rank_check: rank bounds[1]	int	1
+4. 971.a with rank_check: rank bounds[2]	int	1
+4. 971.a with rank_check: complete	bool	false
+4. 249.a, three primes: model	str	y^2 + (x^3 + 1)*y - x^2 - x
+4. 249.a, three primes: norms of the primes[1]	int	5
+4. 249.a, three primes: norms of the primes[2]	int	11
+4. 249.a, three primes: candidates	int	6
+4. 249.a, three primes: matched[1]	int	5
+4. 249.a, three primes: matched[2]	int	2
+4. 249.a, three primes: matched[3]	int	3
+4. 249.a, three primes: matched[4]	int	1
+4. 249.a, three primes: matched[5]	int	0
+4. 249.a, three primes: matched[6]	int	4
+4. 249.a, three primes: rank bounds[1]	int	0
+4. 249.a, three primes: rank bounds[2]	int	0
+4. 249.a, three primes: complete	bool	true
+5. 971.a without (1,0): model	str	y^2 + y - x^5 + 2*x^3 - x
+5. 971.a without (1,0): norms of the primes[1]	int	7
+5. 971.a without (1,0): candidates	int	9
+5. 971.a without (1,0): matched[1]	int	2
+5. 971.a without (1,0): matched[2]	int	3
+5. 971.a without (1,0): matched[3]	int	1
+5. 971.a without (1,0): matched[4]	int	0
+5. 971.a without (1,0): matched[5]	int	4
+5. 971.a without (1,0): matched[6]	int	0
+5. 971.a without (1,0): matched[7]	int	6
+5. 971.a without (1,0): matched[8]	int	0
+5. 971.a without (1,0): matched[9]	int	5
+5. 971.a without (1,0): recognized x[1]	str	1
+5. 971.a without (1,0): complete	bool	false
+6. 249.a with N = 3: model	str	y^2 + (x^3 + 1)*y - x^2 - x
+6. 249.a with N = 3: norms of the primes[1]	int	5
+6. 249.a with N = 3: candidates	int	6
+6. 249.a with N = 3: matched[1]	int	5
+6. 249.a with N = 3: matched[2]	int	2
+6. 249.a with N = 3: matched[3]	int	3
+6. 249.a with N = 3: matched[4]	int	1
+6. 249.a with N = 3: matched[5]	int	0
+6. 249.a with N = 3: matched[6]	int	4
+6. 249.a with N = 3: complete	bool	false
+6. 249.a with patches: model	str	y^2 + (x^3 + 1)*y - x^2 - x
+6. 249.a with patches: norms of the primes[1]	int	5
+6. 249.a with patches: candidates	int	6
+6. 249.a with patches: matched[1]	int	5
+6. 249.a with patches: matched[2]	int	2
+6. 249.a with patches: matched[3]	int	3
+6. 249.a with patches: matched[4]	int	1
+6. 249.a with patches: matched[5]	int	4
+6. 249.a with patches: matched[6]	int	0
+6. 249.a with patches: complete	bool	false
+7. 249.a over Q(sqrt -3): model	str	y^2 + (x^3 + 1)*y - x^2 - x
+7. 249.a over Q(sqrt -3): norms of the primes[1]	int	13
+7. 249.a over Q(sqrt -3): candidates	int	8
+7. 249.a over Q(sqrt -3): matched[1]	int	5
+7. 249.a over Q(sqrt -3): matched[2]	int	2
+7. 249.a over Q(sqrt -3): matched[3]	int	3
+7. 249.a over Q(sqrt -3): matched[4]	int	1
+7. 249.a over Q(sqrt -3): matched[5]	int	6
+7. 249.a over Q(sqrt -3): matched[6]	int	4
+7. 249.a over Q(sqrt -3): matched[7]	int	0
+7. 249.a over Q(sqrt -3): matched[8]	int	0
+7. 249.a over Q(sqrt -3): recognized x[1]	str	1/2*(-w - 1)
+7. 249.a over Q(sqrt -3): complete	bool	false

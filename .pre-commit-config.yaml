@@ -1,0 +1,43 @@
+# Local git hooks.  Install once with:  pip install pre-commit && pre-commit install
+# Then every commit runs the consistency checks of the logs (seconds, no Magma).  The Magma
+# regression tests take several minutes and are therefore a manual stage:
+#     pre-commit run --hook-stage manual magma-regression
+repos:
+  - repo: local
+    hooks:
+      - id: check-logs
+        name: every script has its logs, free of Magma errors
+        entry: python3 tests/check_logs.py
+        language: system
+        pass_filenames: false
+        files: '\.(log|dat|results|m|py)$'
+      - id: package-up-to-date
+        name: the Magma package is built from the current library files
+        entry: python3 tools/make_package.py --check
+        language: system
+        pass_filenames: false
+        files: '\.(m|py)$'
+      - id: api-up-to-date
+        name: the API reference is built from the current library files
+        entry: python3 tools/make_api.py --check
+        language: system
+        pass_filenames: false
+        files: '\.(m|py|md)$'
+      - id: unit-tests-python
+        name: unit tests of the test tools
+        entry: python3 -m unittest discover -s tests
+        language: system
+        pass_filenames: false
+        files: '^(tests/|tools/|docs/|.*\.log$)'
+      - id: magma-unit-quick
+        name: Magma unit tests (quick, a few seconds; skipped without magma)
+        entry: bash -c 'command -v "${MAGMA:-magma}" >/dev/null || { echo "magma not found, skipped"; exit 0; }; python3 tests/regression.py unit-integrals unit-frobenius-quick -j 2'
+        language: system
+        pass_filenames: false
+        files: '\.m$'
+      - id: magma-regression
+        name: Magma regression tests (fast tier)
+        entry: python3 tests/regression.py --tier fast
+        language: system
+        pass_filenames: false
+        stages: [manual]

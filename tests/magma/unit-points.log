@@ -1,0 +1,11 @@
+PASS (3,12) is good
+PASS (0,0) is bad and very bad
+PASS the point at infinity is bad and very bad
+PASS (3,12) and itself lie in the same residue disc
+PASS (3,12) and (3,-12) lie in different residue discs
+PASS (0,0) and the point at infinity lie in different residue discs
+PASS (0,0) and (1,0) lie in different residue discs
+
+0 failure(s)
+
+resources: CPU time 0.190 s, maximum memory 32 MB

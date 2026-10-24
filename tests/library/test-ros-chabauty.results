@@ -1,0 +1,64 @@
+# numerical results of a test script (tests/magma/results.m), compared by tests/compare_results.py
+1. Q(sqrt -2): functionals	int	3
+1. Q(sqrt -2): polydisc [ 1, 1 ]	str	known, known points [ 3 ]
+1. Q(sqrt -2): polydisc [ 1, 2 ]	str	empty, known points []
+1. Q(sqrt -2): polydisc [ 1, 3 ]	str	empty, known points []
+1. Q(sqrt -2): polydisc [ 2, 1 ]	str	empty, known points []
+1. Q(sqrt -2): polydisc [ 2, 2 ]	str	known, known points [ 2 ]
+1. Q(sqrt -2): polydisc [ 2, 3 ]	str	empty, known points []
+1. Q(sqrt -2): polydisc [ 3, 1 ]	str	empty, known points []
+1. Q(sqrt -2): polydisc [ 3, 2 ]	str	empty, known points []
+1. Q(sqrt -2): polydisc [ 3, 3 ]	str	known, known points [ 1 ]
+1. Q(sqrt -2): complete	bool	true
+1. Q(sqrt -2) without (0,-1): functionals	int	3
+1. Q(sqrt -2) without (0,-1): polydisc [ 1, 1 ]	str	known, known points [ 2 ]
+1. Q(sqrt -2) without (0,-1): polydisc [ 1, 2 ]	str	empty, known points []
+1. Q(sqrt -2) without (0,-1): polydisc [ 1, 3 ]	str	empty, known points []
+1. Q(sqrt -2) without (0,-1): polydisc [ 2, 1 ]	str	empty, known points []
+1. Q(sqrt -2) without (0,-1): polydisc [ 2, 2 ]	str	one, known points [], (0, -1)
+1. Q(sqrt -2) without (0,-1): polydisc [ 2, 3 ]	str	empty, known points []
+1. Q(sqrt -2) without (0,-1): polydisc [ 3, 1 ]	str	empty, known points []
+1. Q(sqrt -2) without (0,-1): polydisc [ 3, 2 ]	str	empty, known points []
+1. Q(sqrt -2) without (0,-1): polydisc [ 3, 3 ]	str	known, known points [ 1 ]
+1. Q(sqrt -2) without (0,-1): complete	bool	true
+2. Q(sqrt 7): functionals	int	2
+2. Q(sqrt 7): polydisc [ 1, 1 ]	str	known, known points [ 3 ]
+2. Q(sqrt 7): polydisc [ 1, 2 ]	str	empty, known points []
+2. Q(sqrt 7): polydisc [ 1, 3 ]	str	empty, known points []
+2. Q(sqrt 7): polydisc [ 2, 1 ]	str	empty, known points []
+2. Q(sqrt 7): polydisc [ 2, 2 ]	str	known, known points [ 2 ]
+2. Q(sqrt 7): polydisc [ 2, 3 ]	str	known, known points [ 5 ]
+2. Q(sqrt 7): polydisc [ 3, 1 ]	str	empty, known points []
+2. Q(sqrt 7): polydisc [ 3, 2 ]	str	known, known points [ 4 ]
+2. Q(sqrt 7): polydisc [ 3, 3 ]	str	known, known points [ 1 ]
+2. Q(sqrt 7): complete	bool	true
+3. Q(i): functionals	int	2
+3. Q(i): polydisc [ 1 ]	str	known, known points [ 3 ]
+3. Q(i): polydisc [ 2 ]	str	known, known points [ 1 ]
+3. Q(i): polydisc [ 3 ]	str	known, known points [ 2 ]
+3. Q(i): polydisc [ 4 ]	str	one, known points [], (-s, s - 2)
+3. Q(i): polydisc [ 5 ]	str	one, known points [], (-s, -s + 2)
+3. Q(i): polydisc [ 6 ]	str	known, known points [ 6 ]
+3. Q(i): polydisc [ 7 ]	str	known, known points [ 7 ]
+3. Q(i): polydisc [ 8 ]	str	one, known points []
+3. Q(i): polydisc [ 9 ]	str	one, known points [], (s, -s - 2)
+3. Q(i): polydisc [ 10 ]	str	one, known points [], (s, s + 2)
+3. Q(i): polydisc [ 11 ]	str	one, known points []
+3. Q(i): polydisc [ 12 ]	str	unresolved, known points [ 4, 9 ]
+3. Q(i): polydisc [ 13 ]	str	unresolved, known points [ 5, 8 ]
+3. Q(i): complete	bool	false
+4. Q(sqrt 5): functionals	int	3
+4. Q(sqrt 5): polydisc [ 1 ]	str	known, known points [ 3 ]
+4. Q(sqrt 5): polydisc [ 2 ]	str	known, known points [ 1 ]
+4. Q(sqrt 5): polydisc [ 3 ]	str	known, known points [ 2 ]
+4. Q(sqrt 5): polydisc [ 4 ]	str	known, known points [ 4 ]
+4. Q(sqrt 5): polydisc [ 5 ]	str	empty, known points []
+4. Q(sqrt 5): polydisc [ 6 ]	str	empty, known points []
+4. Q(sqrt 5): polydisc [ 7 ]	str	known, known points [ 5 ]
+4. Q(sqrt 5): polydisc [ 8 ]	str	empty, known points []
+4. Q(sqrt 5): polydisc [ 9 ]	str	empty, known points []
+4. Q(sqrt 5): polydisc [ 10 ]	str	empty, known points []
+4. Q(sqrt 5): polydisc [ 11 ]	str	empty, known points []
+4. Q(sqrt 5): polydisc [ 12 ]	str	unresolved, known points []
+4. Q(sqrt 5): polydisc [ 13 ]	str	unresolved, known points []
+4. Q(sqrt 5): complete	bool	false

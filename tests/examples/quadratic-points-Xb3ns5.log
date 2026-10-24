@@ -1,0 +1,33 @@
+curve_quadratic_points: the model y^2 - 9*x^6 + 6*x^5 + 35*x^4 - 40*x^2 - 12*x + 8 ([])
+curve_quadratic_points: at the prime of norm 11 above 11 (over the unramified quadratic extension)
+curve_quadratic_points: #J(F_q) = 160 is prime to p: the integrals to the classes lie in pi*O_K, so none excludes a class
+curve_quadratic_points: 146 residue discs over F_121 (138 finite good in the model, 6 finite bad, 2 at infinity) in 3 model(s).
+  integrals in the model: 50/138 (1.260 s)
+  integrals in the model: 100/138 (2.490 s)
+  integrals in the model: 138/138 (3.360 s)
+curve_quadratic_points: integrals to the centres of the 146 discs computed (3.440 s); precision at least 12.
+curve_quadratic_points: genus 2, dim V = 2 (from 1 known divisor(s) and 0 generator(s)).
+  classes 100/171 (2.000 s)
+  classes 171/171 (5.250 s)
+curve_quadratic_points: 171 residue classes at the prime of norm 11 (10.590 s): 0 excluded, 1 with a known divisor, 78 recovered (78 new divisor(s)), 12 of pullbacks, 80 unresolved.
+  unresolved: [ <"zero not recognized", 80> ]
+curve_quadratic_points: 0 <= rank J(F) <= 0; the known divisors and generators span a subgroup of rank >= 0, of finite index: V annihilates J(F)
+curve_quadratic_points: 79 divisor(s) (1 known, 78 new); not complete
+PASS 1. 146 discs in 3 models (the model and two Moebius patches), 171 classes, all covered
+PASS 1. classes: 0 excluded, 1 with the known divisor D0, 78 recovered, 12 of pullbacks, 80 unresolved
+PASS 1. 79 divisors: 40 points of degree 2 (20 x-polynomials) and 39 sums of two F-rational points
+PASS 1. the unresolved classes have a p-adic zero that is not recognized
+PASS 1. rank_check: 0 <= rank J(F) <= 0 (2-descent over F), so V annihilates J(F)
+PASS 2. the divisors are distinct, effective of degree 2, and none is in the hyperelliptic family (D - x^*(oo) not principal)
+PASS 2. every x-polynomial of a point of degree 2 is irreducible over F, with f(x) a square in F[x]/(mp)
+PASS 3. rank J(F) = rank J(Q) + rank J^(5)(Q) = 0
+PASS 3. #J(F)_tors divides gcd #J(k_v) = 80 (21 good primes v of norm <= 100)
+PASS 3. 79 divisors + the canonical class = 80 elements of J(F): the 79 divisors are all, the 80 unresolved classes are empty
+PASS 4. the six x-polynomials of test-symchab-Xb3ns5 are among the 20, which are stable under Gal(F/Q)
+PASS 5. 11 known divisors, 4 of them ramified at P (no points over K), each in a certified diagonal class
+PASS 5. all 11 known divisors lie in certified classes, and the same 79 divisors are found
+PASS 6. primes := 2: both primes above 11 (by norm), D0 known, the same 78 new divisors, not complete
+
+0 failure(s)
+
+resources: CPU time 45.470 s, maximum memory 94 MB

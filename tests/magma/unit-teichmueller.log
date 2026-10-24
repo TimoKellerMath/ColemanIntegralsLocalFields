@@ -1,0 +1,9 @@
+PASS Q_7: x(T)^7 = x(T) and x(T) = x(P) mod pi
+PASS Q_7: T lies on the curve, y(T)^2 = f(x(T)) with y(T) = b^0_1(T) - x(T)
+PASS Q_7: T`r = z(x(T))
+PASS Q_49: x(T)^49 = x(T) and x(T) = x(P) mod pi
+PASS Q_7(sqrt 7): x(T)^7 = x(T) and x(T) = x(P) mod pi
+
+0 failure(s)
+
+resources: CPU time 2.640 s, maximum memory 32 MB

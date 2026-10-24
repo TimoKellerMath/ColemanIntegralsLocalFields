@@ -1,0 +1,13 @@
+Loading "appendix-A-common.m"
+q = 29 : |H_q| = 2400, invariants [ 2, 10, 120 ], ord(c_spor) = 40, [H_q^rob : H_q] = 4
+  #A_q = 698 = 648 (a) + 30 (b) + 20 (c)
+  #C_q^(2)(F_q) = 22*23/2 + 445 = 698 : iota_{2,q} injective = true
+  #(A_q cap H_q)     = 140, of which pullbacks: 30, so #R_q     = 110
+  #(A_q cap H_q^rob) = 374, of which pullbacks: 30, so #R_q^rob = 344
+  type (c) classes in H_q: 0 of 20 ; in H_q^rob: 0 of 20
+  #{ 2c : c in R_q^rob } = 289 (the honest local condition for jmath = 2*iota_2)
+  known divisors of K_2 that reduce well here: 72 of 72
+wrote appendix-A-local-29.dat
+DONE
+
+resources: CPU time 31.390 s, maximum memory 32 MB

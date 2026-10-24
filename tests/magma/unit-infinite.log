@@ -1,0 +1,41 @@
+
+(1) y^2 = 4x^6 + x + 1, p = 3: b_1^inf = +-2 at infinity
+PASS v_K(b_1^inf(W+)^q - b_1^inf(W+)) = 1
+NOTE: with e = 7 expect about 5 correct digits (evaluation loss about 5 digits); for about 9 digits use e = 35 (slower tiny integrals) or increase N
+NOTE: with e = 13 expect about 7 correct digits (evaluation loss about 3 digits); for about 9 digits use e = 35 (slower tiny integrals) or increase N
+NOTE: with e = 7 expect about 5 correct digits (evaluation loss about 5 digits); for about 9 digits use e = 35 (slower tiny integrals) or increase N
+PASS int_(0,1)^W+ is computed (9 digits)
+PASS int_(0,1)^W+ does not depend on e (e = 7 and e = 13)
+PASS involution: int_(0,-1)^W- = -int_(0,1)^W+
+
+(2) y^2 = x^5 - x + 1, p = 3: a ramified disc at infinity
+PASS e_P = 2, local parameter b_1^inf
+PASS the congruence mod pi leaves two roots for b_1^inf(F_q(R))
+PASS t(F_q(R)) = t(R)^q mod pi*t(R)^q
+PASS F_q(R) lies on the curve (residual valuation Infinity)
+PASS frobenius_pt with the point at infinity returns F_q(R)
+PASS unramified disc: the congruence mod pi determines F_q(R), and frobenius_pt_inf agrees
+
+(3) the option direct_inf
+NOTE: with e = 13 expect about 11 correct digits (evaluation loss about 14 digits); for about 24 digits use e = 172 (slower tiny integrals) or increase N
+NOTE: with e = 13 expect about 11 correct digits (evaluation loss about 14 digits); for about 24 digits use e = 172 (slower tiny integrals) or increase N
+PASS y^2 = x^5 - x + 1, p = 3, int_P^R (t(R) = 3): direct route (10 digits) = default route (22 digits)
+NOTE: with e = 13 expect about 11 correct digits (evaluation loss about 14 digits); for about 24 digits use e = 172 (slower tiny integrals) or increase N
+PASS y^2 = x^5 - x + 1, p = 3, int_P^the very infinite point: direct route (10 digits) = default route (22 digits)
+NOTE: with e = 15 expect about 15 correct digits (evaluation loss about 15 digits); for about 29 digits use e = 223 (slower tiny integrals) or increase N
+NOTE: with e = 15 expect about 15 correct digits (evaluation loss about 15 digits); for about 29 digits use e = 223 (slower tiny integrals) or increase N
+PASS y^2 = x^6 + 2x^3 + x + 1, p = 7, int_P^R (t(R) = 7): direct route (5 digits) = default route (29 digits)
+NOTE: with e = 15 expect about 15 correct digits (evaluation loss about 15 digits); for about 29 digits use e = 223 (slower tiny integrals) or increase N
+PASS y^2 = x^6 + 2x^3 + x + 1, p = 7, int_P^the very infinite point: direct route (5 digits) = default route (29 digits)
+PASS quartic of test2: the congruence mod pi leaves two roots for b_1^inf at t = 5
+NOTE: with e = 11 expect about 10 correct digits (evaluation loss about 10 digits); for about 19 digits use e = 109 (slower tiny integrals) or increase N
+NOTE: with e = 11 expect about 10 correct digits (evaluation loss about 10 digits); for about 19 digits use e = 109 (slower tiny integrals) or increase N
+PASS quartic of test2, p = 5, int_P^R (t(R) = 5): direct route (3 digits) = default route (19 digits)
+NOTE: with e = 11 expect about 10 correct digits (evaluation loss about 10 digits); for about 19 digits use e = 109 (slower tiny integrals) or increase N
+PASS quartic of test2, p = 5, int_P^the very infinite point: direct route (3 digits) = default route (19 digits)
+PASS antisymmetry: int_R^P = -int_P^R on the direct route
+PASS additivity with the cached direct side: int_R^P2 - int_R^P = int_P^P2
+
+0 failure(s)
+
+resources: CPU time 5.260 s, maximum memory 32 MB

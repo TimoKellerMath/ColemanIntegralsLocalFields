@@ -1,0 +1,135 @@
+
+//////////////////////////
+// Example 8.1: hyperelliptic curve in Siksek's paper, Section 6 //
+//////////////////////////
+
+Computing Delta,r,s,W^0,W^inf,G:
+Time (s) :     0.010
+Memory (Mb) :  32 
+
+Computing basis H^1(X):
+Time (s) :     0.010
+Memory (Mb) :  32 
+
+Computing Frobenius lift:
+Time (s) :     6.320
+Memory (Mb) :  32 
+
+Computing reduction matrices:
+Time (s) :     6.460
+Memory (Mb) :  32 
+
+Computing Frobenius matrix:
+....
+Time (s) :     6.820
+Memory (Mb) :  32 
+
+coleman_data: sanity checks on the Frobenius matrix passed (determinant, 
+rationality, functional equation).
+coleman_data: Nmax = 21
+coleman_data: total time (s): 13.530
+
+//////////////////////////
+// 6.1. W0, Winf, r //
+//////////////////////////
+
+[1 0]
+[0 1]
+[    1     0]
+[    0 1/x^3]
+(-48*a^2 - 48*a - 48)*x^5 - 12*a^2 + 24*a - 12
+
+//////////////////////////
+// 6.2. basis, first half is in H^1(X) //
+//////////////////////////
+
+
+//////////////////////////
+// 6.3. r(P) //
+//////////////////////////
+
+false
+32676*a^2 + 41208*a + 51876
+36*a^2 + 72*a + 36
+
+//////////////////////////
+// Example 8.1: integration //
+//////////////////////////
+
+coleman_integrals_on_basis: suitable point/local expansions: 0.030 s
+coleman_integrals_on_basis: tiny integral P -> S: 0.000 s
+coleman_integrals_on_basis: Frobenius of the point (1 step(s)): 0.000 s
+coleman_integrals_on_basis: tiny integral S -> F_q(S): 0.000 s
+coleman_integrals_on_basis: evaluation of f_i at the 1 level(s): 0.010 s
+coleman_integrals_on_basis: suitable point/local expansions: 0.000 s
+coleman_integrals_on_basis: tiny integral P -> S: 0.000 s
+coleman_integrals_on_basis: Frobenius of the point (1 step(s)): 0.000 s
+coleman_integrals_on_basis: tiny integral S -> F_q(S): 0.010 s
+coleman_integrals_on_basis: evaluation of f_i at the 1 level(s): 0.000 s
+coleman_integrals_on_basis: linear solve: 0.000 s
+coleman_integrals_on_basis: total time: 0.050 s
+(-81313667746537833486426669365259384211*109 + O(109^20) 
+    -221190271599120355871597576937674015612*109 + O(109^20) 
+    -6653389135336116651501515096468685203940 + O(109^20) 
+    -20205655690386284130045830874104894170672 + O(109^20))
+20
+holomorphic integrals P1->P1' weakly zero (torsion): false
+coleman_integrals_on_basis: suitable point/local expansions: 0.000 s
+coleman_integrals_on_basis: tiny integral P -> S: 0.000 s
+coleman_integrals_on_basis: Frobenius of the point (1 step(s)): 0.000 s
+coleman_integrals_on_basis: tiny integral S -> F_q(S): 0.010 s
+coleman_integrals_on_basis: evaluation of f_i at the 1 level(s): 0.000 s
+coleman_integrals_on_basis: suitable point/local expansions: 0.010 s
+coleman_integrals_on_basis: tiny integral P -> S: 0.000 s
+coleman_integrals_on_basis: Frobenius of the point (1 step(s)): 0.000 s
+coleman_integrals_on_basis: tiny integral S -> F_q(S): 0.000 s
+coleman_integrals_on_basis: evaluation of f_i at the 1 level(s): 0.000 s
+coleman_integrals_on_basis: linear solve: 0.000 s
+coleman_integrals_on_basis: total time: 0.020 s
+(32968080763356725559292375539507412092*109 + O(109^20) 
+    -52219235608068875343089956228045859693*109 + O(109^20) 
+    23678911595477547893934871795124954381283 + O(109^20) 
+    17004346411915492053686629672414924831278 + O(109^20))
+20
+holomorphic integrals P1->P2 weakly zero (torsion): false
+coleman_integrals_on_basis: suitable point/local expansions: 0.000 s
+coleman_integrals_on_basis: tiny integral P -> S: 0.000 s
+coleman_integrals_on_basis: Frobenius of the point (1 step(s)): 0.000 s
+coleman_integrals_on_basis: tiny integral S -> F_q(S): 0.010 s
+coleman_integrals_on_basis: evaluation of f_i at the 1 level(s): 0.000 s
+coleman_integrals_on_basis: suitable point/local expansions: 0.010 s
+coleman_integrals_on_basis: tiny integral P -> S: 0.000 s
+coleman_integrals_on_basis: Frobenius of the point (1 step(s)): 0.000 s
+coleman_integrals_on_basis: tiny integral S -> F_q(S): 0.000 s
+coleman_integrals_on_basis: evaluation of f_i at the 1 level(s): 0.000 s
+coleman_integrals_on_basis: linear solve: 0.000 s
+coleman_integrals_on_basis: total time: 0.020 s
+(-114281748509894559045719044904766796303*109 + O(109^20) 
+    -168971035991051480528507620709628155919*109 + O(109^20) 
+    25711806946969254828962268351322891421578 + O(109^20) 
+    18834105575481143190666194696396712004851 + O(109^20))
+20
+holomorphic integrals P1->P2' weakly zero (torsion): false
+coleman_integrals_on_basis: autocomputed e = 437.
+NOTE: with e = 437 expect about 10 correct digits (evaluation loss about 10 
+digits); for about 19 digits use e = 4358 (slower tiny integrals) or increase N
+coleman_integrals_on_basis: suitable point/local expansions: 0.000 s
+coleman_integrals_on_basis: tiny integral P -> S: 0.000 s
+coleman_integrals_on_basis: Frobenius of the point (1 step(s)): 0.010 s
+coleman_integrals_on_basis: tiny integral S -> F_q(S): 0.000 s
+coleman_integrals_on_basis: evaluation of f_i at the 1 level(s): 0.010 s
+coleman_integrals_on_basis: suitable point/local expansions: 0.960 s
+coleman_integrals_on_basis: tiny integral P -> S: 1.360 s
+coleman_integrals_on_basis: Frobenius of the point (1 step(s)): 0.380 s
+coleman_integrals_on_basis: tiny integral S -> F_q(S): 2.000 s
+coleman_integrals_on_basis: evaluation of f_i at the 1 level(s): 13.330 s
+coleman_integrals_on_basis: linear solve: 0.020 s
+coleman_integrals_on_basis: total time: 18.110 s
+(216426228868854566625587836156436963889*109 + O(109^20) 
+    -110595135799560177935798788468837007806*109 + O(109^20) 
+    -241697814762576525325143498165542730036 + O(109^19) 
+    180494664491797269729131396510219154444 + O(109^19))
+19
+holomorphic integrals P1->P3 weakly zero (torsion): false
+
+resources: CPU time 31.840 s, maximum memory 198 MB

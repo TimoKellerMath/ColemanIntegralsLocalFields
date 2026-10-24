@@ -1,0 +1,14 @@
+PASS ord_0(x^2*(x+1)/(x-1)^3) = 2
+PASS ord_inf(x^2/(x^5+1)) = 3
+PASS ord_r((x^2+1)^2*(x-2)^3/x) = 2
+PASS ord_r(1/(x-2)) = -1
+PASS ord_0(0) is infinite
+PASS ord_r(0) is infinite
+PASS ord_inf(0) is infinite
+PASS ord_0_mat(diag(x^2, x^3)) = 2
+PASS ord_r_mat(diag(r^2, r^3)) = 2
+PASS ord_inf_mat(diag(x^(-2), x^(-3))) = 2
+
+0 failure(s)
+
+resources: CPU time 0.010 s, maximum memory 32 MB

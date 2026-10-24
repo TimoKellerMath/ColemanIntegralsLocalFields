@@ -1,0 +1,1162 @@
+known points: [ (0 : -1 : 1), (0 : 1 : 0), (0 : 0 : 1), (-1 : 0 : 1), (1 : 0 : 1), (1 : -1 : 1), (-1 : -1 : 1) ]
+improve_model: the given model: d = 2, good primes of norm <= 20: [ 3, 5, 7, 11, 13, 17, 19 ]
+improve_model: coordinates g^(-1)*(u1,u2,u3), g = [ 1, 0, 0, 1, 1, 0, 0, 0, 1 ]: d = 2, good primes of norm <= 20: [ 3, 5, 7, 11, 13, 17, 19 ]
+improve_model: coordinates g^(-1)*(u1,u2,u3), g = [ 1, 0, 1, 0, 1, 0, 0, 0, 1 ]: d = 2, good primes of norm <= 20: [ 3, 5, 7, 11, 13, 17, 19 ]
+improve_model: coordinates g^(-1)*(u1,u2,u3), g = [ 1, 0, 0, 0, 1, 1, 0, 0, 1 ]: d = 2, good primes of norm <= 20: [ 3, 5, 7, 11, 13, 17, 19 ]
+improve_model: coordinates g^(-1)*(u1,u2,u3), g = [ 0, 0, 1, 0, 1, 0, 1, 0, 0 ]: d = 2, good primes of norm <= 20: [ 3, 5, 7, 11, 13, 17, 19 ]
+improve_model: coordinates g^(-1)*(u1,u2,u3), g = [ 0, 0, 1, 1, 1, 0, 1, 0, 0 ]: d = 2, good primes of norm <= 20: [ 3, 5, 7, 11, 13, 17, 19 ]
+improve_model: coordinates g^(-1)*(u1,u2,u3), g = [ 0, 0, 1, 0, 1, 0, 1, 0, 1 ]: d = 2, good primes of norm <= 20: [ 3, 5, 7, 11, 13, 17, 19 ]
+improve_model: coordinates g^(-1)*(u1,u2,u3), g = [ 0, 0, 1, 0, 1, 1, 1, 0, 0 ]: d = 2, good primes of norm <= 20: [ 3, 5, 7, 11, 13, 17, 19 ]
+improve_model: x = 1/x' + 0: d = 2, good primes of norm <= 20: [ 3, 5, 7, 11, 13, 17, 19 ]
+improve_model: x = 1/x' + 1: d = 2, good primes of norm <= 20: [ 3, 5, 7, 11, 13, 17, 19 ]
+improve_model: x = 1/x' + -1: d = 2, good primes of norm <= 20: [ 3, 5, 7, 11, 13, 17, 19 ]
+improve_model: x = 1/x' + 2: d = 2, good primes of norm <= 20: [ 3, 5, 7, 11, 13, 17, 19 ]
+improve_model: x = 1/x' + -2: d = 2, good primes of norm <= 20: [ 3, 5, 7, 11, 13, 17, 19 ]
+improve_model: reduced minimal Weierstrass model: d = 2, good primes of norm <= 20: [ 3, 5, 7, 11, 13, 17, 19 ]
+curve_chabauty: the model y^2 + y - x^5 + 2*x^3 - x ([]), at the prime of norm 7
+effective_chabauty: computing local expansions of the 7 K-points ...
+effective_chabauty: local expansions of the K-points: 0.080 s.
+effective_chabauty: computing vanishing differentials from 7 known points ...
+vanishing_differentials: integral 1/6 ...
+coleman_integrals_on_basis: autocomputed e = 29.
+NOTE: with e = 29 expect about 4 correct digits (evaluation loss about 6 digits); for about 9 digits use e = 152 (slower tiny integrals) or increase N
+coleman_integrals_on_basis: suitable point/local expansions: 0.000 s
+coleman_integrals_on_basis: tiny integral P -> S: 0.000 s
+coleman_integrals_on_basis: Frobenius of the point (1 step(s)): 0.000 s
+coleman_integrals_on_basis: tiny integral S -> F_q(S): 0.000 s
+coleman_integrals_on_basis: evaluation of f_i at the 1 level(s): 0.000 s
+coleman_integrals_on_basis: suitable point/local expansions: 0.060 s
+coleman_integrals_on_basis: tiny integral P -> S: 0.030 s
+coleman_integrals_on_basis: Frobenius of the point (1 step(s)): 0.010 s
+coleman_integrals_on_basis: tiny integral S -> F_q(S): 0.080 s
+coleman_integrals_on_basis: evaluation of f_i at the 1 level(s): 0.180 s
+coleman_integrals_on_basis: linear solve: 0.010 s
+coleman_integrals_on_basis: total time: 0.380 s
+vanishing_differentials: integral 1/6 done (precision 9, 0.380 s).
+vanishing_differentials: integral 2/6 ...
+coleman_integrals_on_basis: suitable point/local expansions: 0.000 s
+coleman_integrals_on_basis: tiny integral P -> S: 0.000 s
+coleman_integrals_on_basis: Frobenius of the point (1 step(s)): 0.000 s
+coleman_integrals_on_basis: tiny integral S -> F_q(S): 0.000 s
+coleman_integrals_on_basis: evaluation of f_i at the 1 level(s): 0.000 s
+coleman_integrals_on_basis: linear solve: 0.000 s
+coleman_integrals_on_basis: total time: 0.000 s
+vanishing_differentials: integral 2/6 done (precision 10, 0.000 s).
+vanishing_differentials: integral 3/6 ...
+coleman_integrals_on_basis: suitable point/local expansions: 0.000 s
+coleman_integrals_on_basis: tiny integral P -> S: 0.000 s
+coleman_integrals_on_basis: Frobenius of the point (1 step(s)): 0.000 s
+coleman_integrals_on_basis: tiny integral S -> F_q(S): 0.000 s
+coleman_integrals_on_basis: evaluation of f_i at the 1 level(s): 0.000 s
+coleman_integrals_on_basis: linear solve: 0.000 s
+coleman_integrals_on_basis: total time: 0.000 s
+vanishing_differentials: integral 3/6 done (precision 10, 0.000 s).
+vanishing_differentials: integral 4/6 ...
+coleman_integrals_on_basis: suitable point/local expansions: 0.000 s
+coleman_integrals_on_basis: tiny integral P -> S: 0.000 s
+coleman_integrals_on_basis: Frobenius of the point (1 step(s)): 0.000 s
+coleman_integrals_on_basis: tiny integral S -> F_q(S): 0.000 s
+coleman_integrals_on_basis: evaluation of f_i at the 1 level(s): 0.010 s
+coleman_integrals_on_basis: linear solve: 0.000 s
+coleman_integrals_on_basis: total time: 0.010 s
+vanishing_differentials: integral 4/6 done (precision 10, 0.010 s).
+vanishing_differentials: integral 5/6 ...
+coleman_integrals_on_basis: suitable point/local expansions: 0.000 s
+coleman_integrals_on_basis: tiny integral P -> S: 0.000 s
+coleman_integrals_on_basis: Frobenius of the point (1 step(s)): 0.000 s
+coleman_integrals_on_basis: tiny integral S -> F_q(S): 0.000 s
+coleman_integrals_on_basis: evaluation of f_i at the 1 level(s): 0.000 s
+coleman_integrals_on_basis: linear solve: 0.000 s
+coleman_integrals_on_basis: total time: 0.000 s
+vanishing_differentials: integral 5/6 done (precision 10, 0.000 s).
+vanishing_differentials: integral 6/6 ...
+coleman_integrals_on_basis: suitable point/local expansions: 0.000 s
+coleman_integrals_on_basis: tiny integral P -> S: 0.000 s
+coleman_integrals_on_basis: Frobenius of the point (1 step(s)): 0.000 s
+coleman_integrals_on_basis: tiny integral S -> F_q(S): 0.000 s
+coleman_integrals_on_basis: evaluation of f_i at the 1 level(s): 0.000 s
+coleman_integrals_on_basis: linear solve: 0.010 s
+coleman_integrals_on_basis: total time: 0.010 s
+vanishing_differentials: integral 6/6 done (precision 10, 0.010 s).
+vanishing_differentials: solving for the kernel at common precision 9.
+effective_chabauty: computed 1 vanishing differentials (0.400 s).
+effective_chabauty: computed 7 K_p-points (0.020 s).
+effective_chabauty: computing local expansions of the K_p-points ...
+effective_chabauty: local expansions of the K_p-points: 0.000 s.
+effective_chabauty: computing common zeros of the vanishing differentials on the 7 residue disks ...
+effective_chabauty: disk 1/7 (bad) ...
+effective_chabauty: disk 1/7: found 1 point(s) (0.010 s); 1 point(s) in total so far.
+effective_chabauty: disk 2/7 ...
+effective_chabauty: disk 2/7: found 1 point(s) (0.010 s); 2 point(s) in total so far.
+effective_chabauty: disk 3/7 ...
+coleman_integrals_on_basis: suitable point/local expansions: 0.000 s
+coleman_integrals_on_basis: tiny integral P -> S: 0.000 s
+coleman_integrals_on_basis: Frobenius of the point (1 step(s)): 0.000 s
+coleman_integrals_on_basis: tiny integral S -> F_q(S): 0.000 s
+coleman_integrals_on_basis: evaluation of f_i at the 1 level(s): 0.000 s
+coleman_integrals_on_basis: linear solve: 0.000 s
+coleman_integrals_on_basis: total time: 0.000 s
+effective_chabauty: disk 3/7: found 1 point(s) (0.010 s); 3 point(s) in total so far.
+effective_chabauty: disk 4/7 ...
+effective_chabauty: disk 4/7: found 2 point(s) (0.010 s); 5 point(s) in total so far.
+effective_chabauty: disk 5/7 ...
+effective_chabauty: disk 5/7: found 2 point(s) (0.010 s); 7 point(s) in total so far.
+effective_chabauty: disk 6/7 ...
+effective_chabauty: disk 6/7: found 1 point(s) (0.010 s); 8 point(s) in total so far.
+effective_chabauty: disk 7/7 ...
+effective_chabauty: disk 7/7: found 1 point(s) (0.010 s); 9 point(s) in total so far.
+effective_chabauty: found 9 point(s) in total (0.570 s).
+curve_chabauty: 9 candidate(s): 7 agree with the 7 known point records, 2 do not.
+PASS curve_chabauty: the model y^2 + y - x^5 + 2x^3 - x at the prime 7
+PASS curve_chabauty: 9 candidates, the 7 known points among them (each exactly once)
+PASS curve_chabauty: the 2 other candidates lie in the residue discs of x = -1 and are not rational
+K_points: 3 x-coordinates of small height with points above them (0.000 s).
+effective_chabauty: computing local expansions of the 7 K-points ...
+effective_chabauty: local expansions of the K-points: 0.060 s.
+effective_chabauty: computing vanishing differentials from 7 known points ...
+vanishing_differentials: integral 1/6 ...
+coleman_integrals_on_basis: suitable point/local expansions: 0.000 s
+coleman_integrals_on_basis: tiny integral P -> S: 0.000 s
+coleman_integrals_on_basis: Frobenius of the point (1 step(s)): 0.010 s
+coleman_integrals_on_basis: tiny integral S -> F_q(S): 0.000 s
+coleman_integrals_on_basis: evaluation of f_i at the 1 level(s): 0.000 s
+coleman_integrals_on_basis: suitable point/local expansions: 0.000 s
+coleman_integrals_on_basis: tiny integral P -> S: 0.000 s
+coleman_integrals_on_basis: Frobenius of the point (1 step(s)): 0.000 s
+coleman_integrals_on_basis: tiny integral S -> F_q(S): 0.000 s
+coleman_integrals_on_basis: evaluation of f_i at the 1 level(s): 0.000 s
+coleman_integrals_on_basis: linear solve: 0.000 s
+coleman_integrals_on_basis: total time: 0.010 s
+vanishing_differentials: integral 1/6 done (precision 10, 0.010 s).
+vanishing_differentials: integral 2/6 ...
+coleman_integrals_on_basis: suitable point/local expansions: 0.000 s
+coleman_integrals_on_basis: tiny integral P -> S: 0.000 s
+coleman_integrals_on_basis: Frobenius of the point (1 step(s)): 0.000 s
+coleman_integrals_on_basis: tiny integral S -> F_q(S): 0.000 s
+coleman_integrals_on_basis: evaluation of f_i at the 1 level(s): 0.000 s
+coleman_integrals_on_basis: linear solve: 0.010 s
+coleman_integrals_on_basis: total time: 0.010 s
+vanishing_differentials: integral 2/6 done (precision 10, 0.010 s).
+vanishing_differentials: integral 3/6 ...
+coleman_integrals_on_basis: suitable point/local expansions: 0.000 s
+coleman_integrals_on_basis: tiny integral P -> S: 0.000 s
+coleman_integrals_on_basis: Frobenius of the point (1 step(s)): 0.000 s
+coleman_integrals_on_basis: tiny integral S -> F_q(S): 0.000 s
+coleman_integrals_on_basis: evaluation of f_i at the 1 level(s): 0.000 s
+coleman_integrals_on_basis: linear solve: 0.000 s
+coleman_integrals_on_basis: total time: 0.000 s
+vanishing_differentials: integral 3/6 done (precision 10, 0.000 s).
+vanishing_differentials: integral 4/6 ...
+coleman_integrals_on_basis: suitable point/local expansions: 0.000 s
+coleman_integrals_on_basis: tiny integral P -> S: 0.000 s
+coleman_integrals_on_basis: Frobenius of the point (1 step(s)): 0.000 s
+coleman_integrals_on_basis: tiny integral S -> F_q(S): 0.000 s
+coleman_integrals_on_basis: evaluation of f_i at the 1 level(s): 0.000 s
+coleman_integrals_on_basis: linear solve: 0.000 s
+coleman_integrals_on_basis: total time: 0.000 s
+vanishing_differentials: integral 4/6 done (precision 10, 0.000 s).
+vanishing_differentials: integral 5/6 ...
+coleman_integrals_on_basis: suitable point/local expansions: 0.000 s
+coleman_integrals_on_basis: tiny integral P -> S: 0.000 s
+coleman_integrals_on_basis: Frobenius of the point (1 step(s)): 0.000 s
+coleman_integrals_on_basis: tiny integral S -> F_q(S): 0.000 s
+coleman_integrals_on_basis: evaluation of f_i at the 1 level(s): 0.010 s
+coleman_integrals_on_basis: linear solve: 0.000 s
+coleman_integrals_on_basis: total time: 0.010 s
+vanishing_differentials: integral 5/6 done (precision 10, 0.010 s).
+vanishing_differentials: integral 6/6 ...
+coleman_integrals_on_basis: the cached base point data has a smaller e than P2 needs; recomputing without the cache.
+coleman_integrals_on_basis: autocomputed e = 29.
+NOTE: with e = 29 expect about 4 correct digits (evaluation loss about 6 digits); for about 9 digits use e = 152 (slower tiny integrals) or increase N
+coleman_integrals_on_basis: suitable point/local expansions: 0.000 s
+coleman_integrals_on_basis: tiny integral P -> S: 0.000 s
+coleman_integrals_on_basis: Frobenius of the point (1 step(s)): 0.000 s
+coleman_integrals_on_basis: tiny integral S -> F_q(S): 0.000 s
+coleman_integrals_on_basis: evaluation of f_i at the 1 level(s): 0.000 s
+coleman_integrals_on_basis: suitable point/local expansions: 0.070 s
+coleman_integrals_on_basis: tiny integral P -> S: 0.030 s
+coleman_integrals_on_basis: Frobenius of the point (1 step(s)): 0.010 s
+coleman_integrals_on_basis: tiny integral S -> F_q(S): 0.080 s
+coleman_integrals_on_basis: evaluation of f_i at the 1 level(s): 0.190 s
+coleman_integrals_on_basis: linear solve: 0.010 s
+coleman_integrals_on_basis: total time: 0.390 s
+vanishing_differentials: integral 6/6 done (precision 9, 0.390 s).
+vanishing_differentials: solving for the kernel at common precision 9.
+effective_chabauty: computed 1 vanishing differentials (0.420 s).
+effective_chabauty: computed 7 K_p-points (0.000 s).
+effective_chabauty: computing local expansions of the K_p-points ...
+effective_chabauty: local expansions of the K_p-points: 0.000 s.
+effective_chabauty: computing common zeros of the vanishing differentials on the 7 residue disks ...
+effective_chabauty: disk 1/7 (bad) ...
+effective_chabauty: disk 1/7: found 1 point(s) (0.010 s); 1 point(s) in total so far.
+effective_chabauty: disk 2/7 ...
+coleman_integrals_on_basis: suitable point/local expansions: 0.000 s
+coleman_integrals_on_basis: tiny integral P -> S: 0.000 s
+coleman_integrals_on_basis: Frobenius of the point (1 step(s)): 0.000 s
+coleman_integrals_on_basis: tiny integral S -> F_q(S): 0.000 s
+coleman_integrals_on_basis: evaluation of f_i at the 1 level(s): 0.000 s
+coleman_integrals_on_basis: linear solve: 0.010 s
+coleman_integrals_on_basis: total time: 0.010 s
+effective_chabauty: disk 2/7: found 1 point(s) (0.020 s); 2 point(s) in total so far.
+effective_chabauty: disk 3/7 ...
+effective_chabauty: disk 3/7: found 1 point(s) (0.010 s); 3 point(s) in total so far.
+effective_chabauty: disk 4/7 ...
+effective_chabauty: disk 4/7: found 2 point(s) (0.010 s); 5 point(s) in total so far.
+effective_chabauty: disk 5/7 ...
+effective_chabauty: disk 5/7: found 2 point(s) (0.010 s); 7 point(s) in total so far.
+effective_chabauty: disk 6/7 ...
+effective_chabauty: disk 6/7: found 1 point(s) (0.010 s); 8 point(s) in total so far.
+effective_chabauty: disk 7/7 ...
+effective_chabauty: disk 7/7: found 1 point(s) (0.010 s); 9 point(s) in total so far.
+effective_chabauty: found 9 point(s) in total (0.560 s).
+PASS effective_chabauty with K_points(data, 2): 9 candidates
+coleman_integrals_on_basis: autocomputed e = 29.
+NOTE: with e = 29 expect about 4 correct digits (evaluation loss about 6 digits); for about 9 digits use e = 152 (slower tiny integrals) or increase N
+coleman_integrals_on_basis: suitable point/local expansions: 0.070 s
+coleman_integrals_on_basis: tiny integral P -> S: 0.030 s
+coleman_integrals_on_basis: Frobenius of the point (1 step(s)): 0.000 s
+coleman_integrals_on_basis: tiny integral S -> F_q(S): 0.060 s
+coleman_integrals_on_basis: evaluation of f_i at the 1 level(s): 0.190 s
+coleman_integrals_on_basis: suitable point/local expansions: 0.070 s
+coleman_integrals_on_basis: tiny integral P -> S: 0.030 s
+coleman_integrals_on_basis: Frobenius of the point (1 step(s)): 0.000 s
+coleman_integrals_on_basis: tiny integral S -> F_q(S): 0.080 s
+coleman_integrals_on_basis: evaluation of f_i at the 1 level(s): 0.190 s
+coleman_integrals_on_basis: linear solve: 0.000 s
+coleman_integrals_on_basis: total time: 0.720 s
+coleman_integrals_on_basis: suitable point/local expansions: 0.000 s
+coleman_integrals_on_basis: tiny integral P -> S: 0.000 s
+coleman_integrals_on_basis: Frobenius of the point (1 step(s)): 0.000 s
+coleman_integrals_on_basis: tiny integral S -> F_q(S): 0.000 s
+coleman_integrals_on_basis: evaluation of f_i at the 1 level(s): 0.000 s
+coleman_integrals_on_basis: linear solve: 0.000 s
+coleman_integrals_on_basis: total time: 0.000 s
+coleman_integrals_on_basis: suitable point/local expansions: 0.000 s
+coleman_integrals_on_basis: tiny integral P -> S: 0.000 s
+coleman_integrals_on_basis: Frobenius of the point (1 step(s)): 0.000 s
+coleman_integrals_on_basis: tiny integral S -> F_q(S): 0.000 s
+coleman_integrals_on_basis: evaluation of f_i at the 1 level(s): 0.000 s
+coleman_integrals_on_basis: linear solve: 0.000 s
+coleman_integrals_on_basis: total time: 0.000 s
+coleman_integrals_on_basis: suitable point/local expansions: 0.000 s
+coleman_integrals_on_basis: tiny integral P -> S: 0.000 s
+coleman_integrals_on_basis: Frobenius of the point (1 step(s)): 0.000 s
+coleman_integrals_on_basis: tiny integral S -> F_q(S): 0.000 s
+coleman_integrals_on_basis: evaluation of f_i at the 1 level(s): 0.010 s
+coleman_integrals_on_basis: linear solve: 0.000 s
+coleman_integrals_on_basis: total time: 0.010 s
+coleman_integrals_on_basis: suitable point/local expansions: 0.000 s
+coleman_integrals_on_basis: tiny integral P -> S: 0.000 s
+coleman_integrals_on_basis: Frobenius of the point (1 step(s)): 0.000 s
+coleman_integrals_on_basis: tiny integral S -> F_q(S): 0.010 s
+coleman_integrals_on_basis: evaluation of f_i at the 1 level(s): 0.000 s
+coleman_integrals_on_basis: linear solve: 0.000 s
+coleman_integrals_on_basis: total time: 0.010 s
+coleman_integrals_on_basis: suitable point/local expansions: 0.000 s
+coleman_integrals_on_basis: tiny integral P -> S: 0.000 s
+coleman_integrals_on_basis: Frobenius of the point (1 step(s)): 0.000 s
+coleman_integrals_on_basis: tiny integral S -> F_q(S): 0.000 s
+coleman_integrals_on_basis: evaluation of f_i at the 1 level(s): 0.010 s
+coleman_integrals_on_basis: linear solve: 0.000 s
+coleman_integrals_on_basis: total time: 0.010 s
+coleman_integrals_on_basis: suitable point/local expansions: 0.000 s
+coleman_integrals_on_basis: tiny integral P -> S: 0.000 s
+coleman_integrals_on_basis: Frobenius of the point (1 step(s)): 0.000 s
+coleman_integrals_on_basis: tiny integral S -> F_q(S): 0.000 s
+coleman_integrals_on_basis: evaluation of f_i at the 1 level(s): 0.010 s
+coleman_integrals_on_basis: linear solve: 0.000 s
+coleman_integrals_on_basis: total time: 0.010 s
+PASS torsion_packet of the point at infinity contains the point at infinity
+torsion packet of infinity over Q_7: 1 point(s)
+improve_model: the given model: d = 2, good primes of norm <= 20: [ 3, 5, 7, 11, 13, 17, 19 ]
+improve_model: coordinates g^(-1)*(u1,u2,u3), g = [ 1, 0, 0, 1, 1, 0, 0, 0, 1 ]: d = 2, good primes of norm <= 20: [ 3, 5, 7, 11, 13, 17, 19 ]
+improve_model: coordinates g^(-1)*(u1,u2,u3), g = [ 1, 0, 1, 0, 1, 0, 0, 0, 1 ]: d = 2, good primes of norm <= 20: [ 3, 5, 7, 11, 13, 17, 19 ]
+improve_model: coordinates g^(-1)*(u1,u2,u3), g = [ 1, 0, 0, 0, 1, 1, 0, 0, 1 ]: d = 2, good primes of norm <= 20: [ 3, 5, 7, 11, 13, 17, 19 ]
+improve_model: coordinates g^(-1)*(u1,u2,u3), g = [ 0, 0, 1, 0, 1, 0, 1, 0, 0 ]: d = 2, good primes of norm <= 20: [ 3, 5, 7, 11, 13, 17, 19 ]
+improve_model: coordinates g^(-1)*(u1,u2,u3), g = [ 0, 0, 1, 1, 1, 0, 1, 0, 0 ]: d = 2, good primes of norm <= 20: [ 3, 5, 7, 11, 13, 17, 19 ]
+improve_model: coordinates g^(-1)*(u1,u2,u3), g = [ 0, 0, 1, 0, 1, 0, 1, 0, 1 ]: d = 2, good primes of norm <= 20: [ 3, 5, 7, 11, 13, 17, 19 ]
+improve_model: coordinates g^(-1)*(u1,u2,u3), g = [ 0, 0, 1, 0, 1, 1, 1, 0, 0 ]: d = 2, good primes of norm <= 20: [ 3, 5, 7, 11, 13, 17, 19 ]
+improve_model: x = 1/x' + 0: d = 2, good primes of norm <= 20: [ 3, 5, 7, 11, 13, 17, 19 ]
+improve_model: x = 1/x' + 1: d = 2, good primes of norm <= 20: [ 3, 5, 7, 11, 13, 17, 19 ]
+improve_model: x = 1/x' + -1: d = 2, good primes of norm <= 20: [ 3, 5, 7, 11, 13, 17, 19 ]
+improve_model: x = 1/x' + 2: d = 2, good primes of norm <= 20: [ 3, 5, 7, 11, 13, 17, 19 ]
+improve_model: x = 1/x' + -2: d = 2, good primes of norm <= 20: [ 3, 5, 7, 11, 13, 17, 19 ]
+improve_model: reduced minimal Weierstrass model: d = 2, good primes of norm <= 20: [ 3, 5, 7, 11, 13, 17, 19 ]
+curve_chabauty: the model y^2 + y - x^5 + 2*x^3 - x ([]), at the prime of norm 7
+effective_chabauty: computing local expansions of the 7 K-points ...
+effective_chabauty: local expansions of the K-points: 0.050 s.
+effective_chabauty: computing vanishing differentials from 7 known points ...
+vanishing_differentials: integral 1/6 ...
+coleman_integrals_on_basis: autocomputed e = 29.
+NOTE: with e = 29 expect about 4 correct digits (evaluation loss about 6 digits); for about 9 digits use e = 152 (slower tiny integrals) or increase N
+coleman_integrals_on_basis: suitable point/local expansions: 0.000 s
+coleman_integrals_on_basis: tiny integral P -> S: 0.000 s
+coleman_integrals_on_basis: Frobenius of the point (1 step(s)): 0.000 s
+coleman_integrals_on_basis: tiny integral S -> F_q(S): 0.000 s
+coleman_integrals_on_basis: evaluation of f_i at the 1 level(s): 0.010 s
+coleman_integrals_on_basis: suitable point/local expansions: 0.070 s
+coleman_integrals_on_basis: tiny integral P -> S: 0.030 s
+coleman_integrals_on_basis: Frobenius of the point (1 step(s)): 0.000 s
+coleman_integrals_on_basis: tiny integral S -> F_q(S): 0.060 s
+coleman_integrals_on_basis: evaluation of f_i at the 1 level(s): 0.210 s
+coleman_integrals_on_basis: linear solve: 0.000 s
+coleman_integrals_on_basis: total time: 0.380 s
+vanishing_differentials: integral 1/6 done (precision 9, 0.380 s).
+vanishing_differentials: integral 2/6 ...
+coleman_integrals_on_basis: suitable point/local expansions: 0.000 s
+coleman_integrals_on_basis: tiny integral P -> S: 0.000 s
+coleman_integrals_on_basis: Frobenius of the point (1 step(s)): 0.000 s
+coleman_integrals_on_basis: tiny integral S -> F_q(S): 0.000 s
+coleman_integrals_on_basis: evaluation of f_i at the 1 level(s): 0.000 s
+coleman_integrals_on_basis: linear solve: 0.000 s
+coleman_integrals_on_basis: total time: 0.000 s
+vanishing_differentials: integral 2/6 done (precision 10, 0.000 s).
+vanishing_differentials: integral 3/6 ...
+coleman_integrals_on_basis: suitable point/local expansions: 0.000 s
+coleman_integrals_on_basis: tiny integral P -> S: 0.000 s
+coleman_integrals_on_basis: Frobenius of the point (1 step(s)): 0.000 s
+coleman_integrals_on_basis: tiny integral S -> F_q(S): 0.000 s
+coleman_integrals_on_basis: evaluation of f_i at the 1 level(s): 0.010 s
+coleman_integrals_on_basis: linear solve: 0.000 s
+coleman_integrals_on_basis: total time: 0.010 s
+vanishing_differentials: integral 3/6 done (precision 10, 0.010 s).
+vanishing_differentials: integral 4/6 ...
+coleman_integrals_on_basis: suitable point/local expansions: 0.000 s
+coleman_integrals_on_basis: tiny integral P -> S: 0.000 s
+coleman_integrals_on_basis: Frobenius of the point (1 step(s)): 0.000 s
+coleman_integrals_on_basis: tiny integral S -> F_q(S): 0.000 s
+coleman_integrals_on_basis: evaluation of f_i at the 1 level(s): 0.000 s
+coleman_integrals_on_basis: linear solve: 0.000 s
+coleman_integrals_on_basis: total time: 0.000 s
+vanishing_differentials: integral 4/6 done (precision 10, 0.000 s).
+vanishing_differentials: integral 5/6 ...
+coleman_integrals_on_basis: suitable point/local expansions: 0.000 s
+coleman_integrals_on_basis: tiny integral P -> S: 0.000 s
+coleman_integrals_on_basis: Frobenius of the point (1 step(s)): 0.000 s
+coleman_integrals_on_basis: tiny integral S -> F_q(S): 0.000 s
+coleman_integrals_on_basis: evaluation of f_i at the 1 level(s): 0.000 s
+coleman_integrals_on_basis: linear solve: 0.000 s
+coleman_integrals_on_basis: total time: 0.000 s
+vanishing_differentials: integral 5/6 done (precision 10, 0.000 s).
+vanishing_differentials: integral 6/6 ...
+coleman_integrals_on_basis: suitable point/local expansions: 0.000 s
+coleman_integrals_on_basis: tiny integral P -> S: 0.000 s
+coleman_integrals_on_basis: Frobenius of the point (1 step(s)): 0.010 s
+coleman_integrals_on_basis: tiny integral S -> F_q(S): 0.000 s
+coleman_integrals_on_basis: evaluation of f_i at the 1 level(s): 0.000 s
+coleman_integrals_on_basis: linear solve: 0.000 s
+coleman_integrals_on_basis: total time: 0.010 s
+vanishing_differentials: integral 6/6 done (precision 10, 0.010 s).
+vanishing_differentials: solving for the kernel at common precision 9.
+effective_chabauty: computed 1 vanishing differentials (0.400 s).
+effective_chabauty: computed 7 K_p-points (0.000 s).
+effective_chabauty: computing local expansions of the K_p-points ...
+effective_chabauty: local expansions of the K_p-points: 0.000 s.
+effective_chabauty: computing common zeros of the vanishing differentials on the 7 residue disks ...
+effective_chabauty: disk 1/7 (bad) ...
+effective_chabauty: disk 1/7: found 1 point(s) (0.010 s); 1 point(s) in total so far.
+effective_chabauty: disk 2/7 ...
+effective_chabauty: disk 2/7: found 1 point(s) (0.010 s); 2 point(s) in total so far.
+effective_chabauty: disk 3/7 ...
+coleman_integrals_on_basis: suitable point/local expansions: 0.000 s
+coleman_integrals_on_basis: tiny integral P -> S: 0.000 s
+coleman_integrals_on_basis: Frobenius of the point (1 step(s)): 0.000 s
+coleman_integrals_on_basis: tiny integral S -> F_q(S): 0.000 s
+coleman_integrals_on_basis: evaluation of f_i at the 1 level(s): 0.010 s
+coleman_integrals_on_basis: linear solve: 0.000 s
+coleman_integrals_on_basis: total time: 0.010 s
+effective_chabauty: disk 3/7: found 1 point(s) (0.020 s); 3 point(s) in total so far.
+effective_chabauty: disk 4/7 ...
+effective_chabauty: disk 4/7: found 2 point(s) (0.010 s); 5 point(s) in total so far.
+effective_chabauty: disk 5/7 ...
+effective_chabauty: disk 5/7: found 2 point(s) (0.010 s); 7 point(s) in total so far.
+effective_chabauty: disk 6/7 ...
+effective_chabauty: disk 6/7: found 1 point(s) (0.010 s); 8 point(s) in total so far.
+effective_chabauty: disk 7/7 ...
+effective_chabauty: disk 7/7: found 1 point(s) (0.010 s); 9 point(s) in total so far.
+effective_chabauty: found 9 point(s) in total (0.530 s).
+curve_chabauty: 1 <= rank of the Jacobian <= 1; the genus is 2 (the rank condition of Chabauty-Coleman holds)
+curve_chabauty: 9 candidate(s): 7 agree with the 7 known point records, 2 do not.
+PASS rank_check: 1 <= rank J(Q) <= 1 < g = 2; the two extra candidates at 7 remain (not complete)
+improve_model: the given model: d = 2, good primes of norm <= 30: [ 5, 7, 11, 13, 17, 19, 23, 29 ]
+improve_model: coordinates g^(-1)*(u1,u2,u3), g = [ 1, 0, 0, 1, 1, 0, 0, 0, 1 ]: d = 2, good primes of norm <= 30: [ 5, 7, 11, 13, 17, 19, 23, 29 ]
+improve_model: coordinates g^(-1)*(u1,u2,u3), g = [ 1, 0, 1, 0, 1, 0, 0, 0, 1 ]: d = 2, good primes of norm <= 30: [ 5, 7, 11, 13, 17, 19, 23, 29 ]
+improve_model: coordinates g^(-1)*(u1,u2,u3), g = [ 1, 0, 0, 0, 1, 1, 0, 0, 1 ]: d = 2, good primes of norm <= 30: [ 5, 7, 11, 13, 17, 19, 23, 29 ]
+improve_model: coordinates g^(-1)*(u1,u2,u3), g = [ 0, 0, 1, 0, 1, 0, 1, 0, 0 ]: d = 2, good primes of norm <= 30: [ 5, 7, 11, 13, 17, 19, 23, 29 ]
+improve_model: coordinates g^(-1)*(u1,u2,u3), g = [ 0, 0, 1, 1, 1, 0, 1, 0, 0 ]: d = 2, good primes of norm <= 30: [ 5, 7, 11, 13, 17, 19, 23, 29 ]
+improve_model: coordinates g^(-1)*(u1,u2,u3), g = [ 0, 0, 1, 0, 1, 0, 1, 0, 1 ]: d = 2, good primes of norm <= 30: [ 5, 7, 11, 13, 17, 19, 23, 29 ]
+improve_model: coordinates g^(-1)*(u1,u2,u3), g = [ 0, 0, 1, 0, 1, 1, 1, 0, 0 ]: d = 2, good primes of norm <= 30: [ 5, 7, 11, 13, 17, 19, 23, 29 ]
+improve_model: x = 1/x' + 0: d = 2, good primes of norm <= 30: [ 5, 7, 11, 13, 17, 19, 23, 29 ]
+improve_model: x = 1/x' + 1: d = 2, good primes of norm <= 30: [ 5, 7, 11, 13, 17, 19, 23, 29 ]
+improve_model: x = 1/x' + -1: d = 2, good primes of norm <= 30: [ 5, 7, 11, 13, 17, 19, 23, 29 ]
+improve_model: x = 1/x' + 2: d = 2, good primes of norm <= 30: [ 11, 13, 17, 19, 23, 29 ]
+improve_model: x = 1/x' + -2: d = 2, good primes of norm <= 30: [ 5, 7, 11, 13, 17, 23, 29 ]
+improve_model: reduced minimal Weierstrass model: d = 2, good primes of norm <= 30: [ 5, 7, 11, 13, 17, 19, 23, 29 ]
+curve_chabauty: the model y^2 + (x^3 + 1)*y - x^2 - x ([]), at the prime of norm 5
+effective_chabauty: computing local expansions of the 5 K-points ...
+effective_chabauty: local expansions of the K-points: 0.040 s.
+effective_chabauty: computing vanishing differentials from 5 known points ...
+vanishing_differentials: integral 1/4 ...
+coleman_integrals_on_basis: autocomputed e = 11.
+NOTE: with e = 11 expect about 5 correct digits (evaluation loss about 5 digits); for about 9 digits use e = 54 (slower tiny integrals) or increase N
+coleman_integrals_on_basis: suitable point/local expansions: 0.000 s
+coleman_integrals_on_basis: tiny integral P -> S: 0.000 s
+coleman_integrals_on_basis: Frobenius of the point (1 step(s)): 0.000 s
+coleman_integrals_on_basis: tiny integral S -> F_q(S): 0.000 s
+coleman_integrals_on_basis: evaluation of f_i at the 1 level(s): 0.000 s
+coleman_integrals_on_basis: suitable point/local expansions: 0.010 s
+coleman_integrals_on_basis: tiny integral P -> S: 0.010 s
+coleman_integrals_on_basis: Frobenius of the point (1 step(s)): 0.000 s
+coleman_integrals_on_basis: tiny integral S -> F_q(S): 0.020 s
+coleman_integrals_on_basis: evaluation of f_i at the 1 level(s): 0.060 s
+coleman_integrals_on_basis: linear solve: 0.010 s
+coleman_integrals_on_basis: total time: 0.110 s
+vanishing_differentials: integral 1/4 done (precision 9, 0.110 s).
+vanishing_differentials: integral 2/4 ...
+coleman_integrals_on_basis: suitable point/local expansions: 0.000 s
+coleman_integrals_on_basis: tiny integral P -> S: 0.000 s
+coleman_integrals_on_basis: Frobenius of the point (1 step(s)): 0.000 s
+coleman_integrals_on_basis: tiny integral S -> F_q(S): 0.000 s
+coleman_integrals_on_basis: evaluation of f_i at the 1 level(s): 0.000 s
+coleman_integrals_on_basis: linear solve: 0.000 s
+coleman_integrals_on_basis: total time: 0.000 s
+vanishing_differentials: integral 2/4 done (precision 10, 0.000 s).
+vanishing_differentials: integral 3/4 ...
+coleman_integrals_on_basis: the cached base point data has a smaller e than P2 needs; recomputing without the cache.
+coleman_integrals_on_basis: autocomputed e = 21.
+NOTE: with e = 21 expect about 4 correct digits (evaluation loss about 6 digits); for about 9 digits use e = 108 (slower tiny integrals) or increase N
+coleman_integrals_on_basis: suitable point/local expansions: 0.000 s
+coleman_integrals_on_basis: tiny integral P -> S: 0.000 s
+coleman_integrals_on_basis: Frobenius of the point (1 step(s)): 0.010 s
+coleman_integrals_on_basis: tiny integral S -> F_q(S): 0.000 s
+coleman_integrals_on_basis: evaluation of f_i at the 1 level(s): 0.000 s
+coleman_integrals_on_basis: suitable point/local expansions: 0.020 s
+coleman_integrals_on_basis: tiny integral P -> S: 0.020 s
+coleman_integrals_on_basis: Frobenius of the point (1 step(s)): 0.010 s
+coleman_integrals_on_basis: tiny integral S -> F_q(S): 0.040 s
+coleman_integrals_on_basis: evaluation of f_i at the 1 level(s): 0.100 s
+coleman_integrals_on_basis: linear solve: 0.000 s
+coleman_integrals_on_basis: total time: 0.210 s
+vanishing_differentials: integral 3/4 done (precision 4, 0.210 s).
+vanishing_differentials: integral 4/4 ...
+coleman_integrals_on_basis: suitable point/local expansions: 0.010 s
+coleman_integrals_on_basis: tiny integral P -> S: 0.010 s
+coleman_integrals_on_basis: Frobenius of the point (1 step(s)): 0.000 s
+coleman_integrals_on_basis: tiny integral S -> F_q(S): 0.040 s
+coleman_integrals_on_basis: evaluation of f_i at the 1 level(s): 0.100 s
+coleman_integrals_on_basis: linear solve: 0.000 s
+coleman_integrals_on_basis: total time: 0.180 s
+vanishing_differentials: integral 4/4 done (precision 10, 0.180 s).
+vanishing_differentials: solving for the kernel at common precision 4.
+effective_chabauty: computed 2 vanishing differentials (0.500 s).
+effective_chabauty: computed 6 K_p-points (0.020 s).
+effective_chabauty: computing local expansions of the K_p-points ...
+effective_chabauty: local expansions of the K_p-points: 0.010 s.
+effective_chabauty: computing common zeros of the vanishing differentials on the 6 residue disks ...
+effective_chabauty: disk 1/6 (bad) ...
+effective_chabauty: disk 1/6: found 1 point(s) (0.010 s); 1 point(s) in total so far.
+effective_chabauty: disk 2/6 (bad) ...
+effective_chabauty: disk 2/6: found 1 point(s) (0.020 s); 2 point(s) in total so far.
+effective_chabauty: disk 3/6 ...
+effective_chabauty: disk 3/6: found 1 point(s) (0.020 s); 3 point(s) in total so far.
+effective_chabauty: disk 4/6 ...
+coleman_integrals_on_basis: suitable point/local expansions: 0.000 s
+coleman_integrals_on_basis: tiny integral P -> S: 0.000 s
+coleman_integrals_on_basis: Frobenius of the point (1 step(s)): 0.000 s
+coleman_integrals_on_basis: tiny integral S -> F_q(S): 0.000 s
+coleman_integrals_on_basis: evaluation of f_i at the 1 level(s): 0.000 s
+coleman_integrals_on_basis: linear solve: 0.000 s
+coleman_integrals_on_basis: total time: 0.000 s
+effective_chabauty: disk 4/6: found 1 point(s) (0.020 s); 4 point(s) in total so far.
+effective_chabauty: disk 5/6 (bad) ...
+coleman_integrals_on_basis: suitable point/local expansions: 0.030 s
+coleman_integrals_on_basis: tiny integral P -> S: 0.010 s
+coleman_integrals_on_basis: Frobenius of the point (1 step(s)): 0.010 s
+coleman_integrals_on_basis: tiny integral S -> F_q(S): 0.030 s
+coleman_integrals_on_basis: evaluation of f_i at the 1 level(s): 0.100 s
+coleman_integrals_on_basis: linear solve: 0.000 s
+coleman_integrals_on_basis: total time: 0.190 s
+effective_chabauty: disk 5/6: found 1 point(s) (0.210 s); 5 point(s) in total so far.
+effective_chabauty: disk 6/6 (bad) ...
+effective_chabauty: disk 6/6: found 1 point(s) (0.010 s); 6 point(s) in total so far.
+effective_chabauty: found 6 point(s) in total (0.860 s).
+curve_chabauty: 0 <= rank of the Jacobian <= 0; the genus is 2 (the rank condition of Chabauty-Coleman holds)
+curve_chabauty: 6 candidate(s): 5 agree with the 5 known point records, 1 do not.
+effective_chabauty: computing local expansions of the 5 K-points ...
+effective_chabauty: local expansions of the K-points: 0.040 s.
+effective_chabauty: computing vanishing differentials from 5 known points ...
+vanishing_differentials: integral 1/4 ...
+coleman_integrals_on_basis: autocomputed e = 23.
+NOTE: with e = 23 expect about 4 correct digits (evaluation loss about 6 digits); for about 9 digits use e = 120 (slower tiny integrals) or increase N
+coleman_integrals_on_basis: suitable point/local expansions: 0.000 s
+coleman_integrals_on_basis: tiny integral P -> S: 0.000 s
+coleman_integrals_on_basis: Frobenius of the point (1 step(s)): 0.000 s
+coleman_integrals_on_basis: tiny integral S -> F_q(S): 0.000 s
+coleman_integrals_on_basis: evaluation of f_i at the 1 level(s): 0.010 s
+coleman_integrals_on_basis: suitable point/local expansions: 0.010 s
+coleman_integrals_on_basis: tiny integral P -> S: 0.020 s
+coleman_integrals_on_basis: Frobenius of the point (1 step(s)): 0.000 s
+coleman_integrals_on_basis: tiny integral S -> F_q(S): 0.030 s
+coleman_integrals_on_basis: evaluation of f_i at the 1 level(s): 0.270 s
+coleman_integrals_on_basis: linear solve: 0.010 s
+coleman_integrals_on_basis: total time: 0.350 s
+vanishing_differentials: integral 1/4 done (precision 9, 0.350 s).
+vanishing_differentials: integral 2/4 ...
+coleman_integrals_on_basis: suitable point/local expansions: 0.000 s
+coleman_integrals_on_basis: tiny integral P -> S: 0.000 s
+coleman_integrals_on_basis: Frobenius of the point (1 step(s)): 0.000 s
+coleman_integrals_on_basis: tiny integral S -> F_q(S): 0.000 s
+coleman_integrals_on_basis: evaluation of f_i at the 1 level(s): 0.000 s
+coleman_integrals_on_basis: linear solve: 0.000 s
+coleman_integrals_on_basis: total time: 0.000 s
+vanishing_differentials: integral 2/4 done (precision 10, 0.000 s).
+vanishing_differentials: integral 3/4 ...
+coleman_integrals_on_basis: the cached base point data has a smaller e than P2 needs; recomputing without the cache.
+coleman_integrals_on_basis: autocomputed e = 45.
+NOTE: with e = 45 expect about 4 correct digits (evaluation loss about 6 digits); for about 9 digits use e = 240 (slower tiny integrals) or increase N
+coleman_integrals_on_basis: suitable point/local expansions: 0.000 s
+coleman_integrals_on_basis: tiny integral P -> S: 0.000 s
+coleman_integrals_on_basis: Frobenius of the point (1 step(s)): 0.000 s
+coleman_integrals_on_basis: tiny integral S -> F_q(S): 0.000 s
+coleman_integrals_on_basis: evaluation of f_i at the 1 level(s): 0.010 s
+coleman_integrals_on_basis: suitable point/local expansions: 0.050 s
+coleman_integrals_on_basis: tiny integral P -> S: 0.040 s
+coleman_integrals_on_basis: Frobenius of the point (1 step(s)): 0.010 s
+coleman_integrals_on_basis: tiny integral S -> F_q(S): 0.100 s
+coleman_integrals_on_basis: evaluation of f_i at the 1 level(s): 0.470 s
+coleman_integrals_on_basis: linear solve: 0.010 s
+coleman_integrals_on_basis: total time: 0.690 s
+vanishing_differentials: integral 3/4 done (precision 5, 0.690 s).
+vanishing_differentials: integral 4/4 ...
+coleman_integrals_on_basis: suitable point/local expansions: 0.020 s
+coleman_integrals_on_basis: tiny integral P -> S: 0.030 s
+coleman_integrals_on_basis: Frobenius of the point (1 step(s)): 0.010 s
+coleman_integrals_on_basis: tiny integral S -> F_q(S): 0.050 s
+coleman_integrals_on_basis: evaluation of f_i at the 1 level(s): 0.480 s
+coleman_integrals_on_basis: linear solve: 0.000 s
+coleman_integrals_on_basis: total time: 0.590 s
+vanishing_differentials: integral 4/4 done (precision 10, 0.590 s).
+vanishing_differentials: solving for the kernel at common precision 5.
+effective_chabauty: computed 2 vanishing differentials (1.630 s).
+effective_chabauty: computed 11 K_p-points (0.020 s).
+effective_chabauty: computing local expansions of the K_p-points ...
+effective_chabauty: local expansions of the K_p-points: 0.010 s.
+effective_chabauty: computing common zeros of the vanishing differentials on the 11 residue disks ...
+effective_chabauty: disk 1/11 (bad) ...
+effective_chabauty: disk 1/11: found 1 point(s) (0.020 s); 1 point(s) in total so far.
+effective_chabauty: disk 2/11 (bad) ...
+effective_chabauty: disk 2/11: found 1 point(s) (0.020 s); 2 point(s) in total so far.
+effective_chabauty: disk 3/11 ...
+effective_chabauty: disk 3/11: found 1 point(s) (0.010 s); 3 point(s) in total so far.
+effective_chabauty: disk 4/11 ...
+coleman_integrals_on_basis: suitable point/local expansions: 0.000 s
+coleman_integrals_on_basis: tiny integral P -> S: 0.010 s
+coleman_integrals_on_basis: Frobenius of the point (1 step(s)): 0.000 s
+coleman_integrals_on_basis: tiny integral S -> F_q(S): 0.000 s
+coleman_integrals_on_basis: evaluation of f_i at the 1 level(s): 0.000 s
+coleman_integrals_on_basis: linear solve: 0.000 s
+coleman_integrals_on_basis: total time: 0.010 s
+effective_chabauty: disk 4/11: found 1 point(s) (0.030 s); 4 point(s) in total so far.
+effective_chabauty: disk 5/11 ...
+coleman_integrals_on_basis: suitable point/local expansions: 0.000 s
+coleman_integrals_on_basis: tiny integral P -> S: 0.000 s
+coleman_integrals_on_basis: Frobenius of the point (1 step(s)): 0.000 s
+coleman_integrals_on_basis: tiny integral S -> F_q(S): 0.000 s
+coleman_integrals_on_basis: evaluation of f_i at the 1 level(s): 0.010 s
+coleman_integrals_on_basis: linear solve: 0.000 s
+coleman_integrals_on_basis: total time: 0.010 s
+effective_chabauty: disk 5/11: found 0 point(s) (0.020 s); 4 point(s) in total so far.
+effective_chabauty: disk 6/11 ...
+coleman_integrals_on_basis: suitable point/local expansions: 0.000 s
+coleman_integrals_on_basis: tiny integral P -> S: 0.000 s
+coleman_integrals_on_basis: Frobenius of the point (1 step(s)): 0.010 s
+coleman_integrals_on_basis: tiny integral S -> F_q(S): 0.000 s
+coleman_integrals_on_basis: evaluation of f_i at the 1 level(s): 0.000 s
+coleman_integrals_on_basis: linear solve: 0.000 s
+coleman_integrals_on_basis: total time: 0.010 s
+effective_chabauty: disk 6/11: found 0 point(s) (0.030 s); 4 point(s) in total so far.
+effective_chabauty: disk 7/11 (bad) ...
+effective_chabauty: disk 7/11: found 1 point(s) (0.020 s); 5 point(s) in total so far.
+effective_chabauty: disk 8/11 ...
+coleman_integrals_on_basis: suitable point/local expansions: 0.000 s
+coleman_integrals_on_basis: tiny integral P -> S: 0.000 s
+coleman_integrals_on_basis: Frobenius of the point (1 step(s)): 0.000 s
+coleman_integrals_on_basis: tiny integral S -> F_q(S): 0.000 s
+coleman_integrals_on_basis: evaluation of f_i at the 1 level(s): 0.010 s
+coleman_integrals_on_basis: linear solve: 0.000 s
+coleman_integrals_on_basis: total time: 0.010 s
+effective_chabauty: disk 8/11: found 0 point(s) (0.020 s); 5 point(s) in total so far.
+effective_chabauty: disk 9/11 ...
+coleman_integrals_on_basis: suitable point/local expansions: 0.000 s
+coleman_integrals_on_basis: tiny integral P -> S: 0.000 s
+coleman_integrals_on_basis: Frobenius of the point (1 step(s)): 0.000 s
+coleman_integrals_on_basis: tiny integral S -> F_q(S): 0.010 s
+coleman_integrals_on_basis: evaluation of f_i at the 1 level(s): 0.000 s
+coleman_integrals_on_basis: linear solve: 0.000 s
+coleman_integrals_on_basis: total time: 0.010 s
+effective_chabauty: disk 9/11: found 0 point(s) (0.030 s); 5 point(s) in total so far.
+effective_chabauty: disk 10/11 ...
+coleman_integrals_on_basis: suitable point/local expansions: 0.000 s
+coleman_integrals_on_basis: tiny integral P -> S: 0.000 s
+coleman_integrals_on_basis: Frobenius of the point (1 step(s)): 0.000 s
+coleman_integrals_on_basis: tiny integral S -> F_q(S): 0.000 s
+coleman_integrals_on_basis: evaluation of f_i at the 1 level(s): 0.000 s
+coleman_integrals_on_basis: linear solve: 0.000 s
+coleman_integrals_on_basis: total time: 0.000 s
+effective_chabauty: disk 10/11: found 0 point(s) (0.020 s); 5 point(s) in total so far.
+effective_chabauty: disk 11/11 ...
+coleman_integrals_on_basis: suitable point/local expansions: 0.000 s
+coleman_integrals_on_basis: tiny integral P -> S: 0.000 s
+coleman_integrals_on_basis: Frobenius of the point (1 step(s)): 0.000 s
+coleman_integrals_on_basis: tiny integral S -> F_q(S): 0.000 s
+coleman_integrals_on_basis: evaluation of f_i at the 1 level(s): 0.000 s
+coleman_integrals_on_basis: linear solve: 0.000 s
+coleman_integrals_on_basis: total time: 0.000 s
+effective_chabauty: disk 11/11: found 0 point(s) (0.020 s); 5 point(s) in total so far.
+effective_chabauty: found 5 point(s) in total (1.940 s).
+curve_chabauty: at the prime of norm 11: 5 candidate(s), 0 of them neither known nor recognized
+curve_chabauty: the L-rational points are the 5 known and 0 recognized point(s) (every candidate at the prime of norm 11 is one of them)
+PASS 249.a.249.1: rank 0; one extra candidate at 5, none at 11: the 5 rational points are all (complete)
+improve_model: the given model: d = 2, good primes of norm <= 20: [ 3, 5, 7, 11, 13, 17, 19 ]
+improve_model: coordinates g^(-1)*(u1,u2,u3), g = [ 1, 0, 0, 1, 1, 0, 0, 0, 1 ]: d = 2, good primes of norm <= 20: [ 3, 5, 7, 11, 13, 17, 19 ]
+improve_model: coordinates g^(-1)*(u1,u2,u3), g = [ 1, 0, 1, 0, 1, 0, 0, 0, 1 ]: d = 2, good primes of norm <= 20: [ 3, 5, 7, 11, 13, 17, 19 ]
+improve_model: coordinates g^(-1)*(u1,u2,u3), g = [ 1, 0, 0, 0, 1, 1, 0, 0, 1 ]: d = 2, good primes of norm <= 20: [ 3, 5, 7, 11, 13, 17, 19 ]
+improve_model: coordinates g^(-1)*(u1,u2,u3), g = [ 0, 0, 1, 0, 1, 0, 1, 0, 0 ]: d = 2, good primes of norm <= 20: [ 3, 5, 7, 11, 13, 17, 19 ]
+improve_model: coordinates g^(-1)*(u1,u2,u3), g = [ 0, 0, 1, 1, 1, 0, 1, 0, 0 ]: d = 2, good primes of norm <= 20: [ 3, 5, 7, 11, 13, 17, 19 ]
+improve_model: coordinates g^(-1)*(u1,u2,u3), g = [ 0, 0, 1, 0, 1, 0, 1, 0, 1 ]: d = 2, good primes of norm <= 20: [ 3, 5, 7, 11, 13, 17, 19 ]
+improve_model: coordinates g^(-1)*(u1,u2,u3), g = [ 0, 0, 1, 0, 1, 1, 1, 0, 0 ]: d = 2, good primes of norm <= 20: [ 3, 5, 7, 11, 13, 17, 19 ]
+improve_model: x = 1/x' + 0: d = 2, good primes of norm <= 20: [ 3, 5, 7, 11, 13, 17, 19 ]
+improve_model: x = 1/x' + 1: d = 2, good primes of norm <= 20: [ 3, 5, 7, 11, 13, 17, 19 ]
+improve_model: x = 1/x' + -1: d = 2, good primes of norm <= 20: [ 3, 5, 7, 11, 13, 17, 19 ]
+improve_model: x = 1/x' + 2: d = 2, good primes of norm <= 20: [ 3, 5, 7, 11, 13, 17, 19 ]
+improve_model: x = 1/x' + -2: d = 2, good primes of norm <= 20: [ 3, 5, 7, 11, 13, 17, 19 ]
+improve_model: reduced minimal Weierstrass model: d = 2, good primes of norm <= 20: [ 3, 5, 7, 11, 13, 17, 19 ]
+curve_chabauty: the model y^2 + y - x^5 + 2*x^3 - x ([]), at the prime of norm 7
+effective_chabauty: computing local expansions of the 6 K-points ...
+effective_chabauty: local expansions of the K-points: 0.070 s.
+effective_chabauty: computing vanishing differentials from 6 known points ...
+vanishing_differentials: integral 1/5 ...
+coleman_integrals_on_basis: autocomputed e = 29.
+NOTE: with e = 29 expect about 4 correct digits (evaluation loss about 6 digits); for about 9 digits use e = 152 (slower tiny integrals) or increase N
+coleman_integrals_on_basis: suitable point/local expansions: 0.000 s
+coleman_integrals_on_basis: tiny integral P -> S: 0.000 s
+coleman_integrals_on_basis: Frobenius of the point (1 step(s)): 0.000 s
+coleman_integrals_on_basis: tiny integral S -> F_q(S): 0.000 s
+coleman_integrals_on_basis: evaluation of f_i at the 1 level(s): 0.000 s
+coleman_integrals_on_basis: suitable point/local expansions: 0.070 s
+coleman_integrals_on_basis: tiny integral P -> S: 0.020 s
+coleman_integrals_on_basis: Frobenius of the point (1 step(s)): 0.010 s
+coleman_integrals_on_basis: tiny integral S -> F_q(S): 0.060 s
+coleman_integrals_on_basis: evaluation of f_i at the 1 level(s): 0.200 s
+coleman_integrals_on_basis: linear solve: 0.000 s
+coleman_integrals_on_basis: total time: 0.370 s
+vanishing_differentials: integral 1/5 done (precision 9, 0.370 s).
+vanishing_differentials: integral 2/5 ...
+coleman_integrals_on_basis: suitable point/local expansions: 0.000 s
+coleman_integrals_on_basis: tiny integral P -> S: 0.000 s
+coleman_integrals_on_basis: Frobenius of the point (1 step(s)): 0.000 s
+coleman_integrals_on_basis: tiny integral S -> F_q(S): 0.000 s
+coleman_integrals_on_basis: evaluation of f_i at the 1 level(s): 0.010 s
+coleman_integrals_on_basis: linear solve: 0.000 s
+coleman_integrals_on_basis: total time: 0.010 s
+vanishing_differentials: integral 2/5 done (precision 10, 0.010 s).
+vanishing_differentials: integral 3/5 ...
+coleman_integrals_on_basis: suitable point/local expansions: 0.000 s
+coleman_integrals_on_basis: tiny integral P -> S: 0.000 s
+coleman_integrals_on_basis: Frobenius of the point (1 step(s)): 0.000 s
+coleman_integrals_on_basis: tiny integral S -> F_q(S): 0.000 s
+coleman_integrals_on_basis: evaluation of f_i at the 1 level(s): 0.000 s
+coleman_integrals_on_basis: linear solve: 0.000 s
+coleman_integrals_on_basis: total time: 0.000 s
+vanishing_differentials: integral 3/5 done (precision 10, 0.000 s).
+vanishing_differentials: integral 4/5 ...
+coleman_integrals_on_basis: suitable point/local expansions: 0.000 s
+coleman_integrals_on_basis: tiny integral P -> S: 0.000 s
+coleman_integrals_on_basis: Frobenius of the point (1 step(s)): 0.000 s
+coleman_integrals_on_basis: tiny integral S -> F_q(S): 0.000 s
+coleman_integrals_on_basis: evaluation of f_i at the 1 level(s): 0.000 s
+coleman_integrals_on_basis: linear solve: 0.000 s
+coleman_integrals_on_basis: total time: 0.000 s
+vanishing_differentials: integral 4/5 done (precision 10, 0.000 s).
+vanishing_differentials: integral 5/5 ...
+coleman_integrals_on_basis: suitable point/local expansions: 0.000 s
+coleman_integrals_on_basis: tiny integral P -> S: 0.000 s
+coleman_integrals_on_basis: Frobenius of the point (1 step(s)): 0.000 s
+coleman_integrals_on_basis: tiny integral S -> F_q(S): 0.000 s
+coleman_integrals_on_basis: evaluation of f_i at the 1 level(s): 0.010 s
+coleman_integrals_on_basis: linear solve: 0.000 s
+coleman_integrals_on_basis: total time: 0.010 s
+vanishing_differentials: integral 5/5 done (precision 10, 0.010 s).
+vanishing_differentials: solving for the kernel at common precision 9.
+effective_chabauty: computed 1 vanishing differentials (0.390 s).
+effective_chabauty: computed 7 K_p-points (0.020 s).
+effective_chabauty: computing local expansions of the K_p-points ...
+effective_chabauty: local expansions of the K_p-points: 0.000 s.
+effective_chabauty: computing common zeros of the vanishing differentials on the 7 residue disks ...
+effective_chabauty: disk 1/7 (bad) ...
+effective_chabauty: disk 1/7: found 1 point(s) (0.020 s); 1 point(s) in total so far.
+effective_chabauty: disk 2/7 ...
+effective_chabauty: disk 2/7: found 1 point(s) (0.010 s); 2 point(s) in total so far.
+effective_chabauty: disk 3/7 ...
+coleman_integrals_on_basis: suitable point/local expansions: 0.000 s
+coleman_integrals_on_basis: tiny integral P -> S: 0.000 s
+coleman_integrals_on_basis: Frobenius of the point (1 step(s)): 0.000 s
+coleman_integrals_on_basis: tiny integral S -> F_q(S): 0.000 s
+coleman_integrals_on_basis: evaluation of f_i at the 1 level(s): 0.000 s
+coleman_integrals_on_basis: linear solve: 0.000 s
+coleman_integrals_on_basis: total time: 0.000 s
+effective_chabauty: disk 3/7: found 1 point(s) (0.010 s); 3 point(s) in total so far.
+effective_chabauty: disk 4/7 ...
+effective_chabauty: disk 4/7: found 2 point(s) (0.010 s); 5 point(s) in total so far.
+effective_chabauty: disk 5/7 ...
+effective_chabauty: disk 5/7: found 2 point(s) (0.010 s); 7 point(s) in total so far.
+effective_chabauty: disk 6/7 ...
+coleman_integrals_on_basis: suitable point/local expansions: 0.000 s
+coleman_integrals_on_basis: tiny integral P -> S: 0.000 s
+coleman_integrals_on_basis: Frobenius of the point (1 step(s)): 0.010 s
+coleman_integrals_on_basis: tiny integral S -> F_q(S): 0.000 s
+coleman_integrals_on_basis: evaluation of f_i at the 1 level(s): 0.000 s
+coleman_integrals_on_basis: linear solve: 0.000 s
+coleman_integrals_on_basis: total time: 0.010 s
+effective_chabauty: disk 6/7: found 1 point(s) (0.020 s); 8 point(s) in total so far.
+effective_chabauty: disk 7/7 ...
+effective_chabauty: disk 7/7: found 1 point(s) (0.010 s); 9 point(s) in total so far.
+effective_chabauty: found 9 point(s) in total (0.570 s).
+curve_chabauty: 9 candidate(s): 6 agree with the 6 known point records, 3 do not; 1 of them are recognized as L-rational points with x = [
+1
+].
+PASS curve_chabauty without (1,0): the candidate x = 1 is recognized, with y in {0, -1}
+curve_chabauty: the model y^2 + (x^3 + 1)*y - x^2 - x ([]), at the prime of norm 5
+effective_chabauty: computing local expansions of the 5 K-points ...
+effective_chabauty: local expansions of the K-points: 0.040 s.
+effective_chabauty: computing vanishing differentials from 5 known points ...
+vanishing_differentials: integral 1/4 ...
+coleman_integrals_on_basis: autocomputed e = 11.
+NOTE: with e = 11 expect about 1 correct digits (evaluation loss about 2 digits); for about 2 digits use e = 19 (slower tiny integrals) or increase N
+coleman_integrals_on_basis: suitable point/local expansions: 0.000 s
+coleman_integrals_on_basis: tiny integral P -> S: 0.000 s
+coleman_integrals_on_basis: Frobenius of the point (1 step(s)): 0.010 s
+coleman_integrals_on_basis: tiny integral S -> F_q(S): 0.000 s
+coleman_integrals_on_basis: evaluation of f_i at the 1 level(s): 0.000 s
+coleman_integrals_on_basis: suitable point/local expansions: 0.000 s
+coleman_integrals_on_basis: tiny integral P -> S: 0.010 s
+coleman_integrals_on_basis: Frobenius of the point (1 step(s)): 0.000 s
+coleman_integrals_on_basis: tiny integral S -> F_q(S): 0.020 s
+coleman_integrals_on_basis: evaluation of f_i at the 1 level(s): 0.020 s
+coleman_integrals_on_basis: linear solve: 0.000 s
+coleman_integrals_on_basis: total time: 0.060 s
+vanishing_differentials: integral 1/4 done (precision 2, 0.060 s).
+vanishing_differentials: integral 2/4 ...
+coleman_integrals_on_basis: suitable point/local expansions: 0.000 s
+coleman_integrals_on_basis: tiny integral P -> S: 0.000 s
+coleman_integrals_on_basis: Frobenius of the point (1 step(s)): 0.000 s
+coleman_integrals_on_basis: tiny integral S -> F_q(S): 0.000 s
+coleman_integrals_on_basis: evaluation of f_i at the 1 level(s): 0.000 s
+coleman_integrals_on_basis: linear solve: 0.000 s
+coleman_integrals_on_basis: total time: 0.000 s
+vanishing_differentials: integral 2/4 done (precision 3, 0.000 s).
+vanishing_differentials: integral 3/4 ...
+coleman_integrals_on_basis: the cached base point data has a smaller e than P2 needs; recomputing without the cache.
+coleman_integrals_on_basis: autocomputed e = 21.
+NOTE: with e = 21 expect about 1 correct digits (evaluation loss about 2 digits); for about 2 digits use e = 38 (slower tiny integrals) or increase N
+coleman_integrals_on_basis: suitable point/local expansions: 0.000 s
+coleman_integrals_on_basis: tiny integral P -> S: 0.000 s
+coleman_integrals_on_basis: Frobenius of the point (1 step(s)): 0.000 s
+coleman_integrals_on_basis: tiny integral S -> F_q(S): 0.000 s
+coleman_integrals_on_basis: evaluation of f_i at the 1 level(s): 0.000 s
+coleman_integrals_on_basis: suitable point/local expansions: 0.020 s
+coleman_integrals_on_basis: tiny integral P -> S: 0.010 s
+coleman_integrals_on_basis: Frobenius of the point (1 step(s)): 0.000 s
+coleman_integrals_on_basis: tiny integral S -> F_q(S): 0.030 s
+coleman_integrals_on_basis: evaluation of f_i at the 1 level(s): 0.020 s
+coleman_integrals_on_basis: linear solve: 0.000 s
+coleman_integrals_on_basis: total time: 0.090 s
+vanishing_differentials: integral 3/4 done (precision 1, 0.090 s).
+vanishing_differentials: integral 4/4 ...
+coleman_integrals_on_basis: suitable point/local expansions: 0.000 s
+coleman_integrals_on_basis: tiny integral P -> S: 0.020 s
+coleman_integrals_on_basis: Frobenius of the point (1 step(s)): 0.000 s
+coleman_integrals_on_basis: tiny integral S -> F_q(S): 0.020 s
+coleman_integrals_on_basis: evaluation of f_i at the 1 level(s): 0.020 s
+coleman_integrals_on_basis: linear solve: 0.000 s
+coleman_integrals_on_basis: total time: 0.070 s
+vanishing_differentials: integral 4/4 done (precision 3, 0.070 s).
+vanishing_differentials: solving for the kernel at common precision 1.
+WARNING: vanishing_differentials: only 1 correct digit(s) remain for the kernel; increase N (or choose a prime p not dividing #J(F_p))
+effective_chabauty: computed 2 vanishing differentials (0.220 s).
+effective_chabauty: computed 6 K_p-points (0.010 s).
+effective_chabauty: computing local expansions of the K_p-points ...
+effective_chabauty: local expansions of the K_p-points: 0.000 s.
+effective_chabauty: computing common zeros of the vanishing differentials on the 6 residue disks ...
+effective_chabauty: disk 1/6 (bad) ...
+curve_chabauty: at the prime of norm 5 the precision does not suffice; repeating with N = 6
+effective_chabauty: computing local expansions of the 5 K-points ...
+effective_chabauty: local expansions of the K-points: 0.040 s.
+effective_chabauty: computing vanishing differentials from 5 known points ...
+vanishing_differentials: integral 1/4 ...
+coleman_integrals_on_basis: autocomputed e = 11.
+NOTE: with e = 11 expect about 2 correct digits (evaluation loss about 4 digits); for about 5 digits use e = 34 (slower tiny integrals) or increase N
+coleman_integrals_on_basis: suitable point/local expansions: 0.000 s
+coleman_integrals_on_basis: tiny integral P -> S: 0.000 s
+coleman_integrals_on_basis: Frobenius of the point (1 step(s)): 0.000 s
+coleman_integrals_on_basis: tiny integral S -> F_q(S): 0.000 s
+coleman_integrals_on_basis: evaluation of f_i at the 1 level(s): 0.000 s
+coleman_integrals_on_basis: suitable point/local expansions: 0.010 s
+coleman_integrals_on_basis: tiny integral P -> S: 0.010 s
+coleman_integrals_on_basis: Frobenius of the point (1 step(s)): 0.000 s
+coleman_integrals_on_basis: tiny integral S -> F_q(S): 0.020 s
+coleman_integrals_on_basis: evaluation of f_i at the 1 level(s): 0.030 s
+coleman_integrals_on_basis: linear solve: 0.000 s
+coleman_integrals_on_basis: total time: 0.070 s
+vanishing_differentials: integral 1/4 done (precision 5, 0.070 s).
+vanishing_differentials: integral 2/4 ...
+coleman_integrals_on_basis: suitable point/local expansions: 0.000 s
+coleman_integrals_on_basis: tiny integral P -> S: 0.000 s
+coleman_integrals_on_basis: Frobenius of the point (1 step(s)): 0.000 s
+coleman_integrals_on_basis: tiny integral S -> F_q(S): 0.000 s
+coleman_integrals_on_basis: evaluation of f_i at the 1 level(s): 0.010 s
+coleman_integrals_on_basis: linear solve: 0.000 s
+coleman_integrals_on_basis: total time: 0.010 s
+vanishing_differentials: integral 2/4 done (precision 6, 0.010 s).
+vanishing_differentials: integral 3/4 ...
+coleman_integrals_on_basis: the cached base point data has a smaller e than P2 needs; recomputing without the cache.
+coleman_integrals_on_basis: autocomputed e = 21.
+NOTE: with e = 21 expect about 2 correct digits (evaluation loss about 4 digits); for about 5 digits use e = 68 (slower tiny integrals) or increase N
+coleman_integrals_on_basis: suitable point/local expansions: 0.000 s
+coleman_integrals_on_basis: tiny integral P -> S: 0.000 s
+coleman_integrals_on_basis: Frobenius of the point (1 step(s)): 0.000 s
+coleman_integrals_on_basis: tiny integral S -> F_q(S): 0.000 s
+coleman_integrals_on_basis: evaluation of f_i at the 1 level(s): 0.000 s
+coleman_integrals_on_basis: suitable point/local expansions: 0.030 s
+coleman_integrals_on_basis: tiny integral P -> S: 0.020 s
+coleman_integrals_on_basis: Frobenius of the point (1 step(s)): 0.000 s
+coleman_integrals_on_basis: tiny integral S -> F_q(S): 0.030 s
+coleman_integrals_on_basis: evaluation of f_i at the 1 level(s): 0.060 s
+coleman_integrals_on_basis: linear solve: 0.000 s
+coleman_integrals_on_basis: total time: 0.140 s
+vanishing_differentials: integral 3/4 done (precision 3, 0.140 s).
+vanishing_differentials: integral 4/4 ...
+coleman_integrals_on_basis: suitable point/local expansions: 0.010 s
+coleman_integrals_on_basis: tiny integral P -> S: 0.010 s
+coleman_integrals_on_basis: Frobenius of the point (1 step(s)): 0.010 s
+coleman_integrals_on_basis: tiny integral S -> F_q(S): 0.010 s
+coleman_integrals_on_basis: evaluation of f_i at the 1 level(s): 0.060 s
+coleman_integrals_on_basis: linear solve: 0.000 s
+coleman_integrals_on_basis: total time: 0.100 s
+vanishing_differentials: integral 4/4 done (precision 6, 0.100 s).
+vanishing_differentials: solving for the kernel at common precision 3.
+effective_chabauty: computed 2 vanishing differentials (0.320 s).
+effective_chabauty: computed 6 K_p-points (0.010 s).
+effective_chabauty: computing local expansions of the K_p-points ...
+effective_chabauty: local expansions of the K_p-points: 0.000 s.
+effective_chabauty: computing common zeros of the vanishing differentials on the 6 residue disks ...
+effective_chabauty: disk 1/6 (bad) ...
+effective_chabauty: disk 1/6: found 1 point(s) (0.020 s); 1 point(s) in total so far.
+effective_chabauty: disk 2/6 (bad) ...
+effective_chabauty: disk 2/6: found 1 point(s) (0.020 s); 2 point(s) in total so far.
+effective_chabauty: disk 3/6 ...
+effective_chabauty: disk 3/6: found 1 point(s) (0.010 s); 3 point(s) in total so far.
+effective_chabauty: disk 4/6 ...
+coleman_integrals_on_basis: suitable point/local expansions: 0.000 s
+coleman_integrals_on_basis: tiny integral P -> S: 0.000 s
+coleman_integrals_on_basis: Frobenius of the point (1 step(s)): 0.000 s
+coleman_integrals_on_basis: tiny integral S -> F_q(S): 0.000 s
+coleman_integrals_on_basis: evaluation of f_i at the 1 level(s): 0.000 s
+coleman_integrals_on_basis: linear solve: 0.010 s
+coleman_integrals_on_basis: total time: 0.010 s
+effective_chabauty: disk 4/6: found 1 point(s) (0.020 s); 4 point(s) in total so far.
+effective_chabauty: disk 5/6 (bad) ...
+coleman_integrals_on_basis: suitable point/local expansions: 0.030 s
+coleman_integrals_on_basis: tiny integral P -> S: 0.010 s
+coleman_integrals_on_basis: Frobenius of the point (1 step(s)): 0.010 s
+coleman_integrals_on_basis: tiny integral S -> F_q(S): 0.040 s
+coleman_integrals_on_basis: evaluation of f_i at the 1 level(s): 0.050 s
+coleman_integrals_on_basis: linear solve: 0.000 s
+coleman_integrals_on_basis: total time: 0.150 s
+effective_chabauty: disk 5/6: found 1 point(s) (0.170 s); 5 point(s) in total so far.
+effective_chabauty: disk 6/6 (bad) ...
+effective_chabauty: disk 6/6: found 1 point(s) (0.010 s); 6 point(s) in total so far.
+effective_chabauty: found 6 point(s) in total (0.620 s).
+curve_chabauty: 6 candidate(s): 5 agree with the 5 known point records, 1 do not.
+PASS N := 3 does not suffice at 5: repeated with N = 6, the same candidates
+curve_chabauty: the model y^2 + (x^3 + 1)*y - x^2 - x ([]), at the prime of norm 5
+effective_chabauty: computing local expansions of the 5 K-points ...
+effective_chabauty: local expansions of the K-points: 0.030 s.
+effective_chabauty: computing vanishing differentials from 5 known points ...
+vanishing_differentials: integral 1/4 ...
+coleman_integrals_on_basis: autocomputed e = 11.
+NOTE: with e = 11 expect about 5 correct digits (evaluation loss about 5 digits); for about 9 digits use e = 54 (slower tiny integrals) or increase N
+coleman_integrals_on_basis: suitable point/local expansions: 0.000 s
+coleman_integrals_on_basis: tiny integral P -> S: 0.000 s
+coleman_integrals_on_basis: Frobenius of the point (1 step(s)): 0.000 s
+coleman_integrals_on_basis: tiny integral S -> F_q(S): 0.000 s
+coleman_integrals_on_basis: evaluation of f_i at the 1 level(s): 0.000 s
+coleman_integrals_on_basis: suitable point/local expansions: 0.010 s
+coleman_integrals_on_basis: tiny integral P -> S: 0.010 s
+coleman_integrals_on_basis: Frobenius of the point (1 step(s)): 0.000 s
+coleman_integrals_on_basis: tiny integral S -> F_q(S): 0.020 s
+coleman_integrals_on_basis: evaluation of f_i at the 1 level(s): 0.060 s
+coleman_integrals_on_basis: linear solve: 0.000 s
+coleman_integrals_on_basis: total time: 0.100 s
+vanishing_differentials: integral 1/4 done (precision 9, 0.100 s).
+vanishing_differentials: integral 2/4 ...
+coleman_integrals_on_basis: suitable point/local expansions: 0.000 s
+coleman_integrals_on_basis: tiny integral P -> S: 0.000 s
+coleman_integrals_on_basis: Frobenius of the point (1 step(s)): 0.010 s
+coleman_integrals_on_basis: tiny integral S -> F_q(S): 0.000 s
+coleman_integrals_on_basis: evaluation of f_i at the 1 level(s): 0.000 s
+coleman_integrals_on_basis: linear solve: 0.010 s
+coleman_integrals_on_basis: total time: 0.020 s
+vanishing_differentials: integral 2/4 done (precision 10, 0.020 s).
+vanishing_differentials: integral 3/4 ...
+coleman_integrals_on_basis: the cached base point data has a smaller e than P2 needs; recomputing without the cache.
+coleman_integrals_on_basis: autocomputed e = 21.
+NOTE: with e = 21 expect about 4 correct digits (evaluation loss about 6 digits); for about 9 digits use e = 108 (slower tiny integrals) or increase N
+coleman_integrals_on_basis: suitable point/local expansions: 0.000 s
+coleman_integrals_on_basis: tiny integral P -> S: 0.000 s
+coleman_integrals_on_basis: Frobenius of the point (1 step(s)): 0.000 s
+coleman_integrals_on_basis: tiny integral S -> F_q(S): 0.000 s
+coleman_integrals_on_basis: evaluation of f_i at the 1 level(s): 0.000 s
+coleman_integrals_on_basis: suitable point/local expansions: 0.030 s
+coleman_integrals_on_basis: tiny integral P -> S: 0.010 s
+coleman_integrals_on_basis: Frobenius of the point (1 step(s)): 0.010 s
+coleman_integrals_on_basis: tiny integral S -> F_q(S): 0.030 s
+coleman_integrals_on_basis: evaluation of f_i at the 1 level(s): 0.090 s
+coleman_integrals_on_basis: linear solve: 0.000 s
+coleman_integrals_on_basis: total time: 0.170 s
+vanishing_differentials: integral 3/4 done (precision 4, 0.170 s).
+vanishing_differentials: integral 4/4 ...
+coleman_integrals_on_basis: suitable point/local expansions: 0.010 s
+coleman_integrals_on_basis: tiny integral P -> S: 0.010 s
+coleman_integrals_on_basis: Frobenius of the point (1 step(s)): 0.000 s
+coleman_integrals_on_basis: tiny integral S -> F_q(S): 0.030 s
+coleman_integrals_on_basis: evaluation of f_i at the 1 level(s): 0.090 s
+coleman_integrals_on_basis: linear solve: 0.000 s
+coleman_integrals_on_basis: total time: 0.160 s
+vanishing_differentials: integral 4/4 done (precision 10, 0.160 s).
+vanishing_differentials: solving for the kernel at common precision 4.
+effective_chabauty: computed 2 vanishing differentials (0.450 s).
+effective_chabauty: computed 4 K_p-points (0.010 s).
+effective_chabauty: computing local expansions of the K_p-points ...
+effective_chabauty: local expansions of the K_p-points: 0.000 s.
+effective_chabauty: computing common zeros of the vanishing differentials on the 4 residue disks ...
+effective_chabauty: disk 1/4 (bad) ...
+effective_chabauty: disk 1/4: found 1 point(s) (0.020 s); 1 point(s) in total so far.
+effective_chabauty: disk 2/4 (bad) ...
+effective_chabauty: disk 2/4: found 1 point(s) (0.020 s); 2 point(s) in total so far.
+effective_chabauty: disk 3/4 ...
+effective_chabauty: disk 3/4: found 1 point(s) (0.010 s); 3 point(s) in total so far.
+effective_chabauty: disk 4/4 ...
+coleman_integrals_on_basis: suitable point/local expansions: 0.000 s
+coleman_integrals_on_basis: tiny integral P -> S: 0.000 s
+coleman_integrals_on_basis: Frobenius of the point (1 step(s)): 0.000 s
+coleman_integrals_on_basis: tiny integral S -> F_q(S): 0.000 s
+coleman_integrals_on_basis: evaluation of f_i at the 1 level(s): 0.000 s
+coleman_integrals_on_basis: linear solve: 0.000 s
+coleman_integrals_on_basis: total time: 0.000 s
+effective_chabauty: disk 4/4: found 1 point(s) (0.020 s); 4 point(s) in total so far.
+effective_chabauty: found 4 point(s) in total (0.560 s).
+effective_chabauty: computing local expansions of the 5 K-points ...
+effective_chabauty: local expansions of the K-points: 0.300 s.
+effective_chabauty: computing vanishing differentials from 5 known points ...
+effective_chabauty: computed 2 vanishing differentials (0.000 s).
+effective_chabauty: computed 2 K_p-points (0.020 s).
+effective_chabauty: computing local expansions of the K_p-points ...
+effective_chabauty: local expansions of the K_p-points: 0.010 s.
+effective_chabauty: computing common zeros of the vanishing differentials on the 2 residue disks ...
+effective_chabauty: disk 1/2 ...
+coleman_integrals_on_basis: suitable point/local expansions: 0.000 s
+coleman_integrals_on_basis: tiny integral P -> S: 0.000 s
+coleman_integrals_on_basis: Frobenius of the point (1 step(s)): 0.010 s
+coleman_integrals_on_basis: tiny integral S -> F_q(S): 0.000 s
+coleman_integrals_on_basis: evaluation of f_i at the 1 level(s): 0.000 s
+coleman_integrals_on_basis: suitable point/local expansions: 0.000 s
+coleman_integrals_on_basis: tiny integral P -> S: 0.000 s
+coleman_integrals_on_basis: Frobenius of the point (1 step(s)): 0.000 s
+coleman_integrals_on_basis: tiny integral S -> F_q(S): 0.000 s
+coleman_integrals_on_basis: evaluation of f_i at the 1 level(s): 0.010 s
+coleman_integrals_on_basis: linear solve: 0.000 s
+coleman_integrals_on_basis: total time: 0.020 s
+effective_chabauty: disk 1/2: found 1 point(s) (0.040 s); 1 point(s) in total so far.
+effective_chabauty: disk 2/2 ...
+coleman_integrals_on_basis: suitable point/local expansions: 0.000 s
+coleman_integrals_on_basis: tiny integral P -> S: 0.000 s
+coleman_integrals_on_basis: Frobenius of the point (1 step(s)): 0.000 s
+coleman_integrals_on_basis: tiny integral S -> F_q(S): 0.010 s
+coleman_integrals_on_basis: evaluation of f_i at the 1 level(s): 0.010 s
+coleman_integrals_on_basis: linear solve: 0.000 s
+coleman_integrals_on_basis: total time: 0.020 s
+effective_chabauty: disk 2/2: found 1 point(s) (0.040 s); 2 point(s) in total so far.
+effective_chabauty: found 2 point(s) in total (0.410 s).
+curve_chabauty: 6 candidate(s): 5 agree with the 5 known point records, 1 do not.
+PASS patches := true: the six candidates (five known points, one new), those of the bad disc of (-1,0) computed in a patch
+curve_chabauty: the model y^2 + (x^3 + 1)*y - x^2 - x ([]), at the prime of norm 13
+effective_chabauty: computing local expansions of the 6 K-points ...
+effective_chabauty: local expansions of the K-points: 0.060 s.
+effective_chabauty: computing vanishing differentials from 6 known points ...
+vanishing_differentials: integral 1/5 ...
+coleman_integrals_on_basis: autocomputed e = 27.
+NOTE: with e = 27 expect about 4 correct digits (evaluation loss about 6 digits); for about 9 digits use e = 142 (slower tiny integrals) or increase N
+coleman_integrals_on_basis: suitable point/local expansions: 0.000 s
+coleman_integrals_on_basis: tiny integral P -> S: 0.000 s
+coleman_integrals_on_basis: Frobenius of the point (1 step(s)): 0.000 s
+coleman_integrals_on_basis: tiny integral S -> F_q(S): 0.000 s
+coleman_integrals_on_basis: evaluation of f_i at the 1 level(s): 0.000 s
+coleman_integrals_on_basis: suitable point/local expansions: 0.020 s
+coleman_integrals_on_basis: tiny integral P -> S: 0.010 s
+coleman_integrals_on_basis: Frobenius of the point (1 step(s)): 0.010 s
+coleman_integrals_on_basis: tiny integral S -> F_q(S): 0.030 s
+coleman_integrals_on_basis: evaluation of f_i at the 1 level(s): 0.360 s
+coleman_integrals_on_basis: linear solve: 0.000 s
+coleman_integrals_on_basis: total time: 0.430 s
+vanishing_differentials: integral 1/5 done (precision 9, 0.430 s).
+vanishing_differentials: integral 2/5 ...
+coleman_integrals_on_basis: suitable point/local expansions: 0.000 s
+coleman_integrals_on_basis: tiny integral P -> S: 0.000 s
+coleman_integrals_on_basis: Frobenius of the point (1 step(s)): 0.000 s
+coleman_integrals_on_basis: tiny integral S -> F_q(S): 0.000 s
+coleman_integrals_on_basis: evaluation of f_i at the 1 level(s): 0.010 s
+coleman_integrals_on_basis: linear solve: 0.000 s
+coleman_integrals_on_basis: total time: 0.010 s
+vanishing_differentials: integral 2/5 done (precision 10, 0.010 s).
+vanishing_differentials: integral 3/5 ...
+coleman_integrals_on_basis: the cached base point data has a smaller e than P2 needs; recomputing without the cache.
+coleman_integrals_on_basis: autocomputed e = 53.
+NOTE: with e = 53 expect about 4 correct digits (evaluation loss about 6 digits); for about 9 digits use e = 284 (slower tiny integrals) or increase N
+coleman_integrals_on_basis: suitable point/local expansions: 0.000 s
+coleman_integrals_on_basis: tiny integral P -> S: 0.000 s
+coleman_integrals_on_basis: Frobenius of the point (1 step(s)): 0.000 s
+coleman_integrals_on_basis: tiny integral S -> F_q(S): 0.000 s
+coleman_integrals_on_basis: evaluation of f_i at the 1 level(s): 0.000 s
+coleman_integrals_on_basis: suitable point/local expansions: 0.040 s
+coleman_integrals_on_basis: tiny integral P -> S: 0.050 s
+coleman_integrals_on_basis: Frobenius of the point (1 step(s)): 0.020 s
+coleman_integrals_on_basis: tiny integral S -> F_q(S): 0.110 s
+coleman_integrals_on_basis: evaluation of f_i at the 1 level(s): 0.620 s
+coleman_integrals_on_basis: linear solve: 0.010 s
+coleman_integrals_on_basis: total time: 0.860 s
+vanishing_differentials: integral 3/5 done (precision 5, 0.860 s).
+vanishing_differentials: integral 4/5 ...
+coleman_integrals_on_basis: suitable point/local expansions: 0.020 s
+coleman_integrals_on_basis: tiny integral P -> S: 0.030 s
+coleman_integrals_on_basis: Frobenius of the point (1 step(s)): 0.010 s
+coleman_integrals_on_basis: tiny integral S -> F_q(S): 0.060 s
+coleman_integrals_on_basis: evaluation of f_i at the 1 level(s): 0.620 s
+coleman_integrals_on_basis: linear solve: 0.010 s
+coleman_integrals_on_basis: total time: 0.760 s
+vanishing_differentials: integral 4/5 done (precision 10, 0.760 s).
+vanishing_differentials: integral 5/5 ...
+coleman_integrals_on_basis: suitable point/local expansions: 0.040 s
+coleman_integrals_on_basis: tiny integral P -> S: 0.050 s
+coleman_integrals_on_basis: Frobenius of the point (1 step(s)): 0.010 s
+coleman_integrals_on_basis: tiny integral S -> F_q(S): 0.120 s
+coleman_integrals_on_basis: evaluation of f_i at the 1 level(s): 0.620 s
+coleman_integrals_on_basis: linear solve: 0.010 s
+coleman_integrals_on_basis: total time: 0.860 s
+vanishing_differentials: integral 5/5 done (precision 5, 0.860 s).
+vanishing_differentials: solving for the kernel at common precision 5.
+effective_chabauty: computed 2 vanishing differentials (2.920 s).
+effective_chabauty: computed 14 K_p-points (0.030 s).
+effective_chabauty: computing local expansions of the K_p-points ...
+effective_chabauty: local expansions of the K_p-points: 0.040 s.
+effective_chabauty: computing common zeros of the vanishing differentials on the 14 residue disks ...
+effective_chabauty: disk 1/14 (bad) ...
+effective_chabauty: disk 1/14: found 1 point(s) (0.020 s); 1 point(s) in total so far.
+effective_chabauty: disk 2/14 (bad) ...
+effective_chabauty: disk 2/14: found 1 point(s) (0.020 s); 2 point(s) in total so far.
+effective_chabauty: disk 3/14 ...
+effective_chabauty: disk 3/14: found 1 point(s) (0.020 s); 3 point(s) in total so far.
+effective_chabauty: disk 4/14 ...
+coleman_integrals_on_basis: suitable point/local expansions: 0.000 s
+coleman_integrals_on_basis: tiny integral P -> S: 0.000 s
+coleman_integrals_on_basis: Frobenius of the point (1 step(s)): 0.000 s
+coleman_integrals_on_basis: tiny integral S -> F_q(S): 0.000 s
+coleman_integrals_on_basis: evaluation of f_i at the 1 level(s): 0.000 s
+coleman_integrals_on_basis: linear solve: 0.010 s
+coleman_integrals_on_basis: total time: 0.010 s
+effective_chabauty: disk 4/14: found 1 point(s) (0.020 s); 4 point(s) in total so far.
+effective_chabauty: disk 5/14 ...
+coleman_integrals_on_basis: suitable point/local expansions: 0.000 s
+coleman_integrals_on_basis: tiny integral P -> S: 0.000 s
+coleman_integrals_on_basis: Frobenius of the point (1 step(s)): 0.010 s
+coleman_integrals_on_basis: tiny integral S -> F_q(S): 0.000 s
+coleman_integrals_on_basis: evaluation of f_i at the 1 level(s): 0.000 s
+coleman_integrals_on_basis: linear solve: 0.000 s
+coleman_integrals_on_basis: total time: 0.010 s
+effective_chabauty: disk 5/14: found 0 point(s) (0.030 s); 4 point(s) in total so far.
+effective_chabauty: disk 6/14 ...
+coleman_integrals_on_basis: suitable point/local expansions: 0.000 s
+coleman_integrals_on_basis: tiny integral P -> S: 0.000 s
+coleman_integrals_on_basis: Frobenius of the point (1 step(s)): 0.000 s
+coleman_integrals_on_basis: tiny integral S -> F_q(S): 0.010 s
+coleman_integrals_on_basis: evaluation of f_i at the 1 level(s): 0.000 s
+coleman_integrals_on_basis: linear solve: 0.000 s
+coleman_integrals_on_basis: total time: 0.010 s
+effective_chabauty: disk 6/14: found 0 point(s) (0.030 s); 4 point(s) in total so far.
+effective_chabauty: disk 7/14 ...
+coleman_integrals_on_basis: suitable point/local expansions: 0.000 s
+coleman_integrals_on_basis: tiny integral P -> S: 0.000 s
+coleman_integrals_on_basis: Frobenius of the point (1 step(s)): 0.000 s
+coleman_integrals_on_basis: tiny integral S -> F_q(S): 0.010 s
+coleman_integrals_on_basis: evaluation of f_i at the 1 level(s): 0.000 s
+coleman_integrals_on_basis: linear solve: 0.000 s
+coleman_integrals_on_basis: total time: 0.010 s
+effective_chabauty: disk 7/14: found 0 point(s) (0.030 s); 4 point(s) in total so far.
+effective_chabauty: disk 8/14 ...
+coleman_integrals_on_basis: suitable point/local expansions: 0.000 s
+coleman_integrals_on_basis: tiny integral P -> S: 0.000 s
+coleman_integrals_on_basis: Frobenius of the point (1 step(s)): 0.000 s
+coleman_integrals_on_basis: tiny integral S -> F_q(S): 0.000 s
+coleman_integrals_on_basis: evaluation of f_i at the 1 level(s): 0.010 s
+coleman_integrals_on_basis: linear solve: 0.000 s
+coleman_integrals_on_basis: total time: 0.010 s
+effective_chabauty: disk 8/14: found 0 point(s) (0.030 s); 4 point(s) in total so far.
+effective_chabauty: disk 9/14 (bad) ...
+effective_chabauty: disk 9/14: found 1 point(s) (0.020 s); 5 point(s) in total so far.
+effective_chabauty: disk 10/14 (bad) ...
+effective_chabauty: disk 10/14: found 1 point(s) (0.010 s); 6 point(s) in total so far.
+effective_chabauty: disk 11/14 (bad) ...
+coleman_integrals_on_basis: suitable point/local expansions: 0.050 s
+coleman_integrals_on_basis: tiny integral P -> S: 0.060 s
+coleman_integrals_on_basis: Frobenius of the point (1 step(s)): 0.010 s
+coleman_integrals_on_basis: tiny integral S -> F_q(S): 0.120 s
+coleman_integrals_on_basis: evaluation of f_i at the 1 level(s): 0.620 s
+coleman_integrals_on_basis: linear solve: 0.000 s
+coleman_integrals_on_basis: total time: 0.870 s
+effective_chabauty: disk 11/14: found 1 point(s) (0.890 s); 7 point(s) in total so far.
+effective_chabauty: disk 12/14 (bad) ...
+coleman_integrals_on_basis: suitable point/local expansions: 0.050 s
+coleman_integrals_on_basis: tiny integral P -> S: 0.050 s
+coleman_integrals_on_basis: Frobenius of the point (1 step(s)): 0.010 s
+coleman_integrals_on_basis: tiny integral S -> F_q(S): 0.110 s
+coleman_integrals_on_basis: evaluation of f_i at the 1 level(s): 0.630 s
+coleman_integrals_on_basis: linear solve: 0.000 s
+coleman_integrals_on_basis: total time: 0.860 s
+effective_chabauty: disk 12/14: found 1 point(s) (0.890 s); 8 point(s) in total so far.
+effective_chabauty: disk 13/14 ...
+coleman_integrals_on_basis: suitable point/local expansions: 0.000 s
+coleman_integrals_on_basis: tiny integral P -> S: 0.000 s
+coleman_integrals_on_basis: Frobenius of the point (1 step(s)): 0.000 s
+coleman_integrals_on_basis: tiny integral S -> F_q(S): 0.000 s
+coleman_integrals_on_basis: evaluation of f_i at the 1 level(s): 0.000 s
+coleman_integrals_on_basis: linear solve: 0.000 s
+coleman_integrals_on_basis: total time: 0.000 s
+effective_chabauty: disk 13/14: found 0 point(s) (0.020 s); 8 point(s) in total so far.
+effective_chabauty: disk 14/14 ...
+coleman_integrals_on_basis: suitable point/local expansions: 0.000 s
+coleman_integrals_on_basis: tiny integral P -> S: 0.000 s
+coleman_integrals_on_basis: Frobenius of the point (1 step(s)): 0.000 s
+coleman_integrals_on_basis: tiny integral S -> F_q(S): 0.000 s
+coleman_integrals_on_basis: evaluation of f_i at the 1 level(s): 0.000 s
+coleman_integrals_on_basis: linear solve: 0.000 s
+coleman_integrals_on_basis: total time: 0.000 s
+effective_chabauty: disk 14/14: found 0 point(s) (0.020 s); 8 point(s) in total so far.
+effective_chabauty: found 8 point(s) in total (5.100 s).
+curve_chabauty: 8 candidate(s): 6 agree with the 6 known point records, 2 do not; 1 of them are recognized as L-rational points with x = [
+1/2*(-w - 1)
+].
+PASS over Q(sqrt -3): the missing point (zeta^2, -1) is recognized, x = (-1 - sqrt -3)/2 in L
+
+0 failure(s)
+
+resources: CPU time 19.390 s, maximum memory 109 MB

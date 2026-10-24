@@ -1,0 +1,52 @@
+==== 1. N_max for y^2 = x^5-2x^2+x+11 over Q_5 ====
+N = 11: c_end = 0, Nmax = 14 (the article's rule: 14)
+N = 20: c_end = 0, Nmax = 23
+
+==== 2. integrals at N = 11 against N = 20 ====
+(0,sqrt(11)) -> (1,sqrt(11)):
+  N = 11: (1432914*5 + O(5^11) -3381023*5 + O(5^11) 4302424*5 + O(5^11) 16850847 + O(5^11)), precision 11
+  N = 20: precision 20
+  valuations of the differences: [ 11, 11, 11, 11 ]; agree to precision 11: true
+(0,sqrt(11)) -> (0,-sqrt(11)):
+  N = 11: (-37883*5^3 + O(5^11) 3446976*5 + O(5^11) -6419186 + O(5^11) -15246958 + O(5^11)), precision 11
+  N = 20: precision 20
+  valuations of the differences: [ 11, 11, 11, 11 ]; agree to precision 11: true
+NOTE: with e = 21 expect about 4 correct digits (evaluation loss about 7 digits); for about 10 digits use e = 128 (slower tiny integrals) or increase N
+NOTE: with e = 21 expect about 9 correct digits (evaluation loss about 11 digits); for about 19 digits use e = 218 (slower tiny integrals) or increase N
+(0,sqrt(11)) -> infinity:
+  N = 11: (176371*5^3 + O(5^11) 1723488*5 + O(5^11) -3209593 + O(5^10) 2142146 + O(5^10)), precision 10
+  N = 20: precision 19
+  valuations of the differences: [ 11, 11, 10, 10 ]; agree to precision 10: true
+int_P1^iota(P1) - 2*int_P1^infinity: valuations [ 11, 11, 10, 10 ] (precision 10)
+
+==== 3. T_0(P) for p = q_tau = 3, e_K = e_0 = 1, N = 10, N_max = 13, v_K(r(P)) = 1/7 ====
+j_0 = 36, T_0(P) = 32/7 = 10-38/7, N-(j_0-1)v_K(r(P)) = 5
+
+==== 4. finitely bad endpoints: y^2 = x^5-2x^2+x over Q_5 ====
+N = 11: c_end = 0, Nmax = 14; N = 20: c_end = 0, Nmax = 23
+at v_K(r(S)) = 2/21: j_0 = 65, T_0(S) = 31/7, N-(j_0-1)v_K(r(S)) = 103/21
+NOTE: with e = 21 expect about 4 correct digits (evaluation loss about 7 digits); for about 10 digits use e = 128 (slower tiny integrals) or increase N
+NOTE: with e = 21 expect about 9 correct digits (evaluation loss about 11 digits); for about 19 digits use e = 218 (slower tiny integrals) or increase N
+(2,sqrt(26)) -> (0,0):
+  N = 11: (43*5^2 + O(5^5) 177*5 + O(5^5) 1437 + O(5^5) 1462 + O(5^5)), precision 5
+  N = 20: precision 10
+  valuations of the differences: [ 5, 5, 5, 5 ]; agree to precision 5: true
+NOTE: with e = 21 expect about 4 correct digits (evaluation loss about 7 digits); for about 10 digits use e = 128 (slower tiny integrals) or increase N
+NOTE: with e = 21 expect about 9 correct digits (evaluation loss about 11 digits); for about 19 digits use e = 218 (slower tiny integrals) or increase N
+(2,sqrt(26)) -> (1,0):
+  N = 11: (43*5^2 + O(5^5) 177*5 + O(5^5) 1437 + O(5^5) 1462 + O(5^5)), precision 5
+  N = 20: precision 10
+  valuations of the differences: [ 5, 5, 5, 5 ]; agree to precision 5: true
+(2,sqrt(26)) -> (2,-sqrt(26)):
+  N = 11: (-749289*5^2 + O(5^11) 790354*5 + O(5^11) 13149749 + O(5^11) -884576 + O(5^11)), precision 11
+  N = 20: precision 20
+  valuations of the differences: [ 11, 11, 11, 11 ]; agree to precision 11: true
+int_R^iota(R) - 2*int_R^(0,0): valuations [ 5, 5, 5, 5 ] (precision 5)
+int_R^iota(R) - 2*int_R^(1,0): valuations [ 5, 5, 5, 5 ] (precision 5)
+
+==== 5. coleman_integral of x^k dx/y: the loss of the infinite reduction ====
+k = 0: precision 11 at N = 11, 20 at N = 20; valuation of the difference 11
+k = 10: precision 10 at N = 11, 19 at N = 20; valuation of the difference 10
+k = 40: precision 9 at N = 11, 18 at N = 20; valuation of the difference 9
+
+resources: CPU time 1.610 s, maximum memory 32 MB

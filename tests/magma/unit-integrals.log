@@ -1,0 +1,98 @@
+coleman_integrals_on_basis: suitable point/local expansions: 0.020 s
+coleman_integrals_on_basis: tiny integral P -> S: 0.000 s
+coleman_integrals_on_basis: Frobenius of the point (1 step(s)): 0.000 s
+coleman_integrals_on_basis: tiny integral S -> F_q(S): 0.010 s
+coleman_integrals_on_basis: evaluation of f_i at the 1 level(s): 0.000 s
+coleman_integrals_on_basis: suitable point/local expansions: 0.000 s
+coleman_integrals_on_basis: tiny integral P -> S: 0.000 s
+coleman_integrals_on_basis: Frobenius of the point (1 step(s)): 0.000 s
+coleman_integrals_on_basis: tiny integral S -> F_q(S): 0.010 s
+coleman_integrals_on_basis: evaluation of f_i at the 1 level(s): 0.000 s
+coleman_integrals_on_basis: linear solve: 0.000 s
+coleman_integrals_on_basis: total time: 0.040 s
+coleman_integrals_on_basis: suitable point/local expansions: 0.000 s
+coleman_integrals_on_basis: tiny integral P -> S: 0.000 s
+coleman_integrals_on_basis: Frobenius of the point (1 step(s)): 0.000 s
+coleman_integrals_on_basis: tiny integral S -> F_q(S): 0.010 s
+coleman_integrals_on_basis: evaluation of f_i at the 1 level(s): 0.000 s
+coleman_integrals_on_basis: suitable point/local expansions: 0.000 s
+coleman_integrals_on_basis: tiny integral P -> S: 0.000 s
+coleman_integrals_on_basis: Frobenius of the point (1 step(s)): 0.000 s
+coleman_integrals_on_basis: tiny integral S -> F_q(S): 0.000 s
+coleman_integrals_on_basis: evaluation of f_i at the 1 level(s): 0.000 s
+coleman_integrals_on_basis: linear solve: 0.000 s
+coleman_integrals_on_basis: total time: 0.020 s
+coleman_integrals_on_basis: autocomputed e = 29.
+NOTE: with e = 29 expect about 4 correct digits (evaluation loss about 6 digits); for about 9 digits use e = 152 (slower tiny integrals) or increase N
+coleman_integrals_on_basis: suitable point/local expansions: 0.010 s
+coleman_integrals_on_basis: tiny integral P -> S: 0.000 s
+coleman_integrals_on_basis: Frobenius of the point (1 step(s)): 0.000 s
+coleman_integrals_on_basis: tiny integral S -> F_q(S): 0.000 s
+coleman_integrals_on_basis: evaluation of f_i at the 1 level(s): 0.000 s
+coleman_integrals_on_basis: suitable point/local expansions: 0.020 s
+coleman_integrals_on_basis: tiny integral P -> S: 0.020 s
+coleman_integrals_on_basis: Frobenius of the point (1 step(s)): 0.000 s
+coleman_integrals_on_basis: tiny integral S -> F_q(S): 0.060 s
+coleman_integrals_on_basis: evaluation of f_i at the 1 level(s): 0.030 s
+coleman_integrals_on_basis: linear solve: 0.010 s
+coleman_integrals_on_basis: total time: 0.180 s
+coleman_integrals_on_basis: autocomputed e = 29.
+NOTE: with e = 29 expect about 4 correct digits (evaluation loss about 6 digits); for about 9 digits use e = 152 (slower tiny integrals) or increase N
+coleman_integrals_on_basis: suitable point/local expansions: 0.020 s
+coleman_integrals_on_basis: tiny integral P -> S: 0.010 s
+coleman_integrals_on_basis: Frobenius of the point (1 step(s)): 0.010 s
+coleman_integrals_on_basis: tiny integral S -> F_q(S): 0.060 s
+coleman_integrals_on_basis: evaluation of f_i at the 1 level(s): 0.030 s
+coleman_integrals_on_basis: suitable point/local expansions: 0.000 s
+coleman_integrals_on_basis: tiny integral P -> S: 0.000 s
+coleman_integrals_on_basis: Frobenius of the point (1 step(s)): 0.000 s
+coleman_integrals_on_basis: tiny integral S -> F_q(S): 0.010 s
+coleman_integrals_on_basis: evaluation of f_i at the 1 level(s): 0.000 s
+coleman_integrals_on_basis: linear solve: 0.000 s
+coleman_integrals_on_basis: total time: 0.170 s
+coleman_integrals_on_basis: autocomputed e = 29.
+NOTE: with e = 29 expect about 4 correct digits (evaluation loss about 6 digits); for about 9 digits use e = 152 (slower tiny integrals) or increase N
+coleman_integrals_on_basis: suitable point/local expansions: 0.020 s
+coleman_integrals_on_basis: tiny integral P -> S: 0.010 s
+coleman_integrals_on_basis: Frobenius of the point (1 step(s)): 0.010 s
+coleman_integrals_on_basis: tiny integral S -> F_q(S): 0.060 s
+coleman_integrals_on_basis: evaluation of f_i at the 1 level(s): 0.030 s
+coleman_integrals_on_basis: suitable point/local expansions: 0.010 s
+coleman_integrals_on_basis: tiny integral P -> S: 0.020 s
+coleman_integrals_on_basis: Frobenius of the point (1 step(s)): 0.010 s
+coleman_integrals_on_basis: tiny integral S -> F_q(S): 0.060 s
+coleman_integrals_on_basis: evaluation of f_i at the 1 level(s): 0.030 s
+coleman_integrals_on_basis: linear solve: 0.000 s
+coleman_integrals_on_basis: total time: 0.320 s
+coleman_integrals_on_basis: autocomputed e = 29.
+NOTE: with e = 29 expect about 4 correct digits (evaluation loss about 6 digits); for about 9 digits use e = 152 (slower tiny integrals) or increase N
+coleman_integrals_on_basis: suitable point/local expansions: 0.010 s
+coleman_integrals_on_basis: tiny integral P -> S: 0.040 s
+coleman_integrals_on_basis: Frobenius of the point (1 step(s)): 0.000 s
+coleman_integrals_on_basis: tiny integral S -> F_q(S): 0.050 s
+coleman_integrals_on_basis: evaluation of f_i at the 1 level(s): 0.030 s
+coleman_integrals_on_basis: suitable point/local expansions: 0.020 s
+coleman_integrals_on_basis: tiny integral P -> S: 0.020 s
+coleman_integrals_on_basis: Frobenius of the point (1 step(s)): 0.000 s
+coleman_integrals_on_basis: tiny integral S -> F_q(S): 0.060 s
+coleman_integrals_on_basis: evaluation of f_i at the 1 level(s): 0.030 s
+coleman_integrals_on_basis: linear solve: 0.010 s
+coleman_integrals_on_basis: total time: 0.320 s
+PASS antisymmetry: int_P^{iota P} = - int_{iota P}^P (all 2g forms)
+PASS additivity through the Weierstrass point W0 (holomorphic forms)
+PASS 2-torsion: holomorphic integrals from W0 to W1 vanish
+PASS 2-torsion: holomorphic integrals from W1 to W2 vanish
+PASS involution: int_P^{iota P} = 2 int_P^{W0} (holomorphic forms)
+PASS [P - iota P] is not torsion: some holomorphic integral is nonzero
+NOTE: with e = 21 expect about 4 correct digits (evaluation loss about 6 digits); for about 9 digits use e = 108 (slower tiny integrals) or increase N
+NOTE: with e = 11 expect about 5 correct digits (evaluation loss about 5 digits); for about 9 digits use e = 54 (slower tiny integrals) or increase N
+NOTE: with e = 21 expect about 4 correct digits (evaluation loss about 6 digits); for about 9 digits use e = 108 (slower tiny integrals) or increase N
+PASS the integral to the bad point (-1,0) with the cached side of (0,-1): as precise as without the cache
+PASS rank 0: the holomorphic integrals from (0,-1) to (-1,0) vanish, with and without the cache
+NOTE: with e = 21 expect about 4 correct digits (evaluation loss about 6 digits); for about 9 digits use e = 108 (slower tiny integrals) or increase N
+NOTE: with e = 43 expect about 7 correct digits (evaluation loss about 3 digits); for about 9 digits use e = 108 (slower tiny integrals) or increase N
+PASS target := 8: a larger e gives precision >= 8, and the same integrals to precision 4
+
+0 failure(s)
+
+resources: CPU time 2.340 s, maximum memory 32 MB

@@ -1,0 +1,43 @@
+PASS curve over Q at 7: the integrals on the basis are not all zero
+PASS curve over Q at 7: int omega_1 = (coleman_integrals_on_basis)[1]
+PASS curve over Q at 7: int (2*omega_1 - omega_(g+1)) = 2*I[1] - I[g+1]
+PASS curve over Q at 7: int dy = y(R) - y(P)
+PASS curve over Q(sqrt 7) at the prime above 7: the integrals on the basis are not all zero
+PASS curve over Q(sqrt 7) at the prime above 7: int omega_1 = (coleman_integrals_on_basis)[1]
+PASS curve over Q(sqrt 7) at the prime above 7: int (2*omega_1 - omega_(g+1)) = 2*I[1] - I[g+1]
+PASS curve over Q(sqrt 7) at the prime above 7: int dy = y(R) - y(P)
+coleman_integrals_on_basis: suitable point/local expansions: 0.000 s
+coleman_integrals_on_basis: tiny integral P -> S: 0.000 s
+coleman_integrals_on_basis: Frobenius of the point (1 step(s)): 0.000 s
+coleman_integrals_on_basis: tiny integral S -> F_q(S): 0.010 s
+coleman_integrals_on_basis: evaluation of f_i at the 1 level(s): 0.000 s
+coleman_integrals_on_basis: suitable point/local expansions: 0.000 s
+coleman_integrals_on_basis: tiny integral P -> S: 0.000 s
+coleman_integrals_on_basis: Frobenius of the point (1 step(s)): 0.000 s
+coleman_integrals_on_basis: tiny integral S -> F_q(S): 0.010 s
+coleman_integrals_on_basis: evaluation of f_i at the 1 level(s): 0.010 s
+coleman_integrals_on_basis: linear solve: 0.000 s
+coleman_integrals_on_basis: total time: 0.030 s
+PASS useU: int dx/x from (3,12) to the point with x = 10 is log(10/3)
+coleman_integrals_on_basis: autocomputed e = 29.
+NOTE: with e = 29 expect about 4 correct digits (evaluation loss about 6 digits); for about 9 digits use e = 152 (slower tiny integrals) or increase N
+coleman_integrals_on_basis: P2 is bad but not very bad, replacing it by the very bad point of its disc.
+NOTE: with e = 29 expect about 4 correct digits (evaluation loss about 6 digits); for about 9 digits use e = 152 (slower tiny integrals) or increase N
+coleman_integrals_on_basis: suitable point/local expansions: 0.010 s
+coleman_integrals_on_basis: tiny integral P -> S: 0.000 s
+coleman_integrals_on_basis: Frobenius of the point (1 step(s)): 0.000 s
+coleman_integrals_on_basis: tiny integral S -> F_q(S): 0.010 s
+coleman_integrals_on_basis: evaluation of f_i at the 1 level(s): 0.000 s
+coleman_integrals_on_basis: suitable point/local expansions: 0.000 s
+coleman_integrals_on_basis: tiny integral P -> S: 0.040 s
+coleman_integrals_on_basis: Frobenius of the point (1 step(s)): 0.000 s
+coleman_integrals_on_basis: tiny integral S -> F_q(S): 0.100 s
+coleman_integrals_on_basis: evaluation of f_i at the 1 level(s): 0.070 s
+coleman_integrals_on_basis: linear solve: 0.010 s
+coleman_integrals_on_basis: total time: 0.240 s
+PASS useU: int dx/x from (3,12) into the bad disc of (0,0), x = 294: log 2 (the logarithmic terms of the tiny integrals)
+PASS log_iwasawa: log(294) = log(6) (log 7 = 0)
+
+0 failure(s)
+
+resources: CPU time 1.650 s, maximum memory 32 MB

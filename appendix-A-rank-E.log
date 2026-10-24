@@ -1,0 +1,28 @@
+E = Elliptic Curve defined by y^2 + y = x^3 + 1 over F
+Conductor(E) = product of primes of norms (with exponents) [ <5, 2>, <9, 2> ]
+rank E(Q) bounds   = 1 1
+rank E^(5)(Q) bounds = 0 0
+RankBounds E(F) = 1
+E(F) = Abelian Group isomorphic to Z/3 + Z
+Defined on 2 generators
+Relations:
+3*G.1 = 0   provable_rank=true saturated=true
+torsion = 
+Abelian Group isomorphic to Z/3
+Defined on 1 generator
+Relations:
+3*$.1 = 0
+Mapping from: Abelian Group isomorphic to Z/3
+Defined on 1 generator
+Relations:
+3*$.1 = 0 to CrvEll: E given by a rule [no inverse]
+gen: (1/2*(-3*s + 5) : 3*s - 8 : 1)   order 0
+gen: (0 : 1/2*(-s - 1) : 1)   order 3
+point-count isogeny check #C = #E + #H - (q+1):
+  p=11: #C=14, #E+#H-(p+1)=14  match=true
+  p=29: #C=22, #E+#H-(p+1)=22  match=true
+  p=31: #C=42, #E+#H-(p+1)=42  match=true
+  p=41: #C=40, #E+#H-(p+1)=40  match=true
+DONE
+
+resources: CPU time 0.850 s, maximum memory 32 MB

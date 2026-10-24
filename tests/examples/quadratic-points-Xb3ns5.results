@@ -1,0 +1,270 @@
+# numerical results of a test script (tests/magma/results.m), compared by tests/compare_results.py
+1. from D0: norms of the primes[1]	int	11
+1. from D0: discs	int	146
+1. from D0: classes	int	171
+1. from D0: excluded, known, recovered, family, unresolved[1]	int	0
+1. from D0: excluded, known, recovered, family, unresolved[2]	int	1
+1. from D0: excluded, known, recovered, family, unresolved[3]	int	78
+1. from D0: excluded, known, recovered, family, unresolved[4]	int	12
+1. from D0: excluded, known, recovered, family, unresolved[5]	int	80
+1. from D0: divisors	int	79
+1. from D0: x-polynomials[1]	str	0
+1. from D0: x-polynomials[2]	str	0
+1. from D0: x-polynomials[3]	str	0
+1. from D0: x-polynomials[4]	str	0
+1. from D0: x-polynomials[5]	str	0
+1. from D0: x-polynomials[6]	str	0
+1. from D0: x-polynomials[7]	str	0
+1. from D0: x-polynomials[8]	str	0
+1. from D0: x-polynomials[9]	str	0
+1. from D0: x-polynomials[10]	str	0
+1. from D0: x-polynomials[11]	str	0
+1. from D0: x-polynomials[12]	str	0
+1. from D0: x-polynomials[13]	str	0
+1. from D0: x-polynomials[14]	str	0
+1. from D0: x-polynomials[15]	str	0
+1. from D0: x-polynomials[16]	str	0
+1. from D0: x-polynomials[17]	str	x^2 + (-s + 1)*x + 1/2*(-s + 3)
+1. from D0: x-polynomials[18]	str	x^2 + (-s + 1)*x + 1/2*(-s + 3)
+1. from D0: x-polynomials[19]	str	x^2 + (s + 1)*x + 1/2*(s + 3)
+1. from D0: x-polynomials[20]	str	x^2 + (s + 1)*x + 1/2*(s + 3)
+1. from D0: x-polynomials[21]	str	x^2 + 1/12*(-3*s + 17)*x + 1/12*(-9*s - 7)
+1. from D0: x-polynomials[22]	str	x^2 + 1/12*(-3*s + 17)*x + 1/12*(-9*s - 7)
+1. from D0: x-polynomials[23]	str	x^2 + 1/12*(-5*s - 3)*x + 1/12*(-5*s - 17)
+1. from D0: x-polynomials[24]	str	x^2 + 1/12*(-5*s - 3)*x + 1/12*(-5*s - 17)
+1. from D0: x-polynomials[25]	str	x^2 + 1/12*(3*s + 17)*x + 1/12*(9*s - 7)
+1. from D0: x-polynomials[26]	str	x^2 + 1/12*(3*s + 17)*x + 1/12*(9*s - 7)
+1. from D0: x-polynomials[27]	str	x^2 + 1/12*(5*s - 3)*x + 1/12*(5*s - 17)
+1. from D0: x-polynomials[28]	str	x^2 + 1/12*(5*s - 3)*x + 1/12*(5*s - 17)
+1. from D0: x-polynomials[29]	str	x^2 + 1/2*(-s + 3)*x + 1/2*(-s + 1)
+1. from D0: x-polynomials[30]	str	x^2 + 1/2*(-s + 3)*x + 1/2*(-s + 1)
+1. from D0: x-polynomials[31]	str	x^2 + 1/2*(-s - 3)*x + s - 1
+1. from D0: x-polynomials[32]	str	x^2 + 1/2*(-s - 3)*x + s - 1
+1. from D0: x-polynomials[33]	str	x^2 + 1/2*(s + 3)*x + 1/2*(s + 1)
+1. from D0: x-polynomials[34]	str	x^2 + 1/2*(s + 3)*x + 1/2*(s + 1)
+1. from D0: x-polynomials[35]	str	x^2 + 1/2*(s - 3)*x - s - 1
+1. from D0: x-polynomials[36]	str	x^2 + 1/2*(s - 3)*x - s - 1
+1. from D0: x-polynomials[37]	str	x^2 + 1/3*(-3*s - 7)*x + 1/6*(7*s + 9)
+1. from D0: x-polynomials[38]	str	x^2 + 1/3*(-3*s - 7)*x + 1/6*(7*s + 9)
+1. from D0: x-polynomials[39]	str	x^2 + 1/3*(3*s - 7)*x + 1/6*(-7*s + 9)
+1. from D0: x-polynomials[40]	str	x^2 + 1/3*(3*s - 7)*x + 1/6*(-7*s + 9)
+1. from D0: x-polynomials[41]	str	x^2 + 1/6*(-3*s + 1)*x + 1/3*(-2*s - 3)
+1. from D0: x-polynomials[42]	str	x^2 + 1/6*(-3*s + 1)*x + 1/3*(-2*s - 3)
+1. from D0: x-polynomials[43]	str	x^2 + 1/6*(-3*s + 1)*x + 1/6*(s - 1)
+1. from D0: x-polynomials[44]	str	x^2 + 1/6*(-3*s + 1)*x + 1/6*(s - 1)
+1. from D0: x-polynomials[45]	str	x^2 + 1/6*(-3*s + 11)*x + 1/3*(3*s - 8)
+1. from D0: x-polynomials[46]	str	x^2 + 1/6*(-3*s + 11)*x + 1/3*(3*s - 8)
+1. from D0: x-polynomials[47]	str	x^2 + 1/6*(-3*s - 5)*x + 1/3*(-s - 7)
+1. from D0: x-polynomials[48]	str	x^2 + 1/6*(-3*s - 5)*x + 1/3*(-s - 7)
+1. from D0: x-polynomials[49]	str	x^2 + 1/6*(-3*s - 5)*x + 1/6*(3*s + 1)
+1. from D0: x-polynomials[50]	str	x^2 + 1/6*(-3*s - 5)*x + 1/6*(3*s + 1)
+1. from D0: x-polynomials[51]	str	x^2 + 1/6*(-s + 1)*x + 1/6*(-3*s - 1)
+1. from D0: x-polynomials[52]	str	x^2 + 1/6*(-s + 1)*x + 1/6*(-3*s - 1)
+1. from D0: x-polynomials[53]	str	x^2 + 1/6*(3*s + 1)*x + 1/3*(2*s - 3)
+1. from D0: x-polynomials[54]	str	x^2 + 1/6*(3*s + 1)*x + 1/3*(2*s - 3)
+1. from D0: x-polynomials[55]	str	x^2 + 1/6*(3*s + 1)*x + 1/6*(-s - 1)
+1. from D0: x-polynomials[56]	str	x^2 + 1/6*(3*s + 1)*x + 1/6*(-s - 1)
+1. from D0: x-polynomials[57]	str	x^2 + 1/6*(3*s + 11)*x + 1/3*(-3*s - 8)
+1. from D0: x-polynomials[58]	str	x^2 + 1/6*(3*s + 11)*x + 1/3*(-3*s - 8)
+1. from D0: x-polynomials[59]	str	x^2 + 1/6*(3*s - 5)*x + 1/3*(s - 7)
+1. from D0: x-polynomials[60]	str	x^2 + 1/6*(3*s - 5)*x + 1/3*(s - 7)
+1. from D0: x-polynomials[61]	str	x^2 + 1/6*(3*s - 5)*x + 1/6*(-3*s + 1)
+1. from D0: x-polynomials[62]	str	x^2 + 1/6*(3*s - 5)*x + 1/6*(-3*s + 1)
+1. from D0: x-polynomials[63]	str	x^2 + 1/6*(s + 1)*x + 1/6*(3*s - 1)
+1. from D0: x-polynomials[64]	str	x^2 + 1/6*(s + 1)*x + 1/6*(3*s - 1)
+1. from D0: x-polynomials[65]	str	x^2 + 1/6*x - 1
+1. from D0: x-polynomials[66]	str	x^2 + 1/6*x - 1
+1. from D0: x-polynomials[67]	str	x^2 + 2/3*x - 1/3
+1. from D0: x-polynomials[68]	str	x^2 + 5/3*x + 1
+1. from D0: x-polynomials[69]	str	x^2 + 5/3*x + 1
+1. from D0: x-polynomials[70]	str	x^2 + x - 1
+1. from D0: x-polynomials[71]	str	x^2 + x - 1
+1. from D0: x-polynomials[72]	str	x^2 + x - 1
+1. from D0: x-polynomials[73]	str	x^2 + x - 1
+1. from D0: x-polynomials[74]	str	x^2 - 3/2
+1. from D0: x-polynomials[75]	str	x^2 - 3/2
+1. from D0: x-polynomials[76]	str	x^2 - 7/3*x + 2/3
+1. from D0: x-polynomials[77]	str	x^2 - 7/3*x - 13/3
+1. from D0: x-polynomials[78]	str	x^2 - 7/3*x - 13/3
+1. from D0: x-polynomials[79]	str	x^2 - x - 2
+1. from D0: complete	bool	false
+3. gcd of #J(k_v)	int	80
+5. with the known points: norms of the primes[1]	int	11
+5. with the known points: discs	int	146
+5. with the known points: classes	int	171
+5. with the known points: excluded, known, recovered, family, unresolved[1]	int	0
+5. with the known points: excluded, known, recovered, family, unresolved[2]	int	11
+5. with the known points: excluded, known, recovered, family, unresolved[3]	int	68
+5. with the known points: excluded, known, recovered, family, unresolved[4]	int	12
+5. with the known points: excluded, known, recovered, family, unresolved[5]	int	80
+5. with the known points: divisors	int	79
+5. with the known points: x-polynomials[1]	str	0
+5. with the known points: x-polynomials[2]	str	0
+5. with the known points: x-polynomials[3]	str	0
+5. with the known points: x-polynomials[4]	str	0
+5. with the known points: x-polynomials[5]	str	0
+5. with the known points: x-polynomials[6]	str	0
+5. with the known points: x-polynomials[7]	str	0
+5. with the known points: x-polynomials[8]	str	0
+5. with the known points: x-polynomials[9]	str	0
+5. with the known points: x-polynomials[10]	str	0
+5. with the known points: x-polynomials[11]	str	0
+5. with the known points: x-polynomials[12]	str	0
+5. with the known points: x-polynomials[13]	str	0
+5. with the known points: x-polynomials[14]	str	0
+5. with the known points: x-polynomials[15]	str	0
+5. with the known points: x-polynomials[16]	str	0
+5. with the known points: x-polynomials[17]	str	x^2 + (-s + 1)*x + 1/2*(-s + 3)
+5. with the known points: x-polynomials[18]	str	x^2 + (-s + 1)*x + 1/2*(-s + 3)
+5. with the known points: x-polynomials[19]	str	x^2 + (s + 1)*x + 1/2*(s + 3)
+5. with the known points: x-polynomials[20]	str	x^2 + (s + 1)*x + 1/2*(s + 3)
+5. with the known points: x-polynomials[21]	str	x^2 + 1/12*(-3*s + 17)*x + 1/12*(-9*s - 7)
+5. with the known points: x-polynomials[22]	str	x^2 + 1/12*(-3*s + 17)*x + 1/12*(-9*s - 7)
+5. with the known points: x-polynomials[23]	str	x^2 + 1/12*(-5*s - 3)*x + 1/12*(-5*s - 17)
+5. with the known points: x-polynomials[24]	str	x^2 + 1/12*(-5*s - 3)*x + 1/12*(-5*s - 17)
+5. with the known points: x-polynomials[25]	str	x^2 + 1/12*(3*s + 17)*x + 1/12*(9*s - 7)
+5. with the known points: x-polynomials[26]	str	x^2 + 1/12*(3*s + 17)*x + 1/12*(9*s - 7)
+5. with the known points: x-polynomials[27]	str	x^2 + 1/12*(5*s - 3)*x + 1/12*(5*s - 17)
+5. with the known points: x-polynomials[28]	str	x^2 + 1/12*(5*s - 3)*x + 1/12*(5*s - 17)
+5. with the known points: x-polynomials[29]	str	x^2 + 1/2*(-s + 3)*x + 1/2*(-s + 1)
+5. with the known points: x-polynomials[30]	str	x^2 + 1/2*(-s + 3)*x + 1/2*(-s + 1)
+5. with the known points: x-polynomials[31]	str	x^2 + 1/2*(-s - 3)*x + s - 1
+5. with the known points: x-polynomials[32]	str	x^2 + 1/2*(-s - 3)*x + s - 1
+5. with the known points: x-polynomials[33]	str	x^2 + 1/2*(s + 3)*x + 1/2*(s + 1)
+5. with the known points: x-polynomials[34]	str	x^2 + 1/2*(s + 3)*x + 1/2*(s + 1)
+5. with the known points: x-polynomials[35]	str	x^2 + 1/2*(s - 3)*x - s - 1
+5. with the known points: x-polynomials[36]	str	x^2 + 1/2*(s - 3)*x - s - 1
+5. with the known points: x-polynomials[37]	str	x^2 + 1/3*(-3*s - 7)*x + 1/6*(7*s + 9)
+5. with the known points: x-polynomials[38]	str	x^2 + 1/3*(-3*s - 7)*x + 1/6*(7*s + 9)
+5. with the known points: x-polynomials[39]	str	x^2 + 1/3*(3*s - 7)*x + 1/6*(-7*s + 9)
+5. with the known points: x-polynomials[40]	str	x^2 + 1/3*(3*s - 7)*x + 1/6*(-7*s + 9)
+5. with the known points: x-polynomials[41]	str	x^2 + 1/6*(-3*s + 1)*x + 1/3*(-2*s - 3)
+5. with the known points: x-polynomials[42]	str	x^2 + 1/6*(-3*s + 1)*x + 1/3*(-2*s - 3)
+5. with the known points: x-polynomials[43]	str	x^2 + 1/6*(-3*s + 1)*x + 1/6*(s - 1)
+5. with the known points: x-polynomials[44]	str	x^2 + 1/6*(-3*s + 1)*x + 1/6*(s - 1)
+5. with the known points: x-polynomials[45]	str	x^2 + 1/6*(-3*s + 11)*x + 1/3*(3*s - 8)
+5. with the known points: x-polynomials[46]	str	x^2 + 1/6*(-3*s + 11)*x + 1/3*(3*s - 8)
+5. with the known points: x-polynomials[47]	str	x^2 + 1/6*(-3*s - 5)*x + 1/3*(-s - 7)
+5. with the known points: x-polynomials[48]	str	x^2 + 1/6*(-3*s - 5)*x + 1/3*(-s - 7)
+5. with the known points: x-polynomials[49]	str	x^2 + 1/6*(-3*s - 5)*x + 1/6*(3*s + 1)
+5. with the known points: x-polynomials[50]	str	x^2 + 1/6*(-3*s - 5)*x + 1/6*(3*s + 1)
+5. with the known points: x-polynomials[51]	str	x^2 + 1/6*(-s + 1)*x + 1/6*(-3*s - 1)
+5. with the known points: x-polynomials[52]	str	x^2 + 1/6*(-s + 1)*x + 1/6*(-3*s - 1)
+5. with the known points: x-polynomials[53]	str	x^2 + 1/6*(3*s + 1)*x + 1/3*(2*s - 3)
+5. with the known points: x-polynomials[54]	str	x^2 + 1/6*(3*s + 1)*x + 1/3*(2*s - 3)
+5. with the known points: x-polynomials[55]	str	x^2 + 1/6*(3*s + 1)*x + 1/6*(-s - 1)
+5. with the known points: x-polynomials[56]	str	x^2 + 1/6*(3*s + 1)*x + 1/6*(-s - 1)
+5. with the known points: x-polynomials[57]	str	x^2 + 1/6*(3*s + 11)*x + 1/3*(-3*s - 8)
+5. with the known points: x-polynomials[58]	str	x^2 + 1/6*(3*s + 11)*x + 1/3*(-3*s - 8)
+5. with the known points: x-polynomials[59]	str	x^2 + 1/6*(3*s - 5)*x + 1/3*(s - 7)
+5. with the known points: x-polynomials[60]	str	x^2 + 1/6*(3*s - 5)*x + 1/3*(s - 7)
+5. with the known points: x-polynomials[61]	str	x^2 + 1/6*(3*s - 5)*x + 1/6*(-3*s + 1)
+5. with the known points: x-polynomials[62]	str	x^2 + 1/6*(3*s - 5)*x + 1/6*(-3*s + 1)
+5. with the known points: x-polynomials[63]	str	x^2 + 1/6*(s + 1)*x + 1/6*(3*s - 1)
+5. with the known points: x-polynomials[64]	str	x^2 + 1/6*(s + 1)*x + 1/6*(3*s - 1)
+5. with the known points: x-polynomials[65]	str	x^2 + 1/6*x - 1
+5. with the known points: x-polynomials[66]	str	x^2 + 1/6*x - 1
+5. with the known points: x-polynomials[67]	str	x^2 + 2/3*x - 1/3
+5. with the known points: x-polynomials[68]	str	x^2 + 5/3*x + 1
+5. with the known points: x-polynomials[69]	str	x^2 + 5/3*x + 1
+5. with the known points: x-polynomials[70]	str	x^2 + x - 1
+5. with the known points: x-polynomials[71]	str	x^2 + x - 1
+5. with the known points: x-polynomials[72]	str	x^2 + x - 1
+5. with the known points: x-polynomials[73]	str	x^2 + x - 1
+5. with the known points: x-polynomials[74]	str	x^2 - 3/2
+5. with the known points: x-polynomials[75]	str	x^2 - 3/2
+5. with the known points: x-polynomials[76]	str	x^2 - 7/3*x + 2/3
+5. with the known points: x-polynomials[77]	str	x^2 - 7/3*x - 13/3
+5. with the known points: x-polynomials[78]	str	x^2 - 7/3*x - 13/3
+5. with the known points: x-polynomials[79]	str	x^2 - x - 2
+5. with the known points: complete	bool	false
+6. two primes: norms of the primes[1]	int	11
+6. two primes: norms of the primes[2]	int	11
+6. two primes: discs	int	146
+6. two primes: classes	int	171
+6. two primes: excluded, known, recovered, family, unresolved[1]	int	0
+6. two primes: excluded, known, recovered, family, unresolved[2]	int	79
+6. two primes: excluded, known, recovered, family, unresolved[3]	int	0
+6. two primes: excluded, known, recovered, family, unresolved[4]	int	12
+6. two primes: excluded, known, recovered, family, unresolved[5]	int	80
+6. two primes: divisors	int	79
+6. two primes: x-polynomials[1]	str	0
+6. two primes: x-polynomials[2]	str	0
+6. two primes: x-polynomials[3]	str	0
+6. two primes: x-polynomials[4]	str	0
+6. two primes: x-polynomials[5]	str	0
+6. two primes: x-polynomials[6]	str	0
+6. two primes: x-polynomials[7]	str	0
+6. two primes: x-polynomials[8]	str	0
+6. two primes: x-polynomials[9]	str	0
+6. two primes: x-polynomials[10]	str	0
+6. two primes: x-polynomials[11]	str	0
+6. two primes: x-polynomials[12]	str	0
+6. two primes: x-polynomials[13]	str	0
+6. two primes: x-polynomials[14]	str	0
+6. two primes: x-polynomials[15]	str	0
+6. two primes: x-polynomials[16]	str	0
+6. two primes: x-polynomials[17]	str	x^2 + (-s + 1)*x + 1/2*(-s + 3)
+6. two primes: x-polynomials[18]	str	x^2 + (-s + 1)*x + 1/2*(-s + 3)
+6. two primes: x-polynomials[19]	str	x^2 + (s + 1)*x + 1/2*(s + 3)
+6. two primes: x-polynomials[20]	str	x^2 + (s + 1)*x + 1/2*(s + 3)
+6. two primes: x-polynomials[21]	str	x^2 + 1/12*(-3*s + 17)*x + 1/12*(-9*s - 7)
+6. two primes: x-polynomials[22]	str	x^2 + 1/12*(-3*s + 17)*x + 1/12*(-9*s - 7)
+6. two primes: x-polynomials[23]	str	x^2 + 1/12*(-5*s - 3)*x + 1/12*(-5*s - 17)
+6. two primes: x-polynomials[24]	str	x^2 + 1/12*(-5*s - 3)*x + 1/12*(-5*s - 17)
+6. two primes: x-polynomials[25]	str	x^2 + 1/12*(3*s + 17)*x + 1/12*(9*s - 7)
+6. two primes: x-polynomials[26]	str	x^2 + 1/12*(3*s + 17)*x + 1/12*(9*s - 7)
+6. two primes: x-polynomials[27]	str	x^2 + 1/12*(5*s - 3)*x + 1/12*(5*s - 17)
+6. two primes: x-polynomials[28]	str	x^2 + 1/12*(5*s - 3)*x + 1/12*(5*s - 17)
+6. two primes: x-polynomials[29]	str	x^2 + 1/2*(-s + 3)*x + 1/2*(-s + 1)
+6. two primes: x-polynomials[30]	str	x^2 + 1/2*(-s + 3)*x + 1/2*(-s + 1)
+6. two primes: x-polynomials[31]	str	x^2 + 1/2*(-s - 3)*x + s - 1
+6. two primes: x-polynomials[32]	str	x^2 + 1/2*(-s - 3)*x + s - 1
+6. two primes: x-polynomials[33]	str	x^2 + 1/2*(s + 3)*x + 1/2*(s + 1)
+6. two primes: x-polynomials[34]	str	x^2 + 1/2*(s + 3)*x + 1/2*(s + 1)
+6. two primes: x-polynomials[35]	str	x^2 + 1/2*(s - 3)*x - s - 1
+6. two primes: x-polynomials[36]	str	x^2 + 1/2*(s - 3)*x - s - 1
+6. two primes: x-polynomials[37]	str	x^2 + 1/3*(-3*s - 7)*x + 1/6*(7*s + 9)
+6. two primes: x-polynomials[38]	str	x^2 + 1/3*(-3*s - 7)*x + 1/6*(7*s + 9)
+6. two primes: x-polynomials[39]	str	x^2 + 1/3*(3*s - 7)*x + 1/6*(-7*s + 9)
+6. two primes: x-polynomials[40]	str	x^2 + 1/3*(3*s - 7)*x + 1/6*(-7*s + 9)
+6. two primes: x-polynomials[41]	str	x^2 + 1/6*(-3*s + 1)*x + 1/3*(-2*s - 3)
+6. two primes: x-polynomials[42]	str	x^2 + 1/6*(-3*s + 1)*x + 1/3*(-2*s - 3)
+6. two primes: x-polynomials[43]	str	x^2 + 1/6*(-3*s + 1)*x + 1/6*(s - 1)
+6. two primes: x-polynomials[44]	str	x^2 + 1/6*(-3*s + 1)*x + 1/6*(s - 1)
+6. two primes: x-polynomials[45]	str	x^2 + 1/6*(-3*s + 11)*x + 1/3*(3*s - 8)
+6. two primes: x-polynomials[46]	str	x^2 + 1/6*(-3*s + 11)*x + 1/3*(3*s - 8)
+6. two primes: x-polynomials[47]	str	x^2 + 1/6*(-3*s - 5)*x + 1/3*(-s - 7)
+6. two primes: x-polynomials[48]	str	x^2 + 1/6*(-3*s - 5)*x + 1/3*(-s - 7)
+6. two primes: x-polynomials[49]	str	x^2 + 1/6*(-3*s - 5)*x + 1/6*(3*s + 1)
+6. two primes: x-polynomials[50]	str	x^2 + 1/6*(-3*s - 5)*x + 1/6*(3*s + 1)
+6. two primes: x-polynomials[51]	str	x^2 + 1/6*(-s + 1)*x + 1/6*(-3*s - 1)
+6. two primes: x-polynomials[52]	str	x^2 + 1/6*(-s + 1)*x + 1/6*(-3*s - 1)
+6. two primes: x-polynomials[53]	str	x^2 + 1/6*(3*s + 1)*x + 1/3*(2*s - 3)
+6. two primes: x-polynomials[54]	str	x^2 + 1/6*(3*s + 1)*x + 1/3*(2*s - 3)
+6. two primes: x-polynomials[55]	str	x^2 + 1/6*(3*s + 1)*x + 1/6*(-s - 1)
+6. two primes: x-polynomials[56]	str	x^2 + 1/6*(3*s + 1)*x + 1/6*(-s - 1)
+6. two primes: x-polynomials[57]	str	x^2 + 1/6*(3*s + 11)*x + 1/3*(-3*s - 8)
+6. two primes: x-polynomials[58]	str	x^2 + 1/6*(3*s + 11)*x + 1/3*(-3*s - 8)
+6. two primes: x-polynomials[59]	str	x^2 + 1/6*(3*s - 5)*x + 1/3*(s - 7)
+6. two primes: x-polynomials[60]	str	x^2 + 1/6*(3*s - 5)*x + 1/3*(s - 7)
+6. two primes: x-polynomials[61]	str	x^2 + 1/6*(3*s - 5)*x + 1/6*(-3*s + 1)
+6. two primes: x-polynomials[62]	str	x^2 + 1/6*(3*s - 5)*x + 1/6*(-3*s + 1)
+6. two primes: x-polynomials[63]	str	x^2 + 1/6*(s + 1)*x + 1/6*(3*s - 1)
+6. two primes: x-polynomials[64]	str	x^2 + 1/6*(s + 1)*x + 1/6*(3*s - 1)
+6. two primes: x-polynomials[65]	str	x^2 + 1/6*x - 1
+6. two primes: x-polynomials[66]	str	x^2 + 1/6*x - 1
+6. two primes: x-polynomials[67]	str	x^2 + 2/3*x - 1/3
+6. two primes: x-polynomials[68]	str	x^2 + 5/3*x + 1
+6. two primes: x-polynomials[69]	str	x^2 + 5/3*x + 1
+6. two primes: x-polynomials[70]	str	x^2 + x - 1
+6. two primes: x-polynomials[71]	str	x^2 + x - 1
+6. two primes: x-polynomials[72]	str	x^2 + x - 1
+6. two primes: x-polynomials[73]	str	x^2 + x - 1
+6. two primes: x-polynomials[74]	str	x^2 - 3/2
+6. two primes: x-polynomials[75]	str	x^2 - 3/2
+6. two primes: x-polynomials[76]	str	x^2 - 7/3*x + 2/3
+6. two primes: x-polynomials[77]	str	x^2 - 7/3*x - 13/3
+6. two primes: x-polynomials[78]	str	x^2 - 7/3*x - 13/3
+6. two primes: x-polynomials[79]	str	x^2 - x - 2
+6. two primes: complete	bool	false

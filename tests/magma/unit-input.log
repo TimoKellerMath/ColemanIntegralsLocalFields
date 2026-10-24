@@ -1,0 +1,26 @@
+PASS coleman_data(Q over Q, Rationals(), 7, N): the same Frobenius matrix
+PASS coleman_data with the model in L[x,y]: the same Frobenius matrix
+PASS coleman_data with the constant leading coefficient 3: divided, the same Frobenius matrix
+PASS N = 0: error
+PASS a model that is not monic in y: error that suggests lc_scaling
+PASS a reducible model: error
+PASS P = 4: error
+PASS P = 7 with two primes of Q(sqrt 2) above it: error that lists them
+PASS an unknown lift: error
+PASS a bad prime: error that names the failing condition and good_primes
+PASS coefficients not integral at P: error
+PASS set_point of a point not on the curve: error
+PASS set_point with x0 not integral at P: error that suggests set_bad_point
+PASS set_bad_point with b of the wrong length: error
+PASS set_bad_point of a finite point with inf = true: error
+PASS coleman_integrals_on_basis with points given as pairs [x0,y0]
+PASS coleman_integrals_on_basis with a negative e: error
+PASS coleman_integral with a form of the wrong length: error
+PASS tiny_integrals_on_basis between different residue discs: error
+PASS vanishing_differentials with a single point: error
+PASS effective_chabauty without points and without a search bound: error
+PASS ros_chabauty with no data, the same prime twice, primes above different p, or one known point: errors
+
+0 failure(s)
+
+resources: CPU time 0.560 s, maximum memory 32 MB

@@ -1,0 +1,30 @@
+# Consistency checks that need no Magma: they run on GitHub's own runners for every push.
+name: Checks
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  logs:
+    name: Scripts and committed logs
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+      - name: Byte-compile the test scripts
+        run: python -m py_compile tests/*.py tools/*.py
+      - name: Unit tests of the test tools
+        run: python -m unittest discover -s tests -v
+      - name: Every script has its committed logs, free of Magma errors
+        run: python tests/check_logs.py
+      - name: The Magma package is built from the current library files
+        run: python tools/make_package.py --check
+      - name: The API reference is built from the current library files
+        run: python tools/make_api.py --check

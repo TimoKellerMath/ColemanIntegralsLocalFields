@@ -1,0 +1,33 @@
+PASS the curve is not isomorphic over F to its Galois conjugate (not a base change from Q)
+PASS rank J(F) = 0 (RankBound, 2-descent over F)
+curve_quadratic_points: the model y^2 - s*x^5 - s*x^4 + 7*s*x^3 + s*x^2 - 6*s*x ([])
+curve_quadratic_points: at the prime of norm 11 above 11 (over the unramified quadratic extension)
+curve_quadratic_points: #J(F_q) = 176 is divisible by p: an integral to a class can be a unit and exclude the class
+curve_quadratic_points: 118 residue discs over F_121 (112 finite good in the model, 5 finite bad, 1 at infinity) in 3 model(s).
+curve_quadratic_points: WARNING: p divides #J of the reduction (det(F-I) has valuation 1); the integrals lose 2 digits in the linear solve
+  integrals in the model: 50/112 (1.260 s)
+  integrals in the model: 100/112 (2.540 s)
+  integrals in the model: 112/112 (2.840 s)
+curve_quadratic_points: integrals to the centres of the 118 discs computed (2.900 s); precision at least 10.
+curve_quadratic_points: genus 2, dim V = 2 (from 1 known divisor(s) and 0 generator(s)).
+  classes 100/187 (0.310 s)
+  classes 187/187 (2.360 s)
+curve_quadratic_points: 187 residue classes at the prime of norm 11 (16.130 s): 160 excluded, 1 with a known divisor, 14 recovered (14 new divisor(s)), 12 of pullbacks, 0 unresolved.
+curve_quadratic_points: 0 <= rank J(F) <= 0; the known divisors and generators span a subgroup of rank >= 0, of finite index: V annihilates J(F)
+curve_quadratic_points: 15 divisor(s) (1 known, 14 new); complete at the prime of norm 11: these and the pullbacks of the 12 family class(es) are all F-rational effective divisors of degree 2
+PASS 1. the default prime: the prime above 11 with 11 | #J(F_11) = 176 (the other one has #J(F_11) = 80), over K = Q_(11^2)
+PASS 1. 187 classes: 160 excluded (a unit integral), D0 and 14 recovered divisors, 12 of pullbacks, none unresolved
+PASS 1. the 15 divisors are the sums of two distinct Weierstrass points, and the result is complete
+PASS 1. rank_check: 0 <= rank J(F) <= 0 (2-descent), so V (all holomorphic forms) annihilates J(F)
+PASS 2. gcd #J(k_v) = 16 = #J(F)[2], so J(F) = J(F)[2] (rank 0)
+PASS 2. the 15 divisors and the canonical class are the 16 elements of J(F): no other divisors outside the family
+curve_quadratic_points: WARNING: p divides #J of the reduction (det(F-I) has valuation 1); the integrals lose 2 digits in the linear solve
+PASS 3. at the prime above 11 with #J(F_11) = 80: no class excluded, the same 15 divisors, 64 classes unresolved (not complete)
+curve_quadratic_points: WARNING: p divides #J of the reduction (det(F-I) has valuation 1); the integrals lose 2 digits in the linear solve
+PASS 4. aux := false: K = Q_11, only split and diagonal classes, the same 15 divisors, the degree-2 classes not seen
+PASS 5. C2 is not isomorphic to its Galois conjugate, and rank J2(F) = 0
+PASS 5. at 11: the two points of degree 2 in certified classes, (-1,0) + infinity recovered; gcd #J2(k_v) = 4, so these are all
+
+0 failure(s)
+
+resources: CPU time 75.400 s, maximum memory 141 MB

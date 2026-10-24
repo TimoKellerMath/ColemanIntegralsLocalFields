@@ -1,0 +1,32 @@
+# Citation metadata for this repository (https://citation-file-format.github.io).
+cff-version: 1.2.0
+message: "If you use this software, please cite the article below."
+title: "ColemanIntegralsLocalFields: Magma code for explicit Coleman integration over finite extensions of Q_p"
+type: software
+authors:
+  - given-names: Yulin
+    family-names: Cai
+  - given-names: Timo
+    family-names: Keller
+repository-code: "https://github.com/TimoKellerMath/ColemanIntegralsLocalFields"
+license: MIT
+abstract: >-
+  Magma implementation of explicit Coleman integration on smooth projective curves with
+  good reduction over finite extensions of Q_p, allowing both ramification and nontrivial
+  residue degree, with certified output precision, and of Chabauty-Coleman and symmetric
+  Chabauty computations over number fields.
+keywords:
+  - Coleman integration
+  - p-adic integration
+  - Chabauty-Coleman method
+  - rational points on curves over number fields
+  - Magma
+preferred-citation:
+  type: article
+  title: "Explicit Coleman integration for curves over finite extensions of Q_p"
+  authors:
+    - given-names: Yulin
+      family-names: Cai
+    - given-names: Timo
+      family-names: Keller
+  status: preprint

@@ -1,0 +1,233 @@
+# numerical results of a test script (tests/magma/results.m), compared by tests/compare_results.py
+(1) Q(b), b^3=b+1, P = (3), y^2 = (x-b)^2(x^5-x+b^2): int_P1^P2, lift p[1][c1]	padic	3	7	1086
+(1) Q(b), b^3=b+1, P = (3), y^2 = (x-b)^2(x^5-x+b^2): int_P1^P2, lift p[1][c2]	padic	3	7	-51
+(1) Q(b), b^3=b+1, P = (3), y^2 = (x-b)^2(x^5-x+b^2): int_P1^P2, lift p[1][c3]	padic	3	7	288
+(1) Q(b), b^3=b+1, P = (3), y^2 = (x-b)^2(x^5-x+b^2): int_P1^P2, lift p[2][c1]	padic	3	7	891
+(1) Q(b), b^3=b+1, P = (3), y^2 = (x-b)^2(x^5-x+b^2): int_P1^P2, lift p[2][c2]	padic	3	7	-405
+(1) Q(b), b^3=b+1, P = (3), y^2 = (x-b)^2(x^5-x+b^2): int_P1^P2, lift p[2][c3]	padic	3	7	702
+(1) Q(b), b^3=b+1, P = (3), y^2 = (x-b)^2(x^5-x+b^2): int_P1^P2, lift p[3][c1]	padic	3	7	-713/3
+(1) Q(b), b^3=b+1, P = (3), y^2 = (x-b)^2(x^5-x+b^2): int_P1^P2, lift p[3][c2]	padic	3	7	-689
+(1) Q(b), b^3=b+1, P = (3), y^2 = (x-b)^2(x^5-x+b^2): int_P1^P2, lift p[3][c3]	padic	3	7	179/3
+(1) Q(b), b^3=b+1, P = (3), y^2 = (x-b)^2(x^5-x+b^2): int_P1^P2, lift p[4][c1]	padic	3	7	2762/3
+(1) Q(b), b^3=b+1, P = (3), y^2 = (x-b)^2(x^5-x+b^2): int_P1^P2, lift p[4][c2]	padic	3	7	979
+(1) Q(b), b^3=b+1, P = (3), y^2 = (x-b)^2(x^5-x+b^2): int_P1^P2, lift p[4][c3]	padic	3	7	581
+(1) Q(b), b^3=b+1, P = (3), y^2 = (x-b)^2(x^5-x+b^2): int_P1^P2, lift q[1][c1]	padic	3	7	1086
+(1) Q(b), b^3=b+1, P = (3), y^2 = (x-b)^2(x^5-x+b^2): int_P1^P2, lift q[1][c2]	padic	3	7	-51
+(1) Q(b), b^3=b+1, P = (3), y^2 = (x-b)^2(x^5-x+b^2): int_P1^P2, lift q[1][c3]	padic	3	7	288
+(1) Q(b), b^3=b+1, P = (3), y^2 = (x-b)^2(x^5-x+b^2): int_P1^P2, lift q[2][c1]	padic	3	7	891
+(1) Q(b), b^3=b+1, P = (3), y^2 = (x-b)^2(x^5-x+b^2): int_P1^P2, lift q[2][c2]	padic	3	7	-405
+(1) Q(b), b^3=b+1, P = (3), y^2 = (x-b)^2(x^5-x+b^2): int_P1^P2, lift q[2][c3]	padic	3	7	702
+(1) Q(b), b^3=b+1, P = (3), y^2 = (x-b)^2(x^5-x+b^2): int_P1^P2, lift q[3][c1]	padic	3	7	-713/3
+(1) Q(b), b^3=b+1, P = (3), y^2 = (x-b)^2(x^5-x+b^2): int_P1^P2, lift q[3][c2]	padic	3	7	-689
+(1) Q(b), b^3=b+1, P = (3), y^2 = (x-b)^2(x^5-x+b^2): int_P1^P2, lift q[3][c3]	padic	3	7	179/3
+(1) Q(b), b^3=b+1, P = (3), y^2 = (x-b)^2(x^5-x+b^2): int_P1^P2, lift q[4][c1]	padic	3	7	2762/3
+(1) Q(b), b^3=b+1, P = (3), y^2 = (x-b)^2(x^5-x+b^2): int_P1^P2, lift q[4][c2]	padic	3	7	979
+(1) Q(b), b^3=b+1, P = (3), y^2 = (x-b)^2(x^5-x+b^2): int_P1^P2, lift q[4][c3]	padic	3	7	581
+(1) Q(b), b^3=b+1, P = (3), y^2 = (x-b)^2(x^5-x+b^2): int_P1^P3, lift p[1][c1]	padic	3	7	-309
+(1) Q(b), b^3=b+1, P = (3), y^2 = (x-b)^2(x^5-x+b^2): int_P1^P3, lift p[1][c2]	padic	3	7	-1011
+(1) Q(b), b^3=b+1, P = (3), y^2 = (x-b)^2(x^5-x+b^2): int_P1^P3, lift p[1][c3]	padic	3	7	651
+(1) Q(b), b^3=b+1, P = (3), y^2 = (x-b)^2(x^5-x+b^2): int_P1^P3, lift p[2][c1]	padic	3	7	-63
+(1) Q(b), b^3=b+1, P = (3), y^2 = (x-b)^2(x^5-x+b^2): int_P1^P3, lift p[2][c2]	padic	3	7	-852
+(1) Q(b), b^3=b+1, P = (3), y^2 = (x-b)^2(x^5-x+b^2): int_P1^P3, lift p[2][c3]	padic	3	7	-585
+(1) Q(b), b^3=b+1, P = (3), y^2 = (x-b)^2(x^5-x+b^2): int_P1^P3, lift p[3][c1]	padic	3	7	791/3
+(1) Q(b), b^3=b+1, P = (3), y^2 = (x-b)^2(x^5-x+b^2): int_P1^P3, lift p[3][c2]	padic	3	7	787
+(1) Q(b), b^3=b+1, P = (3), y^2 = (x-b)^2(x^5-x+b^2): int_P1^P3, lift p[3][c3]	padic	3	7	1972/3
+(1) Q(b), b^3=b+1, P = (3), y^2 = (x-b)^2(x^5-x+b^2): int_P1^P3, lift p[4][c1]	padic	3	7	-548/3
+(1) Q(b), b^3=b+1, P = (3), y^2 = (x-b)^2(x^5-x+b^2): int_P1^P3, lift p[4][c2]	padic	3	7	-461
+(1) Q(b), b^3=b+1, P = (3), y^2 = (x-b)^2(x^5-x+b^2): int_P1^P3, lift p[4][c3]	padic	3	7	-489
+(1) Q(b), b^3=b+1, P = (3), y^2 = (x-b)^2(x^5-x+b^2): int_P1^P3, lift q[1][c1]	padic	3	7	-309
+(1) Q(b), b^3=b+1, P = (3), y^2 = (x-b)^2(x^5-x+b^2): int_P1^P3, lift q[1][c2]	padic	3	7	-1011
+(1) Q(b), b^3=b+1, P = (3), y^2 = (x-b)^2(x^5-x+b^2): int_P1^P3, lift q[1][c3]	padic	3	7	651
+(1) Q(b), b^3=b+1, P = (3), y^2 = (x-b)^2(x^5-x+b^2): int_P1^P3, lift q[2][c1]	padic	3	7	-63
+(1) Q(b), b^3=b+1, P = (3), y^2 = (x-b)^2(x^5-x+b^2): int_P1^P3, lift q[2][c2]	padic	3	7	-852
+(1) Q(b), b^3=b+1, P = (3), y^2 = (x-b)^2(x^5-x+b^2): int_P1^P3, lift q[2][c3]	padic	3	7	-585
+(1) Q(b), b^3=b+1, P = (3), y^2 = (x-b)^2(x^5-x+b^2): int_P1^P3, lift q[3][c1]	padic	3	7	791/3
+(1) Q(b), b^3=b+1, P = (3), y^2 = (x-b)^2(x^5-x+b^2): int_P1^P3, lift q[3][c2]	padic	3	7	787
+(1) Q(b), b^3=b+1, P = (3), y^2 = (x-b)^2(x^5-x+b^2): int_P1^P3, lift q[3][c3]	padic	3	7	1972/3
+(1) Q(b), b^3=b+1, P = (3), y^2 = (x-b)^2(x^5-x+b^2): int_P1^P3, lift q[4][c1]	padic	3	7	-548/3
+(1) Q(b), b^3=b+1, P = (3), y^2 = (x-b)^2(x^5-x+b^2): int_P1^P3, lift q[4][c2]	padic	3	7	-461
+(1) Q(b), b^3=b+1, P = (3), y^2 = (x-b)^2(x^5-x+b^2): int_P1^P3, lift q[4][c3]	padic	3	7	-489
+(1) Q(b), b^3=b+1, P = (3), y^2 = (x-b)^2(x^5-x+b^2): int_P1^P4, lift p[1][c1]	padic	3	8	-1251
+(1) Q(b), b^3=b+1, P = (3), y^2 = (x-b)^2(x^5-x+b^2): int_P1^P4, lift p[1][c2]	padic	3	8	-390
+(1) Q(b), b^3=b+1, P = (3), y^2 = (x-b)^2(x^5-x+b^2): int_P1^P4, lift p[1][c3]	padic	3	8	3024
+(1) Q(b), b^3=b+1, P = (3), y^2 = (x-b)^2(x^5-x+b^2): int_P1^P4, lift p[2][c1]	padic	3	8	-1419
+(1) Q(b), b^3=b+1, P = (3), y^2 = (x-b)^2(x^5-x+b^2): int_P1^P4, lift p[2][c2]	padic	3	8	-2256
+(1) Q(b), b^3=b+1, P = (3), y^2 = (x-b)^2(x^5-x+b^2): int_P1^P4, lift p[2][c3]	padic	3	8	1896
+(1) Q(b), b^3=b+1, P = (3), y^2 = (x-b)^2(x^5-x+b^2): int_P1^P4, lift p[3][c1]	padic	3	8	-888
+(1) Q(b), b^3=b+1, P = (3), y^2 = (x-b)^2(x^5-x+b^2): int_P1^P4, lift p[3][c2]	padic	3	8	-648
+(1) Q(b), b^3=b+1, P = (3), y^2 = (x-b)^2(x^5-x+b^2): int_P1^P4, lift p[3][c3]	padic	3	8	-2406
+(1) Q(b), b^3=b+1, P = (3), y^2 = (x-b)^2(x^5-x+b^2): int_P1^P4, lift p[4][c1]	padic	3	8	-1785
+(1) Q(b), b^3=b+1, P = (3), y^2 = (x-b)^2(x^5-x+b^2): int_P1^P4, lift p[4][c2]	padic	3	8	-2193
+(1) Q(b), b^3=b+1, P = (3), y^2 = (x-b)^2(x^5-x+b^2): int_P1^P4, lift p[4][c3]	padic	3	8	-1035
+(1) Q(b), b^3=b+1, P = (3), y^2 = (x-b)^2(x^5-x+b^2): int_P1^P4, lift q[1][c1]	padic	3	8	-1251
+(1) Q(b), b^3=b+1, P = (3), y^2 = (x-b)^2(x^5-x+b^2): int_P1^P4, lift q[1][c2]	padic	3	8	-390
+(1) Q(b), b^3=b+1, P = (3), y^2 = (x-b)^2(x^5-x+b^2): int_P1^P4, lift q[1][c3]	padic	3	8	3024
+(1) Q(b), b^3=b+1, P = (3), y^2 = (x-b)^2(x^5-x+b^2): int_P1^P4, lift q[2][c1]	padic	3	8	-1419
+(1) Q(b), b^3=b+1, P = (3), y^2 = (x-b)^2(x^5-x+b^2): int_P1^P4, lift q[2][c2]	padic	3	8	-2256
+(1) Q(b), b^3=b+1, P = (3), y^2 = (x-b)^2(x^5-x+b^2): int_P1^P4, lift q[2][c3]	padic	3	8	1896
+(1) Q(b), b^3=b+1, P = (3), y^2 = (x-b)^2(x^5-x+b^2): int_P1^P4, lift q[3][c1]	padic	3	8	-888
+(1) Q(b), b^3=b+1, P = (3), y^2 = (x-b)^2(x^5-x+b^2): int_P1^P4, lift q[3][c2]	padic	3	8	-648
+(1) Q(b), b^3=b+1, P = (3), y^2 = (x-b)^2(x^5-x+b^2): int_P1^P4, lift q[3][c3]	padic	3	8	-2406
+(1) Q(b), b^3=b+1, P = (3), y^2 = (x-b)^2(x^5-x+b^2): int_P1^P4, lift q[4][c1]	padic	3	8	-1785
+(1) Q(b), b^3=b+1, P = (3), y^2 = (x-b)^2(x^5-x+b^2): int_P1^P4, lift q[4][c2]	padic	3	8	-2193
+(1) Q(b), b^3=b+1, P = (3), y^2 = (x-b)^2(x^5-x+b^2): int_P1^P4, lift q[4][c3]	padic	3	8	-1035
+(1) Q(b), b^3=b+1, P = (3), y^2 = (x-b)^2(x^5-x+b^2): int_P1^P5, lift p[1][c1]	padic	3	7	-150
+(1) Q(b), b^3=b+1, P = (3), y^2 = (x-b)^2(x^5-x+b^2): int_P1^P5, lift p[1][c2]	padic	3	7	-339
+(1) Q(b), b^3=b+1, P = (3), y^2 = (x-b)^2(x^5-x+b^2): int_P1^P5, lift p[1][c3]	padic	3	7	549
+(1) Q(b), b^3=b+1, P = (3), y^2 = (x-b)^2(x^5-x+b^2): int_P1^P5, lift p[2][c1]	padic	3	7	-123
+(1) Q(b), b^3=b+1, P = (3), y^2 = (x-b)^2(x^5-x+b^2): int_P1^P5, lift p[2][c2]	padic	3	7	336
+(1) Q(b), b^3=b+1, P = (3), y^2 = (x-b)^2(x^5-x+b^2): int_P1^P5, lift p[2][c3]	padic	3	7	-993
+(1) Q(b), b^3=b+1, P = (3), y^2 = (x-b)^2(x^5-x+b^2): int_P1^P5, lift p[3][c1]	padic	3	7	-1951/3
+(1) Q(b), b^3=b+1, P = (3), y^2 = (x-b)^2(x^5-x+b^2): int_P1^P5, lift p[3][c2]	padic	3	7	41
+(1) Q(b), b^3=b+1, P = (3), y^2 = (x-b)^2(x^5-x+b^2): int_P1^P5, lift p[3][c3]	padic	3	7	-836/3
+(1) Q(b), b^3=b+1, P = (3), y^2 = (x-b)^2(x^5-x+b^2): int_P1^P5, lift p[4][c1]	padic	3	7	-1556/3
+(1) Q(b), b^3=b+1, P = (3), y^2 = (x-b)^2(x^5-x+b^2): int_P1^P5, lift p[4][c2]	padic	3	7	-985
+(1) Q(b), b^3=b+1, P = (3), y^2 = (x-b)^2(x^5-x+b^2): int_P1^P5, lift p[4][c3]	padic	3	7	571
+(1) Q(b), b^3=b+1, P = (3), y^2 = (x-b)^2(x^5-x+b^2): int_P1^P5, lift q[1][c1]	padic	3	7	-150
+(1) Q(b), b^3=b+1, P = (3), y^2 = (x-b)^2(x^5-x+b^2): int_P1^P5, lift q[1][c2]	padic	3	7	-339
+(1) Q(b), b^3=b+1, P = (3), y^2 = (x-b)^2(x^5-x+b^2): int_P1^P5, lift q[1][c3]	padic	3	7	549
+(1) Q(b), b^3=b+1, P = (3), y^2 = (x-b)^2(x^5-x+b^2): int_P1^P5, lift q[2][c1]	padic	3	7	-123
+(1) Q(b), b^3=b+1, P = (3), y^2 = (x-b)^2(x^5-x+b^2): int_P1^P5, lift q[2][c2]	padic	3	7	336
+(1) Q(b), b^3=b+1, P = (3), y^2 = (x-b)^2(x^5-x+b^2): int_P1^P5, lift q[2][c3]	padic	3	7	-993
+(1) Q(b), b^3=b+1, P = (3), y^2 = (x-b)^2(x^5-x+b^2): int_P1^P5, lift q[3][c1]	padic	3	7	-1951/3
+(1) Q(b), b^3=b+1, P = (3), y^2 = (x-b)^2(x^5-x+b^2): int_P1^P5, lift q[3][c2]	padic	3	7	41
+(1) Q(b), b^3=b+1, P = (3), y^2 = (x-b)^2(x^5-x+b^2): int_P1^P5, lift q[3][c3]	padic	3	7	-836/3
+(1) Q(b), b^3=b+1, P = (3), y^2 = (x-b)^2(x^5-x+b^2): int_P1^P5, lift q[4][c1]	padic	3	7	-1556/3
+(1) Q(b), b^3=b+1, P = (3), y^2 = (x-b)^2(x^5-x+b^2): int_P1^P5, lift q[4][c2]	padic	3	7	-985
+(1) Q(b), b^3=b+1, P = (3), y^2 = (x-b)^2(x^5-x+b^2): int_P1^P5, lift q[4][c3]	padic	3	7	571
+(2) Q(2^(1/3)), P | 5 of degree 2, y^2 = x^5-x+b^2: int_P1^P2, lift p[1][c1]	padic	5	10	3881740
+(2) Q(2^(1/3)), P | 5 of degree 2, y^2 = x^5-x+b^2: int_P1^P2, lift p[1][c2]	padic	5	10	3142140
+(2) Q(2^(1/3)), P | 5 of degree 2, y^2 = x^5-x+b^2: int_P1^P2, lift p[2][c1]	padic	5	10	-2892725
+(2) Q(2^(1/3)), P | 5 of degree 2, y^2 = x^5-x+b^2: int_P1^P2, lift p[2][c2]	padic	5	10	-3642590
+(2) Q(2^(1/3)), P | 5 of degree 2, y^2 = x^5-x+b^2: int_P1^P2, lift p[3][c1]	padic	5	10	-454465
+(2) Q(2^(1/3)), P | 5 of degree 2, y^2 = x^5-x+b^2: int_P1^P2, lift p[3][c2]	padic	5	10	-1071055
+(2) Q(2^(1/3)), P | 5 of degree 2, y^2 = x^5-x+b^2: int_P1^P2, lift p[4][c1]	padic	5	10	-3372453
+(2) Q(2^(1/3)), P | 5 of degree 2, y^2 = x^5-x+b^2: int_P1^P2, lift p[4][c2]	padic	5	10	2715664
+(2) Q(2^(1/3)), P | 5 of degree 2, y^2 = x^5-x+b^2: int_P1^P2, lift q[1][c1]	padic	5	10	3881740
+(2) Q(2^(1/3)), P | 5 of degree 2, y^2 = x^5-x+b^2: int_P1^P2, lift q[1][c2]	padic	5	10	3142140
+(2) Q(2^(1/3)), P | 5 of degree 2, y^2 = x^5-x+b^2: int_P1^P2, lift q[2][c1]	padic	5	10	-2892725
+(2) Q(2^(1/3)), P | 5 of degree 2, y^2 = x^5-x+b^2: int_P1^P2, lift q[2][c2]	padic	5	10	-3642590
+(2) Q(2^(1/3)), P | 5 of degree 2, y^2 = x^5-x+b^2: int_P1^P2, lift q[3][c1]	padic	5	10	-454465
+(2) Q(2^(1/3)), P | 5 of degree 2, y^2 = x^5-x+b^2: int_P1^P2, lift q[3][c2]	padic	5	10	-1071055
+(2) Q(2^(1/3)), P | 5 of degree 2, y^2 = x^5-x+b^2: int_P1^P2, lift q[4][c1]	padic	5	10	-3372453
+(2) Q(2^(1/3)), P | 5 of degree 2, y^2 = x^5-x+b^2: int_P1^P2, lift q[4][c2]	padic	5	10	2715664
+(2) Q(2^(1/3)), P | 5 of degree 2, y^2 = x^5-x+b^2: int_P1^P3, lift p[1][c1]	padic	5	10	-4484000
+(2) Q(2^(1/3)), P | 5 of degree 2, y^2 = x^5-x+b^2: int_P1^P3, lift p[1][c2]	padic	5	10	3414165
+(2) Q(2^(1/3)), P | 5 of degree 2, y^2 = x^5-x+b^2: int_P1^P3, lift p[2][c1]	padic	5	10	1233670
+(2) Q(2^(1/3)), P | 5 of degree 2, y^2 = x^5-x+b^2: int_P1^P3, lift p[2][c2]	padic	5	10	3321940
+(2) Q(2^(1/3)), P | 5 of degree 2, y^2 = x^5-x+b^2: int_P1^P3, lift p[3][c1]	padic	5	10	1982905
+(2) Q(2^(1/3)), P | 5 of degree 2, y^2 = x^5-x+b^2: int_P1^P3, lift p[3][c2]	padic	5	10	258875
+(2) Q(2^(1/3)), P | 5 of degree 2, y^2 = x^5-x+b^2: int_P1^P3, lift p[4][c1]	padic	5	10	-2488887
+(2) Q(2^(1/3)), P | 5 of degree 2, y^2 = x^5-x+b^2: int_P1^P3, lift p[4][c2]	padic	5	10	-42784
+(2) Q(2^(1/3)), P | 5 of degree 2, y^2 = x^5-x+b^2: int_P1^P3, lift q[1][c1]	padic	5	10	-4484000
+(2) Q(2^(1/3)), P | 5 of degree 2, y^2 = x^5-x+b^2: int_P1^P3, lift q[1][c2]	padic	5	10	3414165
+(2) Q(2^(1/3)), P | 5 of degree 2, y^2 = x^5-x+b^2: int_P1^P3, lift q[2][c1]	padic	5	10	1233670
+(2) Q(2^(1/3)), P | 5 of degree 2, y^2 = x^5-x+b^2: int_P1^P3, lift q[2][c2]	padic	5	10	3321940
+(2) Q(2^(1/3)), P | 5 of degree 2, y^2 = x^5-x+b^2: int_P1^P3, lift q[3][c1]	padic	5	10	1982905
+(2) Q(2^(1/3)), P | 5 of degree 2, y^2 = x^5-x+b^2: int_P1^P3, lift q[3][c2]	padic	5	10	258875
+(2) Q(2^(1/3)), P | 5 of degree 2, y^2 = x^5-x+b^2: int_P1^P3, lift q[4][c1]	padic	5	10	-2488887
+(2) Q(2^(1/3)), P | 5 of degree 2, y^2 = x^5-x+b^2: int_P1^P3, lift q[4][c2]	padic	5	10	-42784
+(2) Q(2^(1/3)), P | 5 of degree 2, y^2 = x^5-x+b^2: int_P1^P4, lift p[1][c1]	padic	5	10	1450
+(2) Q(2^(1/3)), P | 5 of degree 2, y^2 = x^5-x+b^2: int_P1^P4, lift p[1][c2]	padic	5	10	3627250
+(2) Q(2^(1/3)), P | 5 of degree 2, y^2 = x^5-x+b^2: int_P1^P4, lift p[2][c1]	padic	5	10	-3574350
+(2) Q(2^(1/3)), P | 5 of degree 2, y^2 = x^5-x+b^2: int_P1^P4, lift p[2][c2]	padic	5	10	-231785
+(2) Q(2^(1/3)), P | 5 of degree 2, y^2 = x^5-x+b^2: int_P1^P4, lift p[3][c1]	padic	5	10	704462
+(2) Q(2^(1/3)), P | 5 of degree 2, y^2 = x^5-x+b^2: int_P1^P4, lift p[3][c2]	padic	5	10	2535359
+(2) Q(2^(1/3)), P | 5 of degree 2, y^2 = x^5-x+b^2: int_P1^P4, lift p[4][c1]	padic	5	10	-4032972
+(2) Q(2^(1/3)), P | 5 of degree 2, y^2 = x^5-x+b^2: int_P1^P4, lift p[4][c2]	padic	5	10	-2042805
+(2) Q(2^(1/3)), P | 5 of degree 2, y^2 = x^5-x+b^2: int_P1^P4, lift q[1][c1]	padic	5	10	1450
+(2) Q(2^(1/3)), P | 5 of degree 2, y^2 = x^5-x+b^2: int_P1^P4, lift q[1][c2]	padic	5	10	3627250
+(2) Q(2^(1/3)), P | 5 of degree 2, y^2 = x^5-x+b^2: int_P1^P4, lift q[2][c1]	padic	5	10	-3574350
+(2) Q(2^(1/3)), P | 5 of degree 2, y^2 = x^5-x+b^2: int_P1^P4, lift q[2][c2]	padic	5	10	-231785
+(2) Q(2^(1/3)), P | 5 of degree 2, y^2 = x^5-x+b^2: int_P1^P4, lift q[3][c1]	padic	5	10	704462
+(2) Q(2^(1/3)), P | 5 of degree 2, y^2 = x^5-x+b^2: int_P1^P4, lift q[3][c2]	padic	5	10	2535359
+(2) Q(2^(1/3)), P | 5 of degree 2, y^2 = x^5-x+b^2: int_P1^P4, lift q[4][c1]	padic	5	10	-4032972
+(2) Q(2^(1/3)), P | 5 of degree 2, y^2 = x^5-x+b^2: int_P1^P4, lift q[4][c2]	padic	5	10	-2042805
+(2) Q(2^(1/3)), P | 5 of degree 2, y^2 = x^5-x+b^2: int_P1^infinity, lift p[1][c1]	padic	5	9	725
+(2) Q(2^(1/3)), P | 5 of degree 2, y^2 = x^5-x+b^2: int_P1^infinity, lift p[1][c2]	padic	5	9	-139500
+(2) Q(2^(1/3)), P | 5 of degree 2, y^2 = x^5-x+b^2: int_P1^infinity, lift p[2][c1]	padic	5	9	165950
+(2) Q(2^(1/3)), P | 5 of degree 2, y^2 = x^5-x+b^2: int_P1^infinity, lift p[2][c2]	padic	5	9	860670
+(2) Q(2^(1/3)), P | 5 of degree 2, y^2 = x^5-x+b^2: int_P1^infinity, lift p[3][c1]	padic	5	9	352231
+(2) Q(2^(1/3)), P | 5 of degree 2, y^2 = x^5-x+b^2: int_P1^infinity, lift p[3][c2]	padic	5	9	291117
+(2) Q(2^(1/3)), P | 5 of degree 2, y^2 = x^5-x+b^2: int_P1^infinity, lift p[4][c1]	padic	5	9	-63361
+(2) Q(2^(1/3)), P | 5 of degree 2, y^2 = x^5-x+b^2: int_P1^infinity, lift p[4][c2]	padic	5	9	-44840
+(2) Q(2^(1/3)), P | 5 of degree 2, y^2 = x^5-x+b^2: int_P1^infinity, lift q[1][c1]	padic	5	9	725
+(2) Q(2^(1/3)), P | 5 of degree 2, y^2 = x^5-x+b^2: int_P1^infinity, lift q[1][c2]	padic	5	9	-139500
+(2) Q(2^(1/3)), P | 5 of degree 2, y^2 = x^5-x+b^2: int_P1^infinity, lift q[2][c1]	padic	5	9	165950
+(2) Q(2^(1/3)), P | 5 of degree 2, y^2 = x^5-x+b^2: int_P1^infinity, lift q[2][c2]	padic	5	9	860670
+(2) Q(2^(1/3)), P | 5 of degree 2, y^2 = x^5-x+b^2: int_P1^infinity, lift q[3][c1]	padic	5	9	352231
+(2) Q(2^(1/3)), P | 5 of degree 2, y^2 = x^5-x+b^2: int_P1^infinity, lift q[3][c2]	padic	5	9	291117
+(2) Q(2^(1/3)), P | 5 of degree 2, y^2 = x^5-x+b^2: int_P1^infinity, lift q[4][c1]	padic	5	9	-63361
+(2) Q(2^(1/3)), P | 5 of degree 2, y^2 = x^5-x+b^2: int_P1^infinity, lift q[4][c2]	padic	5	9	-44840
+(3) Q(zeta_7)^+, P = (3): global automorphism vs sigma_N: int_P1^P2, lift p[1][c1]	padic	3	7	-81
+(3) Q(zeta_7)^+, P = (3): global automorphism vs sigma_N: int_P1^P2, lift p[1][c2]	padic	3	7	426
+(3) Q(zeta_7)^+, P = (3): global automorphism vs sigma_N: int_P1^P2, lift p[1][c3]	padic	3	7	963
+(3) Q(zeta_7)^+, P = (3): global automorphism vs sigma_N: int_P1^P2, lift p[2][c1]	padic	3	7	693
+(3) Q(zeta_7)^+, P = (3): global automorphism vs sigma_N: int_P1^P2, lift p[2][c2]	padic	3	7	-897
+(3) Q(zeta_7)^+, P = (3): global automorphism vs sigma_N: int_P1^P2, lift p[2][c3]	padic	3	7	-291
+(3) Q(zeta_7)^+, P = (3): global automorphism vs sigma_N: int_P1^P2, lift p[3][c1]	padic	3	7	-3188/3
+(3) Q(zeta_7)^+, P = (3): global automorphism vs sigma_N: int_P1^P2, lift p[3][c2]	padic	3	7	-26/3
+(3) Q(zeta_7)^+, P = (3): global automorphism vs sigma_N: int_P1^P2, lift p[3][c3]	padic	3	7	943
+(3) Q(zeta_7)^+, P = (3): global automorphism vs sigma_N: int_P1^P2, lift p[4][c1]	padic	3	7	-431
+(3) Q(zeta_7)^+, P = (3): global automorphism vs sigma_N: int_P1^P2, lift p[4][c2]	padic	3	7	-1229/3
+(3) Q(zeta_7)^+, P = (3): global automorphism vs sigma_N: int_P1^P2, lift p[4][c3]	padic	3	7	-1946/3
+(3) Q(zeta_7)^+, P = (3): global automorphism vs sigma_N: int_P1^P2, lift plocal[1][c1]	padic	3	7	-81
+(3) Q(zeta_7)^+, P = (3): global automorphism vs sigma_N: int_P1^P2, lift plocal[1][c2]	padic	3	7	426
+(3) Q(zeta_7)^+, P = (3): global automorphism vs sigma_N: int_P1^P2, lift plocal[1][c3]	padic	3	7	963
+(3) Q(zeta_7)^+, P = (3): global automorphism vs sigma_N: int_P1^P2, lift plocal[2][c1]	padic	3	7	693
+(3) Q(zeta_7)^+, P = (3): global automorphism vs sigma_N: int_P1^P2, lift plocal[2][c2]	padic	3	7	-897
+(3) Q(zeta_7)^+, P = (3): global automorphism vs sigma_N: int_P1^P2, lift plocal[2][c3]	padic	3	7	-291
+(3) Q(zeta_7)^+, P = (3): global automorphism vs sigma_N: int_P1^P2, lift plocal[3][c1]	padic	3	7	-3188/3
+(3) Q(zeta_7)^+, P = (3): global automorphism vs sigma_N: int_P1^P2, lift plocal[3][c2]	padic	3	7	-26/3
+(3) Q(zeta_7)^+, P = (3): global automorphism vs sigma_N: int_P1^P2, lift plocal[3][c3]	padic	3	7	943
+(3) Q(zeta_7)^+, P = (3): global automorphism vs sigma_N: int_P1^P2, lift plocal[4][c1]	padic	3	7	-431
+(3) Q(zeta_7)^+, P = (3): global automorphism vs sigma_N: int_P1^P2, lift plocal[4][c2]	padic	3	7	-1229/3
+(3) Q(zeta_7)^+, P = (3): global automorphism vs sigma_N: int_P1^P2, lift plocal[4][c3]	padic	3	7	-1946/3
+(3) Q(zeta_7)^+, P = (3): global automorphism vs sigma_N: int_P1^P3, lift p[1][c1]	padic	3	7	-768
+(3) Q(zeta_7)^+, P = (3): global automorphism vs sigma_N: int_P1^P3, lift p[1][c2]	padic	3	7	-837
+(3) Q(zeta_7)^+, P = (3): global automorphism vs sigma_N: int_P1^P3, lift p[1][c3]	padic	3	7	858
+(3) Q(zeta_7)^+, P = (3): global automorphism vs sigma_N: int_P1^P3, lift p[2][c1]	padic	3	7	-516
+(3) Q(zeta_7)^+, P = (3): global automorphism vs sigma_N: int_P1^P3, lift p[2][c2]	padic	3	7	-741
+(3) Q(zeta_7)^+, P = (3): global automorphism vs sigma_N: int_P1^P3, lift p[2][c3]	padic	3	7	429
+(3) Q(zeta_7)^+, P = (3): global automorphism vs sigma_N: int_P1^P3, lift p[3][c1]	padic	3	7	-2767/3
+(3) Q(zeta_7)^+, P = (3): global automorphism vs sigma_N: int_P1^P3, lift p[3][c2]	padic	3	7	2789/3
+(3) Q(zeta_7)^+, P = (3): global automorphism vs sigma_N: int_P1^P3, lift p[3][c3]	padic	3	7	-348
+(3) Q(zeta_7)^+, P = (3): global automorphism vs sigma_N: int_P1^P3, lift p[4][c1]	padic	3	7	741
+(3) Q(zeta_7)^+, P = (3): global automorphism vs sigma_N: int_P1^P3, lift p[4][c2]	padic	3	7	2354/3
+(3) Q(zeta_7)^+, P = (3): global automorphism vs sigma_N: int_P1^P3, lift p[4][c3]	padic	3	7	-2269/3
+(3) Q(zeta_7)^+, P = (3): global automorphism vs sigma_N: int_P1^P3, lift plocal[1][c1]	padic	3	7	-768
+(3) Q(zeta_7)^+, P = (3): global automorphism vs sigma_N: int_P1^P3, lift plocal[1][c2]	padic	3	7	-837
+(3) Q(zeta_7)^+, P = (3): global automorphism vs sigma_N: int_P1^P3, lift plocal[1][c3]	padic	3	7	858
+(3) Q(zeta_7)^+, P = (3): global automorphism vs sigma_N: int_P1^P3, lift plocal[2][c1]	padic	3	7	-516
+(3) Q(zeta_7)^+, P = (3): global automorphism vs sigma_N: int_P1^P3, lift plocal[2][c2]	padic	3	7	-741
+(3) Q(zeta_7)^+, P = (3): global automorphism vs sigma_N: int_P1^P3, lift plocal[2][c3]	padic	3	7	429
+(3) Q(zeta_7)^+, P = (3): global automorphism vs sigma_N: int_P1^P3, lift plocal[3][c1]	padic	3	7	-2767/3
+(3) Q(zeta_7)^+, P = (3): global automorphism vs sigma_N: int_P1^P3, lift plocal[3][c2]	padic	3	7	2789/3
+(3) Q(zeta_7)^+, P = (3): global automorphism vs sigma_N: int_P1^P3, lift plocal[3][c3]	padic	3	7	-348
+(3) Q(zeta_7)^+, P = (3): global automorphism vs sigma_N: int_P1^P3, lift plocal[4][c1]	padic	3	7	741
+(3) Q(zeta_7)^+, P = (3): global automorphism vs sigma_N: int_P1^P3, lift plocal[4][c2]	padic	3	7	2354/3
+(3) Q(zeta_7)^+, P = (3): global automorphism vs sigma_N: int_P1^P3, lift plocal[4][c3]	padic	3	7	-2269/3
+(3) Q(zeta_7)^+, P = (3): global automorphism vs sigma_N: int_P1^P4, lift p[1][c1]	padic	3	8	-1809
+(3) Q(zeta_7)^+, P = (3): global automorphism vs sigma_N: int_P1^P4, lift p[1][c2]	padic	3	8	-30
+(3) Q(zeta_7)^+, P = (3): global automorphism vs sigma_N: int_P1^P4, lift p[1][c3]	padic	3	8	75
+(3) Q(zeta_7)^+, P = (3): global automorphism vs sigma_N: int_P1^P4, lift p[2][c1]	padic	3	8	1911
+(3) Q(zeta_7)^+, P = (3): global automorphism vs sigma_N: int_P1^P4, lift p[2][c2]	padic	3	8	-1110
+(3) Q(zeta_7)^+, P = (3): global automorphism vs sigma_N: int_P1^P4, lift p[2][c3]	padic	3	8	-630
+(3) Q(zeta_7)^+, P = (3): global automorphism vs sigma_N: int_P1^P4, lift p[3][c1]	padic	3	8	-3051
+(3) Q(zeta_7)^+, P = (3): global automorphism vs sigma_N: int_P1^P4, lift p[3][c2]	padic	3	8	-720
+(3) Q(zeta_7)^+, P = (3): global automorphism vs sigma_N: int_P1^P4, lift p[3][c3]	padic	3	8	342
+(3) Q(zeta_7)^+, P = (3): global automorphism vs sigma_N: int_P1^P4, lift p[4][c1]	padic	3	8	2247
+(3) Q(zeta_7)^+, P = (3): global automorphism vs sigma_N: int_P1^P4, lift p[4][c2]	padic	3	8	2799
+(3) Q(zeta_7)^+, P = (3): global automorphism vs sigma_N: int_P1^P4, lift p[4][c3]	padic	3	8	3246
+(3) Q(zeta_7)^+, P = (3): global automorphism vs sigma_N: int_P1^P4, lift plocal[1][c1]	padic	3	8	-1809
+(3) Q(zeta_7)^+, P = (3): global automorphism vs sigma_N: int_P1^P4, lift plocal[1][c2]	padic	3	8	-30
+(3) Q(zeta_7)^+, P = (3): global automorphism vs sigma_N: int_P1^P4, lift plocal[1][c3]	padic	3	8	75
+(3) Q(zeta_7)^+, P = (3): global automorphism vs sigma_N: int_P1^P4, lift plocal[2][c1]	padic	3	8	1911
+(3) Q(zeta_7)^+, P = (3): global automorphism vs sigma_N: int_P1^P4, lift plocal[2][c2]	padic	3	8	-1110
+(3) Q(zeta_7)^+, P = (3): global automorphism vs sigma_N: int_P1^P4, lift plocal[2][c3]	padic	3	8	-630
+(3) Q(zeta_7)^+, P = (3): global automorphism vs sigma_N: int_P1^P4, lift plocal[3][c1]	padic	3	8	-3051
+(3) Q(zeta_7)^+, P = (3): global automorphism vs sigma_N: int_P1^P4, lift plocal[3][c2]	padic	3	8	-720
+(3) Q(zeta_7)^+, P = (3): global automorphism vs sigma_N: int_P1^P4, lift plocal[3][c3]	padic	3	8	342
+(3) Q(zeta_7)^+, P = (3): global automorphism vs sigma_N: int_P1^P4, lift plocal[4][c1]	padic	3	8	2247
+(3) Q(zeta_7)^+, P = (3): global automorphism vs sigma_N: int_P1^P4, lift plocal[4][c2]	padic	3	8	2799
+(3) Q(zeta_7)^+, P = (3): global automorphism vs sigma_N: int_P1^P4, lift plocal[4][c3]	padic	3	8	3246

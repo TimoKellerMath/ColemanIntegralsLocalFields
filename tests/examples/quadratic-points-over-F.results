@@ -1,0 +1,91 @@
+# numerical results of a test script (tests/magma/results.m), compared by tests/compare_results.py
+1. from D0: norms of the primes[1]	int	11
+1. from D0: discs	int	118
+1. from D0: classes	int	187
+1. from D0: excluded, known, recovered, family, unresolved[1]	int	160
+1. from D0: excluded, known, recovered, family, unresolved[2]	int	1
+1. from D0: excluded, known, recovered, family, unresolved[3]	int	14
+1. from D0: excluded, known, recovered, family, unresolved[4]	int	12
+1. from D0: excluded, known, recovered, family, unresolved[5]	int	0
+1. from D0: divisors	int	15
+1. from D0: x-polynomials[1]	str	0
+1. from D0: x-polynomials[2]	str	0
+1. from D0: x-polynomials[3]	str	0
+1. from D0: x-polynomials[4]	str	0
+1. from D0: x-polynomials[5]	str	0
+1. from D0: x-polynomials[6]	str	x^2 + 2*x - 3
+1. from D0: x-polynomials[7]	str	x^2 + 3*x
+1. from D0: x-polynomials[8]	str	x^2 + 4*x + 3
+1. from D0: x-polynomials[9]	str	x^2 + x
+1. from D0: x-polynomials[10]	str	x^2 + x - 6
+1. from D0: x-polynomials[11]	str	x^2 - 1
+1. from D0: x-polynomials[12]	str	x^2 - 2*x
+1. from D0: x-polynomials[13]	str	x^2 - 3*x + 2
+1. from D0: x-polynomials[14]	str	x^2 - x
+1. from D0: x-polynomials[15]	str	x^2 - x - 2
+1. from D0: complete	bool	true
+2. gcd of #J(k_v)	int	16
+3. the other prime above 11: norms of the primes[1]	int	11
+3. the other prime above 11: discs	int	118
+3. the other prime above 11: classes	int	91
+3. the other prime above 11: excluded, known, recovered, family, unresolved[1]	int	0
+3. the other prime above 11: excluded, known, recovered, family, unresolved[2]	int	1
+3. the other prime above 11: excluded, known, recovered, family, unresolved[3]	int	14
+3. the other prime above 11: excluded, known, recovered, family, unresolved[4]	int	12
+3. the other prime above 11: excluded, known, recovered, family, unresolved[5]	int	64
+3. the other prime above 11: divisors	int	15
+3. the other prime above 11: x-polynomials[1]	str	0
+3. the other prime above 11: x-polynomials[2]	str	0
+3. the other prime above 11: x-polynomials[3]	str	0
+3. the other prime above 11: x-polynomials[4]	str	0
+3. the other prime above 11: x-polynomials[5]	str	0
+3. the other prime above 11: x-polynomials[6]	str	x^2 + 2*x - 3
+3. the other prime above 11: x-polynomials[7]	str	x^2 + 3*x
+3. the other prime above 11: x-polynomials[8]	str	x^2 + 4*x + 3
+3. the other prime above 11: x-polynomials[9]	str	x^2 + x
+3. the other prime above 11: x-polynomials[10]	str	x^2 + x - 6
+3. the other prime above 11: x-polynomials[11]	str	x^2 - 1
+3. the other prime above 11: x-polynomials[12]	str	x^2 - 2*x
+3. the other prime above 11: x-polynomials[13]	str	x^2 - 3*x + 2
+3. the other prime above 11: x-polynomials[14]	str	x^2 - x
+3. the other prime above 11: x-polynomials[15]	str	x^2 - x - 2
+3. the other prime above 11: complete	bool	false
+4. without aux: norms of the primes[1]	int	11
+4. without aux: discs	int	16
+4. without aux: classes	int	136
+4. without aux: excluded, known, recovered, family, unresolved[1]	int	110
+4. without aux: excluded, known, recovered, family, unresolved[2]	int	1
+4. without aux: excluded, known, recovered, family, unresolved[3]	int	14
+4. without aux: excluded, known, recovered, family, unresolved[4]	int	11
+4. without aux: excluded, known, recovered, family, unresolved[5]	int	0
+4. without aux: divisors	int	15
+4. without aux: x-polynomials[1]	str	0
+4. without aux: x-polynomials[2]	str	0
+4. without aux: x-polynomials[3]	str	0
+4. without aux: x-polynomials[4]	str	0
+4. without aux: x-polynomials[5]	str	0
+4. without aux: x-polynomials[6]	str	x^2 + 2*x - 3
+4. without aux: x-polynomials[7]	str	x^2 + 3*x
+4. without aux: x-polynomials[8]	str	x^2 + 4*x + 3
+4. without aux: x-polynomials[9]	str	x^2 + x
+4. without aux: x-polynomials[10]	str	x^2 + x - 6
+4. without aux: x-polynomials[11]	str	x^2 - 1
+4. without aux: x-polynomials[12]	str	x^2 - 2*x
+4. without aux: x-polynomials[13]	str	x^2 - 3*x + 2
+4. without aux: x-polynomials[14]	str	x^2 - x
+4. without aux: x-polynomials[15]	str	x^2 - x - 2
+4. without aux: complete	bool	false
+5. C2: norms of the primes[1]	int	11
+5. C2: discs	int	114
+5. C2: classes	int	107
+5. C2: excluded, known, recovered, family, unresolved[1]	int	0
+5. C2: excluded, known, recovered, family, unresolved[2]	int	2
+5. C2: excluded, known, recovered, family, unresolved[3]	int	1
+5. C2: excluded, known, recovered, family, unresolved[4]	int	12
+5. C2: excluded, known, recovered, family, unresolved[5]	int	92
+5. C2: divisors	int	3
+5. C2: x-polynomials[1]	str	0
+5. C2: x-polynomials[2]	str	x^2 + 1/2*(-s - 1)*x + 1
+5. C2: x-polynomials[3]	str	x^2 + 1/2*(s + 1)
+5. C2: complete	bool	false
+5. gcd of #J2(k_v)	int	4

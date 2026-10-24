@@ -1,0 +1,47 @@
+PASS curve_model of a polynomial: the monic model itself, consistent with its functions
+PASS good_primes: [3,5,7,11,13,17,19]; 2 is bad (the leading coefficient of r is 4)
+PASS good_primes with check (coleman_data and the zeta function of the reduction) at 5, 7
+PASS mobius_model x = 1 + 1/x': monic, of degree 2 in y and genus 2, consistent
+PASS improve_model: every candidate is a consistent model of genus 2 with good primes
+PASS improve_model: on equal good primes the given model is kept
+PASS lc_scaling: 3y^2 + xy - x^5/4 becomes monic with integral coefficients, y' = c*y with c = 6
+PASS lc_scaling: a non-constant leading coefficient a(x) = x gives y' = x*y
+PASS plane quartic: good primes [5,11,13,17,19]; 3 and 7: r mod P is not separable
+PASS affine_patches at 17: the patches cover all smooth F_17-points, each patch is consistent
+PASS point_records: one finite record for each of the 6 points of the quartic, in different discs
+PASS minimal_models_over_Q: MinimizeReducePlaneQuartic gives a consistent model
+PASS curve_model of the Klein quartic: the patch Z = 1, monic of degree 3 in y
+PASS affine_patches: the 12 points of the Klein quartic mod 11 lie in good discs of the patches
+PASS point_records: the three rational points of the Klein quartic
+PASS curve_model of a genus-4 curve in P^3: a plane model of genus 4, consistent
+PASS X(s3,ns5) over Q(sqrt 5): good primes of norm <= 40 are the primes above 19, 29, 31
+PASS model_field: Q as a number field of degree 1, a quadratic field as a FldNum; from_model_field inverts the map
+PASS map_coefficients: x^2 + 3/2*y over Q mapped into L[u,v]
+PASS homogenization: F(x, y, 1) = Q(x, y), homogeneous of degree 5
+PASS transform_plane_model with the identity: the same equation, a consistent model
+PASS model_from_equation: the model of the same curve from its equation and functions
+PASS primes_up_to_norm: the primes of Q of norm <= 20 in order
+PASS model_height: the largest coefficient of y^2 + y - x^5 + 2x^3 - x is 2
+PASS model_basis_functions: b^0 = (1, y) for W0 = 1
+PASS reduced_curve_function_field: genus 2 and #X(F_7) = #Fq_points of coleman_data
+PASS holomorphic_forms: g = 2 holomorphic differentials of the function field
+PASS holomorphic_transition: the identity matrix between a model and itself
+PASS plane_reduction: the point (0,0) reduces to (0 : 0 : 1)
+PASS jacobian_rank_bounds: rank 1 for 971.a.971.1
+PASS patch_candidates: the identity first, 300 distinct coordinate changes, a shorter list is a prefix
+PASS reduced_good_test: the points of the quartic mod 5 that it calls good are the good residue discs of the model
+PASS inert_quadratic_extension: u = 2, not a square mod P; P stays prime in L(sqrt 2), of norm 121
+PASS inert_quadratic_extension: an error for a prime above 2
+PASS model_coleman_data with aux: K = Q_(11^2), the Frobenius matrix matches the zeta function of the reduction over F_121
+PASS point_records of places of degree 2: split at P 2 records over Q_11 and Q_121, inert at P 2 only over Q_121, ramified none
+PASS point_records of a divisor: the points of its support with multiplicities, and the index of their origin
+PASS the two points of the inert place reduce to Frobenius-conjugate points of F_121 outside F_11
+PASS mobius_model x = 1/x': k = 3 for the sextic, constant c = 1; the data of the patch over the same field L(sqrt 2)
+PASS holomorphic_transition over L(sqrt 2): x = 1/x' exchanges the forms dx/y and x dx/y (an antidiagonal matrix over L(sqrt 2))
+PASS holomorphic_transition: an error for data over two copies of L(sqrt 2)
+PASS to_curve_field: an element of L(sqrt 2) in Q(sqrt 5) as an element of the base field; an error for sqrt 2
+PASS jacobian_rank_bounds over Q(sqrt 5): 0 <= rank <= 0 for X(b3,ns5) (RankBound); none for the plane quartic X(s3,ns5)
+
+0 failure(s)
+
+resources: CPU time 3.830 s, maximum memory 112 MB
